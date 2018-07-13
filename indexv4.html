@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nitish Hooda - Visual Designer</title>
+<link rel="stylesheet" href="assets/css/stylev4.css" type="text/css" />
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="top_container">
+
+
+	
+<div class="intro_container" id="intro_container">
+
+<div class="top_drawer">
+
+<div class="top_nav">
+
+<ul><li class="selected" href="#intro_content_container" id="intro_tab"><a href="#intro_content_container">INTRO</a></li>
+<li id="works_tab"><a href="#works_title_container">WORKS</a></li>
+<li id="contact_tab"><a href="#footer">CONTACT</a></li>
+<li id="resume_tab"><a href="resume.pdf">RESUME</a></li>
+<div class="clear"></div>
+</ul>	
+
+</div>
+
+</div>
+
+<div class="intro_content_container" id="intro_content_container">
+
+<div class="intro_line_1">
+Hi! I am Nitish. I design products.
+</div>
+
+<div class="intro_line_2">
+Nice to meet you. I am a product designer who focuses mainly on the 
+visuals. I live in New Delhi.
+	</div>
+
+	<div>
+
+</div>
+
+<div>
+
+</div>
+
+
+<div>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="works_container" id="works_container">
+
+<div class="works_title_container">
+<div class="works_title_text" id="works_title_container">Selected Works</div>
+<div class="works_title_line"></div>
+</div>
+
+
+<div class="works_content_container">
+
+
+<div class="work_single_container">
+
+
+<div class="work_cover_container"></div>
+<div class="work_cover_overlay">
+		<a href="case study/studycopter.html" target="_blank">
+
+		<div class="work_overlay_title">
+Studycopter
+	</div>
+
+<div class="work_overlay_desc">
+Ace your exams
+</div>
+</a>
+
+</div>
+
+</div>
+
+<div class="work_single_container">
+
+
+<div class="work_cover_container"></div>
+<div class="work_cover_overlay">
+		<a href="case study/goqii.html" target="_blank">
+	<div class="work_overlay_title">
+Goqii
+	</div>
+
+<div class="work_overlay_desc">
+Your Coach for a healthy lifestyle
+</div>
+
+</a>
+</div>
+
+</div>
+
+
+<div class="work_single_container">
+
+
+<div class="work_cover_container"></div>
+<div class="work_cover_overlay">
+		<a href="case study/crosschecks.html" target="_blank">
+		<div class="work_overlay_title">
+Crosschecks
+	</div>
+
+<div class="work_overlay_desc">
+Secure your vehicles
+</div>
+</a>
+
+</div>
+
+</div>
+
+<div class="work_single_container">
+
+
+<div class="work_cover_container"></div>
+<div class="work_cover_overlay">
+		<a href="case study/sureshot.html" target="_blank">
+	
+		<div class="work_overlay_title">
+Studycopter Sureshot
+	</div>
+
+<div class="work_overlay_desc">
+Ace your exams
+</div>
+</a>
+
+</div>
+
+</div>
+
+<div class="work_single_container">
+
+
+<div class="work_cover_container"></div>
+<div class="work_cover_overlay">
+	<a href="case study/litewallet.html" target="_blank">
+	
+		<div class="work_overlay_title">
+Litewallet
+	</div>
+
+<div class="work_overlay_desc">
+Your Coach for a healthy lifestyle
+</div>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="clear"></div>
+
+</div>
+
+
+
+</div>
+
+
+	</div>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+<div class="footer" id="footer">
+
+<div class="footer_inner_container">
+	
+<div class="footer_content_container">
+
+<div class="footer_text_1">
+	Let's work together on something interesting!
+</div>
+
+<div class="footer_text_2">
+	You can find me at <span class="contact_email">nitsh7084@gmail.com</span>
+</div>
+
+<div class="footer_social_container">
+	<div class="social_icon" id="behance_social"><a href="https://www.behance.net/thenitish2312" target="_blank"></a></div>
+		<div class="social_icon" id="medium_social"><a href="https://medium.com/@nitsh" target="_blank"></a></div>
+			<div class="social_icon" id="linkedin_social"><a href="https://www.linkedin.com/in/nitishhooda" target="_blank"></a></div>
+						<div class="social_icon" id="github_social"><a href="https://github.com/thenitish23121991" target="_blank"></a></div>
+</div>
+	</div>
+
+
+</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+
+var top_drawer = $('.top_drawer');
+var intro = document.getElementById('intro_content_container');
+var works = document.getElementById('works_title_container');
+var contact = document.getElementById('footer');
+var intro_container = document.getElementById('intro_container');
+var works_container = document.getElementById('works_container');
+intro_tab = $('#intro_tab');
+works_tab = $('#works_tab');
+contact_tab = $('#contact_tab');
+intro_height = intro_container.offsetHeight;
+works_height = works_container.offsetHeight;
+
+var scrolltop = window.pageYOffset || document.documentElement.scrollTop;
+
+works_pos = works.getBoundingClientRect();
+contact_pos = contact.getBoundingClientRect();
+
+works_top = works_pos.top;
+contact_top = contact_pos.top;
+
+
+
+function check_scroll(){
+
+var scrollHeight = $(document).height();
+var scrollPosition = $(window).height() + $(window).scrollTop();
+
+var actual_scroll = (scrollPosition-$(window).height());
+
+
+var scroll_rand = Math.random()*100;
+
+
+if(actual_scroll > intro_height){
+
+$('.top_drawer').addClass('scrolled');
+console.log(scrollHeight+' ');
+
+}
+
+if((scrollHeight - scrollPosition) > intro_height){
+
+if(scroll_rand < 8){
+}
+
+}
+
+
+
+if((scrollHeight - scrollPosition) / scrollHeight === 0) {
+
+
+$('.top_nav ul li').removeClass('selected');
+$('#contact_tab').addClass('selected');
+}
+
+else if(actual_scroll > works_top && actual_scroll < contact_top){
+
+$('.top_nav ul li').removeClass('selected');
+$('#works_tab').addClass('selected');
+
+}
+else if(actual_scroll < works_top){
+
+$('.top_nav ul li').removeClass('selected');
+$('#intro_tab').addClass('selected');
+
+$('.top_drawer').removeClass('scrolled');
+
+}
+
+}
+
+
+
+$('.top_nav ul li a').on('click',function(){
+
+var parent_id = $(this).parent('li').attr('id');
+console.log(parent_id);
+
+$('.top_nav ul li').removeClass('selected');
+$('#'+parent_id).addClass('selected');
+
+});
+
+
+
+$(document).ready(function(){
+
+$(window).on('scroll',function(event){
+
+check_scroll();
+
+});
+
+});
+
+	</script>
+
+
+</body>
+</html>

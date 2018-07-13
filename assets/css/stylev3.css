@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.clear {
+  clear: both; }
+
+.container {
+  width: 100%; }
+
+.top_nav_container {
+  padding-left: 52%; }
+
+.top_nav_container ul {
+  list-style-type: none; }
+
+.top_nav_container ul li {
+  text-decoration: none;
+  color: #222;
+  font-family: 'TTNormsMedium';
+  font-size: 11.66pt;
+  float: left;
+  cursor: pointer;
+  margin-left: 44px;
+  padding-bottom: 8px; }
+
+/*# sourceMappingURL=stylev3.css.map */

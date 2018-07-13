@@ -1,0 +1,46 @@
+
+
+$website_subtitle: (23.32/2) + pt;
+$website_title_large: (35.07/2) + pt;
+$large_title: (36.91/2) + pt;
+$website_title: (29/2) + pt;
+$large_title_2: (42.1/2) + pt;
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html,body{
+	height:100%;
+	width:100%;
+}
+
+.clear{
+	clear:both;
+}
+
+.container{
+width:100%;	
+}
+.top_container{
+	
+}
+.top_nav_container{
+	padding-left:52%;
+}
+.top_nav_container ul{
+	list-style-type:none;
+}
+.top_nav_container ul li{
+	text-decoration:none;
+	color:#222;
+	font-family:'TTNormsMedium';
+	font-size:$website_subtitle;
+    float:left;
+    cursor:pointer;
+    margin-left:44px;
+    padding-bottom:8px;
+}
+
