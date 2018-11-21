@@ -106,6 +106,26 @@ body {
   background-image: url("../images/Litewallet Background.jpg");
   background-position: 0px 0px; }
 
+.litewallet_case_study#case_study_container .cover_container {
+  background-image: url("../images/Litewallet Background.jpg");
+  background-position: 0px 0px; }
+
+.litewallet_case_study#case_study_container .cover_container {
+  background-image: url("../images/Litewallet Background.jpg");
+  background-position: 0px 0px; }
+
+.book_cover#case_study_container .cover_container {
+  background-image: url("../images/screens_2/book cover/book_cover.jpg");
+  background-position: 0px 0px; }
+
+.kristal_banner#case_study_container .cover_container {
+  background-image: url("../images/screens_2/kristal/kristal_banner_mockup.png");
+  background-position: 0px -200px; }
+
+.crosschecks_advertisement#case_study_container .cover_container {
+  background-image: url("../images/screens_2/crosschecks/crosschecks_advertisement.jpg");
+  background-position: 0px -200px; }
+
 #case_study_container .work_text_container {
   position: absolute;
   width: 90%;

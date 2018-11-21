@@ -213,7 +213,7 @@ html, body {
   margin-top: 296px;
   line-height: 84px; }
 
-.work_single_container:nth-child(5) .work_cover_overlay .work_overlay_title {
+.work_single_container:nth-child(4) .work_cover_overlay .work_overlay_title {
   margin-top: 212px; }
 
 .work_overlay_desc {
@@ -258,35 +258,26 @@ html, body {
   padding: 24px 0px; }
 
 .work_cover_container {
-  background-image: url("../images/Litewallet Background.jpg");
+  background-image: url("../images/studycopter_cover.png");
   background-size: cover; }
 
-.work_single_container:nth-child(4) .work_cover_container {
+.work_single_container:nth-child(2) .work_cover_container {
   background-image: url("../images/goqii_background.jpg"); }
 
 .work_single_container:nth-child(3) .work_cover_container {
   background-image: url("../images/crosschecks_cover.png"); }
 
-.work_single_container:nth-child(5) .work_cover_container {
+.work_single_container:nth-child(4) .work_cover_container {
   background-image: url("../images/sureshot_larger.jpg"); }
 
-.work_single_container:nth-child(2) .work_cover_container {
-  background-image: url("../images/studycopter_cover.png"); }
+.work_single_container:nth-child(5) .work_cover_container, .work_single_container:nth-child(6) .work_cover_container, .work_single_container:nth-child(7) .work_cover_container {
+  background-image: url("../images/Litewallet Background.jpg"); }
 
-.work_single_container:nth-child(6) .work_cover_container, .work_single_container:nth-child(7) .work_cover_container {
-  background: #eee; }
+.work_single_container:nth-child(5) .work_cover_overlay {
+  background: transparent; }
 
 .work_single_container:nth-child(5) .work_cover_overlay .work_overlay_title, .work_single_container:nth-child(5) .work_cover_overlay .work_overlay_desc {
-  color: #fff; }
-
-.work_single_container:nth-child(6) .work_cover_container {
-  background-image: url("../images/screens_2/crosschecks/crosschecks_advertisement.jpg"); }
-
-.work_single_container:nth-child(7) .work_cover_container {
-  background-image: url("../images/screens_2/book cover/book_cover.jpg"); }
-
-.work_single_container:nth-child(8) .work_cover_container {
-  background-image: url("../images/screens_2/kristal/kristal_banner_mockup.png"); }
+  color: #333; }
 
 .top_logo {
   width: 34%;
@@ -793,11 +784,11 @@ transition-delay:1s;
   .work_single_container:nth-child(2) .work_cover_overlay a .work_overlay_title {
     margin-top: 132px; }
 
-  .work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_title, work_single_container:nth-child(6) .work_cover_overlay a .work_overlay_title {
+  .work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_title {
     margin-top: 120px;
     line-height: 52px; }
 
-  .work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_desc, work_single_container:nth-child(6) .work_cover_overlay a .work_overlay_desc {
+  .work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_desc {
     margin-top: 8px; }
 
   .work_overlay_desc {
@@ -893,11 +884,11 @@ transition-delay:1s;
     font-size: 33.58px;
     margin-left: 16px; }
 
-  .work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_title, work_single_container:nth-child(6) .work_cover_overlay a .work_overlay_title {
+  .work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_title {
     margin-top: 168px;
     line-height: 52px; }
 
-  .work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_desc, work_single_container:nth-child(6) .work_cover_overlay a .work_overlay_desc {
+  .work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_desc {
     margin-top: 8px; }
 
   .work_overlay_desc {
@@ -906,11 +897,11 @@ transition-delay:1s;
     margin-left: 16px;
     margin-top: -8px; }
 
-  .work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_title, work_single_container:nth-child(6) .work_cover_overlay a .work_overlay_title {
+  .work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_title {
     margin-top: 120px;
     line-height: 52px; }
 
-  .work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_desc, work_single_container:nth-child(6) .work_cover_overlay a .work_overlay_desc {
+  .work_single_container.studycopter_sureshot_work_container .work_cover_overlay .work_overlay_desc {
     margin-top: 8px; }
 
   .litewallet_work_container .work_overlay_title {
@@ -993,11 +984,11 @@ transition-delay:1s;
     font-size: 33.58px;
     margin-left: 16px; }
 
-  .work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_title, work_single_container:nth-child(6) .work_cover_overlay a .work_overlay_title {
+  .work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_title {
     margin-top: 168px;
     line-height: 52px; }
 
-  .work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_desc, work_single_container:nth-child(6) .work_cover_overlay a .work_overlay_desc {
+  .work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_desc {
     margin-top: 8px; }
 
   .work_overlay_desc {
@@ -1042,11 +1033,5 @@ transition-delay:1s;
 
   .work_single_container:nth-child(1) {
     margin-left: 0px; } }
-#crosschecks_advert_container .work_overlay_title {
-  margin-top: 208px;
-  line-height: 80px; }
 
-#crosschecks_advert_container .work_overlay_desc {
-  margin-top: 16px; }
-
-/*# sourceMappingURL=style7.css.map */
+/*# sourceMappingURL=stylev7.css.map */
