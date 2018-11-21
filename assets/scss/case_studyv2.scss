@@ -158,7 +158,9 @@ overflow:hidden;
 .crosschecks_case_study#case_study_container .cover_container .cover_overlay_container{
 		background:$crosschecks_color;
 }
-
+.litewallet_case_study#case_study_container .cover_container .cover_overlay_container{
+	
+}
 
 
 .studycopter_case_study#case_study_container .cover_container{
@@ -173,7 +175,10 @@ background-position:0px 0px;
 background-image:url('../images/crosschecks_cover.png');
 background-position:0px 0px;
 }
-
+.litewallet_case_study#case_study_container .cover_container{
+	background-image:url('../images/Litewallet Background.jpg');
+	background-position:0px 0px;
+}
 
 
 
@@ -383,6 +388,11 @@ margin-left:80px;
 	margin-left:72px;
 	height:360px;
 	width:202px;
+		box-shadow:1px 1px 1px 1px rgba(0,0,0,.06), -1px -1px 1px 1px rgba(0,0,0,.06);
+	-webkit-box-shadow:1px 1px 1px 1px rgba(0,0,0,.06), -1px -1px 1px 1px rgba(0,0,0,.06);
+		-moz-box-shadow:1px 1px 1px 1px rgba(0,0,0,.12), -1px -1px 1px 1px rgba(0,0,0,.12);
+				-ms-box-shadow:1px 1px 1px 1px rgba(0,0,0,.12), -1px -1px 1px 1px rgba(0,0,0,.12);
+								-o-box-shadow:1px 1px 1px 1px rgba(0,0,0,.12), -1px -1px 1px 1px rgba(0,0,0,.12);
 }
 
 

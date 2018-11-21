@@ -288,7 +288,7 @@ margin-left:32px;
 margin-top:296px;
 line-height:84px;
 }
-.work_single_container:nth-child(4) .work_cover_overlay .work_overlay_title{
+.work_single_container:nth-child(5) .work_cover_overlay .work_overlay_title{
 	margin-top:212px;
 }
 .work_overlay_desc{
@@ -335,26 +335,31 @@ height:312px;
 	padding:24px 0px;
 }
 .work_cover_container{
-	background-image:url('../images/studycopter_cover.png');
+
+	background-image:url('../images/Litewallet Background.jpg');
 	background-size:cover;
 }
-.work_single_container:nth-child(2) .work_cover_container{
+.work_single_container:nth-child(4) .work_cover_container{
 	background-image:url('../images/goqii_background.jpg');
 }
 .work_single_container:nth-child(3) .work_cover_container{
 	background-image:url('../images/crosschecks_cover.png');
 }
-.work_single_container:nth-child(4) .work_cover_container{
+.work_single_container:nth-child(5) .work_cover_container{
 	background-image:url('../images/sureshot_larger.jpg');
 }
-.work_single_container:nth-child(5) .work_cover_container, .work_single_container:nth-child(6) .work_cover_container, .work_single_container:nth-child(7) .work_cover_container{
-	background:#eee;
+.work_single_container:nth-child(2) .work_cover_container{
+
+	background-image:url('../images/studycopter_cover.png');
 }
+ .work_single_container:nth-child(6) .work_cover_container, .work_single_container:nth-child(7) .work_cover_container{
+ background:#eee;
+ }
 .work_single_container:nth-child(5) .work_cover_overlay{
-background:transparent;
+
 }
 .work_single_container:nth-child(5) .work_cover_overlay .work_overlay_title, .work_single_container:nth-child(5) .work_cover_overlay .work_overlay_desc{
-	color:#333;
+	color:#fff;
 }
 
 
@@ -1026,11 +1031,11 @@ width:100%;
 .work_single_container:nth-child(2) .work_cover_overlay a .work_overlay_title{
 	margin-top:132px;
 }
-.work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_title{
+.work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_title{
 	margin-top:120px;
 	line-height:52px;
 }
-.work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_desc{
+.work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_desc{
 	margin-top:8px;
 }
 .work_overlay_desc{
@@ -1149,11 +1154,11 @@ width:100%;
 	font-size:$website_subtitle_2;
 	margin-left:16px;
 }
-.work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_title{
+.work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_title{
 	margin-top:168px;
 	line-height:52px;
 }
-.work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_desc{
+.work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_desc{
 	margin-top:8px;
 }
 .work_overlay_desc{
@@ -1273,11 +1278,11 @@ width:100%;
 	font-size:$website_subtitle_2;
 	margin-left:16px;
 }
-.work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_title{
+.work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_title{
 	margin-top:168px;
 	line-height:52px;
 }
-.work_single_container:nth-child(4) .work_cover_overlay a .work_overlay_desc{
+.work_single_container:nth-child(5) .work_cover_overlay a .work_overlay_desc{
 	margin-top:8px;
 }
 .work_overlay_desc{
