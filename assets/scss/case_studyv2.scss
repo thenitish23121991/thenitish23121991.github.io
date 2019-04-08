@@ -17,6 +17,8 @@
 	src:url('../fonts/TT Norms/TTNorms-Medium.woff');
 	font-family:'TTNormsMedium';
 }
+
+/*
 @font-face{
 	src:url('../fonts/Averta/regular.otf');
 	font-family:'Averta';
@@ -29,10 +31,15 @@
 	src:url('../fonts/myriad-set-pro_thin.ttf');
 	font-family:'MyriadSetProThin';
 }
+
+*/
+
 @font-face{
 	src:url('../fonts/untitled-font-19.ttf');
 	font-family:'IconFont';
 }
+
+/*
 @font-face{
 	src:url('../fonts/PT Serif.ttf');
 	font-family:'PT Serif';
@@ -45,6 +52,11 @@
 	src:url('../fonts/TiemposTextWeb-Regular.ttf');
 	font-family:'TiemposText';
 }
+@font-face{
+	src:url('../fonts/PT Serif.ttf');
+	font-family:'PTSerif';
+}
+*/
 
 
 $behance_color: #1769ff;
@@ -199,6 +211,32 @@ background-position:0px 0px;
 	background-image:url('../images/screens_2/crosschecks/crosschecks_advertisement.jpg');
 	background-position:0px -200px;
 }
+.pvr_cinemas_container#case_study_container .cover_container{
+	background-image:url('../images/pvr_cinemas_cover.svg');
+	background-position:0px -412px;
+}
+
+
+
+.pvr_guidelines_image{
+	float:left;
+
+}
+.pvr_guidelines_image:nth-child(3), .pvr_guidelines_image:nth_child(5){
+
+}
+.pvr_guidelines_image img{
+	width:512px;
+	box-shadow:1px 1px 1px 1px #eee;
+	-webkit-box-shadow:1px 1px 1px 1px #eee;
+	-moz-box-shadow:1px 1px 1px 1px #eee;
+	-ms-box-shadow:1px 1px 1px 1px #eee;	
+	-o-box-shadow:1px 1px 1px 1px #eee;
+}
+
+.image_container_clear{
+	clear:both;
+}
 
 
 
@@ -257,17 +295,18 @@ line-height:32px;
 
 }
 .work_para_text{
-	font-family:'MercuryText';
-	font-size:$website_body_2;
+	font-family:'Georgia';
+	font-size:$website_body_1;
 	color:$text_dark;
-	line-height:52px;
+	line-height:44px;
 	margin-top:26px;
+	width:94%;
 }
 
 
 .works_title_text{
 	font-family:'TTNormsMedium';
-	font-size:$website_subtitle_2;
+	font-size:$website_title_2_2;
 	color:#222;
 	width:100%;
 } 
@@ -388,7 +427,7 @@ margin-left:80px;
 	margin-top:72px;
 }
 .transparent_image_container img{
-	margin-left:40px;
+	margin-left:24px;
 }
 .transparent_image_container img:nth-child(1), .transparent_image_container img:nth-child(3){
 	margin-left:0px;
@@ -463,6 +502,9 @@ display:inline-block;
 }
 
 
+.works_title_container{
+	margin-top:80px;
+}
 
 .dark_background{
 	background:#2D2D2D;
@@ -480,8 +522,16 @@ margin-left:144px;
 	margin-left:144px;
 	width:84%;
 }
+.work_para_text p{
+	margin-top:24px;
+}
+.work_para_title_container .works_title_container:nth-child(1){
+	margin-top:-24px;
+}
 
-
+.pvr_cinemas_container .cover_overlay_container{
+	background:transparent;
+}
 
 .end_message_container{
 margin-top:104px;	
