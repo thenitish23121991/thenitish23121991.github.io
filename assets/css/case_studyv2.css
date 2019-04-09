@@ -77,6 +77,10 @@ body {
   background-position: 0px -280px;
   overflow: hidden; }
 
+.murals_container#case_study_container .cover_container {
+  background-image: url("../images/murals/wall_mockup_1.jpg");
+  background-position: 0px 0px; }
+
 .background_container {
   background: #e5e5e5;
   position: absolute;
@@ -422,7 +426,7 @@ body {
 .work_para_title_container .works_title_container:nth-child(1) {
   margin-top: -24px; }
 
-.pvr_cinemas_container .cover_overlay_container {
+.pvr_cinemas_container .cover_overlay_container, .murals_container .cover_overlay_container {
   background: transparent; }
 
 .end_message_container {

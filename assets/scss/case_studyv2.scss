@@ -140,6 +140,10 @@ background-size:cover;
 background-position:0px -280px;
 overflow:hidden; 
 }
+.murals_container#case_study_container .cover_container{
+		background-image:url('../images/murals/wall_mockup_1.jpg');
+		background-position:0px 0px;
+}
 .background_container{
 	background:#e5e5e5;
 	position:absolute;
@@ -529,7 +533,7 @@ margin-left:144px;
 	margin-top:-24px;
 }
 
-.pvr_cinemas_container .cover_overlay_container{
+.pvr_cinemas_container .cover_overlay_container, .murals_container .cover_overlay_container{
 	background:transparent;
 }
 
@@ -680,15 +684,13 @@ height:312px;
 .work_single_container.litewallet_work_container .work_cover_container{
 	background:#eee;
 }
+
 .work_single_container.litewallet_work_container .work_cover_overlay{
 background:transparent;
 }
 .work_single_container.litewallet_work_container .work_cover_overlay .work_overlay_title, .work_single_container.litewallet_work_container .work_cover_overlay .work_overlay_desc{
 	color:#333;
 }
-
-
-
 
 
 .footer{
