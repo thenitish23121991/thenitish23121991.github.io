@@ -197,7 +197,7 @@ html, body {
   z-index: 20; }
 
 .litewallet_work_container .work_cover_overlay {
-  background: rgba(0, 0, 0, 0.72); }
+  background: rgba(0, 0, 0, 0.42); }
 
 .work_cover_overlay a {
   display: inline-block;
