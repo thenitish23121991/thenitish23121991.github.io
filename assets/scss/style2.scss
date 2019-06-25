@@ -63,6 +63,9 @@ $medium_color: #00AC6C;
 $github_color: #4078c0;
 
 
+$cubic_anim: ease-in;
+
+
 html,body{
 min-height:100%;
 min-width:100%;	
@@ -161,11 +164,11 @@ display:inline-block;
 .anim_item{
 	
 
-	transition:all .35s ease 0s;
-		-webkit-transition:all .35s ease 0s;
-			-moz-transition:all .35s ease 0s;
-				-ms-transition:all .35s ease 0s;
-					-o-transition:all .35s ease 0s;
+	transition:all .35s $cubic_anim 0s;
+		-webkit-transition:all .35s $cubic_anim 0s;
+			-moz-transition:all .35s $cubic_anim 0s;
+				-ms-transition:all .35s $cubic_anim 0s;
+					-o-transition:all .35s $cubic_anim 0s;
 }
 
 .intro_container .anim_item{
@@ -652,11 +655,11 @@ display:inline-block;
 	font-family:'TTNormsRegular';
 font-size:$caption_text;
 color: $text_dark_color;	
-margin-top:32px;
+margin-top:40px;
 }
 .footer_icons_container{
 text-align:center;	
-margin-top:48px;
+margin-top:56px;
 min-height:48px;
 width:100%;
 }
@@ -716,7 +719,7 @@ width:56px;
 }
 .footer_pattern_left{
 position:absolute;	
-top:10%;
+top:13%;
 left:0%;
 width:240px;
 }

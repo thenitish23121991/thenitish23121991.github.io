@@ -89,11 +89,11 @@ body {
   overflow: hidden; }
 
 .anim_item {
-  transition: all .35s ease 0s;
-  -webkit-transition: all .35s ease 0s;
-  -moz-transition: all .35s ease 0s;
-  -ms-transition: all .35s ease 0s;
-  -o-transition: all .35s ease 0s; }
+  transition: all 0.35s ease-in 0s;
+  -webkit-transition: all 0.35s ease-in 0s;
+  -moz-transition: all 0.35s ease-in 0s;
+  -ms-transition: all 0.35s ease-in 0s;
+  -o-transition: all 0.35s ease-in 0s; }
 
 .intro_container .anim_item {
   display: inline-block;
@@ -520,11 +520,11 @@ body {
   font-family: 'TTNormsRegular';
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
-  margin-top: 32px; }
+  margin-top: 40px; }
 
 .footer_icons_container {
   text-align: center;
-  margin-top: 48px;
+  margin-top: 56px;
   min-height: 48px;
   width: 100%; }
 
@@ -582,7 +582,7 @@ body {
 
 .footer_pattern_left {
   position: absolute;
-  top: 10%;
+  top: 13%;
   left: 0%;
   width: 240px; }
 
