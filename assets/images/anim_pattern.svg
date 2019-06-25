@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 93 217.2" style="enable-background:new 0 0 93 217.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#XMLID_107_);}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill:#FFFFFF;}
+	.st3{mask:url(#mask-2_1_);}
+	.st4{fill:#004FE5;}
+	.st5{fill:#00B019;}
+	.st6{fill:#FFE01F;}
+	.st7{fill:#0A891D;}
+</style>
+<g>
+	<defs>
+		<rect id="XMLID_53_" width="93" height="217.2"/>
+	</defs>
+	<clipPath id="XMLID_107_">
+		<use xlink:href="#XMLID_53_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="SVG-Experiments" class="st0">
+		<g id="Homepage" transform="translate(0.000000, -3581.000000)">
+			<g id="footer_pattern_left" transform="translate(0.000000, 3517.000000)">
+				<g id="Mask">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-166.2" y="64.6" width="259" height="273.4">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="-166.2" y="64.6" width="259" height="273.4" id="mask-2_1_">
+					<g class="st1">
+						<rect id="path-1_1_" y="20.6" class="st2" width="124.9" height="303.4"/>
+					</g>
+				</mask>
+				<g id="Group-16" class="st3">
+					
+						<g transform="translate(-52.785359, 258.245013) rotate(-25.000000) translate(52.785359, -258.245013) translate(-266.785359, 122.745013)">
+						<rect id="Rectangle-Copy-4" x="216.4" y="34.9" class="st4" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-4_1_" x="129.5" y="48.4" class="st5" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-8" x="162.1" y="62" class="st6" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-10" x="151.9" y="89.2" class="st7" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-12" x="202.8" y="102.8" class="st4" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-13" x="135.6" y="116.3" class="st6" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-14" x="110.5" y="129.9" class="st4" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-15" x="151.9" y="143.5" class="st7" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-19" x="116.6" y="172.7" class="st4" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-5" x="173.6" y="21.3" class="st6" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-6" x="151.9" y="7.7" class="st7" width="184.6" height="5.4"/>
+						<rect id="Rectangle-Copy-16" x="184.5" y="-5.9" class="st7" width="184.6" height="5.4"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="162px" height="590px" viewBox="0 0 162 590" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>lines_pattern_left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="185" height="670"></rect>
+    </defs>
+    <g id="Experiments" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(0.000000, -47.000000)">
+            <g id="lines_pattern_left">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(-61.320336, 394.201599) rotate(-25.000000) translate(61.320336, -394.201599) translate(-393.320336, 94.201599)">
+                        <rect id="Rectangle" fill="#0A891D" x="294" y="126" width="272" height="6"></rect>
+                        <rect id="Rectangle" fill="#004FE5" x="258" y="108" width="272" height="6"></rect>
+                        <rect id="Rectangle" fill="#004FE5" x="376" y="144" width="272" height="6"></rect>
+                        <rect id="Rectangle" fill="#FFE01F" x="296" y="162" width="272" height="6"></rect>
+                        <rect id="Rectangle" fill="#0A891D" x="215" y="180" width="272" height="6"></rect>
+                        <polygon id="Rectangle" fill="#FFE01F" points="235 198 462.78125 198 507 198 507 204 474.78125 204 235 204"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="213 216 440.78125 216 485 216 485 222 452.78125 222 213 222"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="189 234 416.78125 234 461 234 461 240 428.78125 240 189 240"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="152 252 379.78125 252 424 252 424 258 391.78125 258 152 258"></polygon>
+                        <polygon id="Rectangle" fill="#FFE01F" points="160 270 387.78125 270 432 270 432 276 399.78125 276 160 276"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="207 288 434.78125 288 479 288 479 294 446.78125 294 207 294"></polygon>
+                        <polygon id="Rectangle" fill="#0A891D" points="174 306 401.78125 306 446 306 446 312 413.78125 312 174 312"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="228 324 455.78125 324 500 324 500 330 467.78125 330 228 330"></polygon>
+                        <polygon id="Rectangle" fill="#FFE01F" points="142 342 369.78125 342 414 342 414 348 381.78125 348 142 348"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="174 360 401.78125 360 446 360 446 366 413.78125 366 174 366"></polygon>
+                        <polygon id="Rectangle" fill="#0A891D" points="128 378 355.78125 378 400 378 400 384 367.78125 384 128 384"></polygon>
+                        <polygon id="Rectangle" fill="#0A891D" points="158 396 385.78125 396 430 396 430 402 397.78125 402 158 402"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="128 414 355.78125 414 400 414 400 420 367.78125 420 128 420"></polygon>
+                        <polygon id="Rectangle" fill="#FFE01F" points="174 432 401.78125 432 446 432 446 438 413.78125 438 174 438"></polygon>
+                        <polygon id="Rectangle" fill="#0A891D" points="135 450 362.78125 450 407 450 407 456 374.78125 456 135 456"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="207 468 434.78125 468 479 468 479 474 446.78125 474 207 474"></polygon>
+                        <polygon id="Rectangle" fill="#0A891D" points="92 486 319.78125 486 364 486 364 492 331.78125 492 92 492"></polygon>
+                        <polygon id="Rectangle" fill="#004FE5" points="71 504 298.78125 504 343 504 343 510 310.78125 510 71 510"></polygon>
+                        <polygon id="Rectangle" fill="#FFE01F" points="112 522 339.78125 522 384 522 384 528 351.78125 528 112 528"></polygon>
+                        <polygon id="Rectangle" fill="#0A891D" points="158 540 385.78125 540 430 540 430 546 397.78125 546 158 546"></polygon>
+                        <rect id="Rectangle-Copy-2" fill="#0A891D" x="364" y="90" width="272" height="6"></rect>
+                        <rect id="Rectangle-Copy-3" fill="#004FE5" x="392" y="72" width="272" height="6"></rect>
+                        <rect id="Rectangle-Copy-4" fill="#004FE5" x="334" y="54" width="272" height="6"></rect>
+                        <rect id="Rectangle-Copy-5" fill="#0A891D" x="271" y="36" width="272" height="6"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
