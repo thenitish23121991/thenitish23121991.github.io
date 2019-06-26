@@ -320,7 +320,7 @@ display:inline-block;
 .top_container ul li:nth-child(1){
 	margin-left:0px;
 }
-.top_container ul li:nth-child(3){
+.top_nav_container ul li:nth-child(3){
 	margin-top:-20px;
 }
 
@@ -613,6 +613,11 @@ background-image:url('../images/Litewallet Mockup.jpg');
 }
 #crosschecks_work_container .works_cover_container{
 	background-image:url('../images/crosschecks_cover_1.png');
+}
+
+#pvr_cinemas_app_work_container .works_cover_container{
+	background-image:url('../images/pvr_cinemas_cover.svg');
+	background-position:0px -80px;
 }
 
 .works_bottom_container{
@@ -1234,4 +1239,12 @@ transition:all .16s ease 0s;
 	font-size:$caption_text_halved;
 	color:$text_light_color;
 }
+
+.about_body ul li{
+	margin-top:16px;
+}
+.about_body ul li:nth-child(1){
+	margin-top:0px;
+}
+
 

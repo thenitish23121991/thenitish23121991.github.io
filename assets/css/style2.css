@@ -225,7 +225,7 @@ body {
 .top_container ul li:nth-child(1) {
   margin-left: 0px; }
 
-.top_container ul li:nth-child(3) {
+.top_nav_container ul li:nth-child(3) {
   margin-top: -20px; }
 
 .top_nav_container ul li:hover {
@@ -481,6 +481,10 @@ body {
 
 #crosschecks_work_container .works_cover_container {
   background-image: url("../images/crosschecks_cover_1.png"); }
+
+#pvr_cinemas_app_work_container .works_cover_container {
+  background-image: url("../images/pvr_cinemas_cover.svg");
+  background-position: 0px -80px; }
 
 .works_bottom_container {
   margin-top: 64px;
@@ -1010,5 +1014,11 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
   font-family: 'TTNormsRegular';
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5); }
+
+.about_body ul li {
+  margin-top: 16px; }
+
+.about_body ul li:nth-child(1) {
+  margin-top: 0px; }
 
 /*# sourceMappingURL=style2.css.map */
