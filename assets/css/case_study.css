@@ -44,8 +44,11 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: white; }
+
+.link, a {
+  padding-bottom: 4px; }
 
 .container {
   height: 100%;

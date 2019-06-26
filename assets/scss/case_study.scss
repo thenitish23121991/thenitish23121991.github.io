@@ -118,8 +118,11 @@ body{
 }
 
 a{
-	text-decoration:none;
+	text-decoration:underline;
 	color:$text_white;
+}
+.link, a{
+	padding-bottom:4px;
 }
 
 .container{

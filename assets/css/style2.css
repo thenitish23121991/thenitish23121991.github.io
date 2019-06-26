@@ -803,7 +803,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
   font-size: 24px;
   line-height: 40px;
   color: rgba(0, 0, 0, 0.87);
-  padding-top: 16px; }
+  padding-top: 24px; }
 
 .about_section .about_body.no_padding {
   padding-top: 0px; }
@@ -1020,5 +1020,42 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
 
 .about_body ul li:nth-child(1) {
   margin-top: 0px; }
+
+.list_title {
+  display: inline-block; }
+
+.list_desc {
+  font-family: 'TTNormsRegular';
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 24px;
+  padding-top: 8px; }
+
+.list_caption {
+  font-family: 'TTNormsRegular';
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 24px;
+  display: inline-block;
+  padding-left: 8px; }
+
+.about_body ul li {
+  margin-top: 32px; }
+
+.about_body ul li:nth-child(1) {
+  margin-top: 0px; }
+
+#about_container .footer {
+  border-top: 1px solid #333;
+  margin-top: 56px; }
+
+#about_container .footer_title {
+  color: white; }
+
+#about_container .footer_desc {
+  color: rgba(255, 255, 255, 0.9); }
+
+#about_container .footer_segment {
+  color: rgba(255, 255, 255, 0.9); }
 
 /*# sourceMappingURL=style2.css.map */
