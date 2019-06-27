@@ -1047,7 +1047,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
 
 #about_container .footer {
   border-top: 1px solid #333;
-  margin-top: 56px; }
+  margin-top: 72px; }
 
 #about_container .footer_title {
   color: white; }
@@ -1057,5 +1057,9 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
 
 #about_container .footer_segment {
   color: rgba(255, 255, 255, 0.9); }
+
+.text_desc_container .text_desc_details .anim_container .anim_item {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=style2.css.map */
