@@ -606,18 +606,19 @@ background-image:url('../images/Litewallet Mockup.jpg');
 }
 #pvr_cinemas_work_container .works_cover_container{ 
 	background-image:url('../images/pvr_cinemas_cover.svg');
-	background-position: 0px -80px;
+	background-position:0px -210px;
 }
 #studycopter_work_container .works_cover_container{
 	background-image:url('../images/studycopter_cover.png');
 }
 #crosschecks_work_container .works_cover_container{
-	background-image:url('../images/pvr_cinemas_cover.png');
+	background-image:url('../images/pvr_cinemas_cover.svg');
+	background-position:0px -210px;
 }
 
 #pvr_cinemas_app_work_container .works_cover_container{
 	background-image:url('../images/pvr_cinemas_cover.svg');
-	background-position:0px -80px;
+	background-position:0px -210px;
 }
 
 .works_bottom_container{
@@ -1133,7 +1134,9 @@ padding-top:24px;
 
 .works_single_container{
 position:relative;
-min-height:420px;
+
+// earlier height setting: 420px
+min-height:460px;
 	width:100%;
 	background:#ffffff;
 	margin-top:56px;
@@ -1144,8 +1147,10 @@ min-height:420px;
 } 
 .works_left_container{
 	position:absolute;
-	width:58%;
-height:420px;
+
+// earlier width setting: 58%
+	width:66%;
+height:460px;
 }
 .works_right_container{
 position:absolute;
@@ -1172,10 +1177,10 @@ padding:24px 32px;
 	display:inline-block;
 }
 .works_text_desc{
-	font-family:'TTNormsMedium'; 
+	font-family:'TTNormsRegular'; 
 	font-size:$text_light_color;
 	font-size:$caption_text;
-	line-height:40px;
+	line-height:44px;
 	}
 .works_actions_container{
 	padding-top:32px;

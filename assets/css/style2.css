@@ -474,17 +474,18 @@ body {
 
 #pvr_cinemas_work_container .works_cover_container {
   background-image: url("../images/pvr_cinemas_cover.svg");
-  background-position: 0px -80px; }
+  background-position: 0px -210px; }
 
 #studycopter_work_container .works_cover_container {
   background-image: url("../images/studycopter_cover.png"); }
 
 #crosschecks_work_container .works_cover_container {
-  background-image: url("../images/pvr_cinemas_cover.png"); }
+  background-image: url("../images/pvr_cinemas_cover.svg");
+  background-position: 0px -210px; }
 
 #pvr_cinemas_app_work_container .works_cover_container {
   background-image: url("../images/pvr_cinemas_cover.svg");
-  background-position: 0px -80px; }
+  background-position: 0px -210px; }
 
 .works_bottom_container {
   margin-top: 64px;
@@ -915,7 +916,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
 
 .works_single_container {
   position: relative;
-  min-height: 420px;
+  min-height: 460px;
   width: 100%;
   background: #ffffff;
   margin-top: 56px;
@@ -926,8 +927,8 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
 
 .works_left_container {
   position: absolute;
-  width: 58%;
-  height: 420px; }
+  width: 66%;
+  height: 460px; }
 
 .works_right_container {
   position: absolute;
@@ -954,10 +955,10 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
   display: inline-block; }
 
 .works_text_desc {
-  font-family: 'TTNormsMedium';
+  font-family: 'TTNormsRegular';
   font-size: rgba(0, 0, 0, 0.5);
   font-size: 24px;
-  line-height: 40px; }
+  line-height: 44px; }
 
 .works_actions_container {
   padding-top: 32px; }
