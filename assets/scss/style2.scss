@@ -273,7 +273,7 @@ position:relative;
 	min-height:88px;
 	text-align:center;
 	position:fixed;
-	padding-top:2%;
+	padding-top:1.5%;
 	top:0%;
 	left:0%;
 	background:transparent;
@@ -290,7 +290,7 @@ display:inline-block;
 	list-style-type:none;
 	padding-top:16px;
 	cursor:pointer;
-	padding-bottom:8px;
+	padding-bottom:4px;
 
 	transition:all .1s ease-in;
 		-webkit-transition:all .1s ease-in;
@@ -457,7 +457,7 @@ display:inline-block;
 
 
 .works_container{
-	padding-top:12%;
+	padding-top:6%;
 }
 .works_title_container{
 	
@@ -1137,7 +1137,6 @@ min-height:420px;
 	width:100%;
 	background:#ffffff;
 	margin-top:56px;
-	border-radius:4px;
 	margin:104px 6%;
 }
 .works_single_container:nth-child(1){
@@ -1154,7 +1153,6 @@ left:36%;
 bottom:0%;
 width:42%;
 background:#fff;
-border-radius:2px;
 margin-left:-1px; 
 padding:24px 32px;
 }

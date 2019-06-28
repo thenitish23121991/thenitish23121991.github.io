@@ -181,7 +181,7 @@ body {
   min-height: 88px;
   text-align: center;
   position: fixed;
-  padding-top: 2%;
+  padding-top: 1.5%;
   top: 0%;
   left: 0%;
   background: transparent;
@@ -198,7 +198,7 @@ body {
   list-style-type: none;
   padding-top: 16px;
   cursor: pointer;
-  padding-bottom: 8px;
+  padding-bottom: 4px;
   transition: all .1s ease-in;
   -webkit-transition: all .1s ease-in;
   -moz-transition: all .1s ease-in;
@@ -343,7 +343,7 @@ body {
   margin-top: -24px; }
 
 .works_container {
-  padding-top: 12%; }
+  padding-top: 6%; }
 
 .works_title_text {
   font-family: 'TTNormsRegular';
@@ -919,7 +919,6 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
   width: 100%;
   background: #ffffff;
   margin-top: 56px;
-  border-radius: 4px;
   margin: 104px 6%; }
 
 .works_single_container:nth-child(1) {
@@ -936,7 +935,6 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
   bottom: 0%;
   width: 42%;
   background: #fff;
-  border-radius: 2px;
   margin-left: -1px;
   padding: 24px 32px; }
 
