@@ -31,7 +31,7 @@
 <ul>
 <li><a href="index.html#works_container">Works</a></li>
 <li class="selected"><a href="about.html">About Me</a></li>
-<li><a href="https://thenitish23121991.github.io"><img src="assets/images/logo_white.svg" /></a></li>
+<li><a href="https://thenitish23121991.github.io"><img src="assets/images/logo.svg" /></a></li>
 <li id="process_nav"><a href="javascript:void(0);">Process</a></li>
 <li><a href="#footer">Contact</a></li>
 
@@ -219,17 +219,17 @@ Education
     
 <li>
 
-<div>
+<div class="list_container">
 	<div class="list_title">Bachelor Of Technology(Computer Science)</div>	
 
 	<div class="list_caption">
 		2009-2013
 	</div>
 
-</div>
+
 
 	<div class="list_desc">VCE Rohtak</div>
-
+</div>
 
 
 </li>
@@ -237,13 +237,13 @@ Education
 
 <li>
 
-<div>
+
 	<div class="list_title">Human Computer Interaction</div>
 		<div class="list_caption">
 		2016
 	</div>
 
-</div>
+
 
 	<div class="list_desc">University of San Diego</div>
 
@@ -433,7 +433,6 @@ Experiments
 
 
 <div class="footer_pattern_container">
-<div class="footer_pattern_left"><img alt="Footer Pattern Left" src="assets/images/footer_pattern_left.svg" /></div>
 <div class="footer_pattern_right"><img alt="Footer Pattern Right" src="assets/images/footer_pattern_right.svg" /></div>
 	</div>
 
@@ -443,15 +442,17 @@ Experiments
 <div class="footer_text_container">
 
 <div class="footer_title">Home something interesting to chat about?</div>
+
+<div class="footer_title_2">Some interesting project? Cricket?</div>
+
 <div class="footer_desc">Do connect with me @ <a href="mailto:nitsh7084@gmail.com" target="_blank">nitsh7084@gmail.com</a></div>
 
 
 	</div>
 
-
 <div class="footer_icons_container">
 	
-<div class="footer_segment">Find me elsewhere: <a href="javascript:void(0);" class="behance">Behance</a><a href="javascript:void(0);" class="linkedin">Linkedin</a><a href="javascript:void(0);" class="medium">Medium</a><a href="javascript:void(0);" class="github">Github</a>
+<div class="footer_segment">Find me elsewhere: <a href="https://www.behance.net/thenitish2312" class="behance">Behance</a><a href="https://www.linkedin.com/in/nitishhooda" class="linkedin">Linkedin</a><a href="https://medium.com/@nitsh" class="medium">Medium</a><a href="https://github.com/thenitish23121991" class="github">Github</a>
 
 
 </div>
@@ -460,7 +461,6 @@ Experiments
 
 
 </div>
-
 
 
 
@@ -476,7 +476,10 @@ Experiments
 <script>
 
 
-var document_height = $(document).height();
+$(document).ready(function(){
+
+
+var document_height = $(window).height();
 var works_pos = document.getElementById("about_content_container").getBoundingClientRect();
 var works_top = works_pos.top;
 var rects = $('svg.no_width #Experiments rect');
@@ -494,7 +497,6 @@ n_1 = n_1+1;
 
 setTimeout(function(){
 
-console.log(widths);
 $(rects).each(function(ev){
 
 $(this).parent().removeClass('animated');
@@ -514,18 +516,22 @@ $(this).parent('li').addClass('selected');
 
 
 
+
+
 function check_scroll(){
+
 
 var scrollPosition = $(window).height() + $(window).scrollTop();
 
 var actual_scroll = (scrollPosition-$(window).height());
 
-console.log(actual_scroll+' '+works_top);
 
-if(actual_scroll > (works_top-90)){
+console.log(actual_scroll+' '+document_height);
+
+if(actual_scroll > 200){
 $('.top_nav_container').addClass("active");
 }
-else if(actual_scroll < 120){
+else if(actual_scroll < (document_height-600)){
 $('.top_nav_container').removeClass("active");
 }
 else{
@@ -538,10 +544,14 @@ $('.top_nav_container').removeClass("active");
 
 
 
-$(window).scroll(function(){
-
+$(document).scroll(function(){
 
 check_scroll();
+
+});
+
+
+
 
 });
 
