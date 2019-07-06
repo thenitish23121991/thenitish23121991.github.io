@@ -75,16 +75,15 @@ a {
 
 .cover_content_title {
   font-family: 'TTNormsMedium';
-  color: white;
-  font-size: 61.06px;
+  font-size: 53px;
   width: 100%;
   text-align: center; }
 
 .cover_content_desc {
-  padding-top: 32px;
+  padding-top: 24px;
   font-family: 'TTNormsRegular';
   font-size: 30.5px;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.5);
   width: 100%;
   text-align: center; }
 
@@ -95,7 +94,8 @@ a {
   height: 100%;
   width: 100%;
   background-image: url("../images/Litewallet Mockup.jpg");
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 #pvr_cinemas_container .cover_background {
   background-image: url("../images/pvr_cinemas_cover.svg");
@@ -865,5 +865,25 @@ a {
 
 .footer_segment a:nth-child(1) {
   margin-left: 16px; }
+
+.top_info_container {
+  min-height: 120px;
+  padding-top: 160px;
+  padding-bottom: 32px;
+  position: relative; }
+
+.top_info_container .cover_content_title {
+  color: rgba(0, 0, 0, 0.87); }
+
+.top_info_container .cover_content_desc {
+  color: rgba(0, 0, 0, 0.5); }
+
+.top_info_container .cover_content_timeline {
+  font-family: 'TTNormsRegular';
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 32px;
+  width: 100%;
+  text-align: center; }
 
 /*# sourceMappingURL=case_study.css.map */

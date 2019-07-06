@@ -152,7 +152,7 @@ width:100%;
 	width:98%;
 	height:96%;
 	min-height:240px;
-	position:relative;
+	position:relative; 
 
 }
 
@@ -167,16 +167,15 @@ width:100%;
 }
 .cover_content_title{
 font-family:'TTNormsMedium';
-color:$text_white;
-font-size:$title_large_text_2;	
+font-size:$title_large_text;	
 	width:100%;
 	text-align:center;
 }
 .cover_content_desc{
-	padding-top:32px;
+	padding-top:24px;
 	font-family:'TTNormsRegular';
 	font-size:$body_text;
-	color:$text_white_second;
+	color:$text_light_color;
 	width:100%;
 	text-align:center;
 }
@@ -190,6 +189,7 @@ font-size:$title_large_text_2;
 	width:100%;
 	background-image:url('../images/Litewallet Mockup.jpg');
 	background-size:cover;
+	background-attachment:fixed;
 }
 
 #pvr_cinemas_container .cover_background{
@@ -1102,4 +1102,23 @@ width:240px;
 }
 
 
-
+.top_info_container{
+	min-height:120px;
+	padding-top:160px;
+	padding-bottom:32px;
+	position:relative;
+}
+.top_info_container .cover_content_title{
+	color:$text_dark_color;
+}
+ .top_info_container .cover_content_desc{
+ color:$text_light_color;
+ }
+ .top_info_container .cover_content_timeline{
+ font-family:'TTNormsRegular';
+ font-size:$caption_text;
+ color:$text_light_color;
+ padding-top:32px;
+ width:100%;
+ text-align:center;
+ }

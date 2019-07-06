@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<style type="text/css">
+
+*{
+margin:0px;	
+}
+
+html,body{
+
+}
+.container{
+	position:relative;
+height:100%;
+width:100%;
+}
+.container svg{
+	position:Absolute;
+	top:200px;
+	left:200px;
+}
+.container svg rect{
+	transition:all .8s ease 0s;
+		-webkit-transition:all .8s ease 0s;
+			-moz-transition:all .8s ease 0s;
+}
+svg.animated g rect[fill="url(#linearGradient-1)"]{
+	transform:translateX(300px);
+	-webkit-transform:translateX(300px);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+	
+
+
+<svg width="1020px" height="631px" viewBox="0 0 1020 631" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0A891D" offset="0%"></stop>
+            <stop stop-color="#FFE01F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Experiments" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-14.000000, -96.000000)">
+            <g id="Group-11" transform="translate(512.860800, 378.235383) rotate(-25.000000) translate(-512.860800, -378.235383) translate(-42.139200, 198.735383)">
+                <g id="Group-2" transform="translate(386.000000, 122.000000)">
+                    <rect id="Rectangle-Copy-12" fill="url(#linearGradient-1)" x="362" y="2" width="132" height="6"></rect>
+                    <rect id="Rectangle-Copy" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group" transform="translate(60.000000, 61.000000)">
+                    <rect id="Rectangle-Copy-18" fill="url(#linearGradient-1)" x="362" y="2" width="190" height="6"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group-4" transform="translate(0.000000, 231.000000)">
+                    <rect id="Rectangle-Copy-13" fill="url(#linearGradient-1)" x="362" y="2" width="104" height="6"></rect>
+                    <rect id="Rectangle-Copy-25" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group-6" transform="translate(374.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-16" fill="url(#linearGradient-1)" x="362" y="2" width="104" height="6"></rect>
+                    <rect id="Rectangle-Copy-19" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group-3" transform="translate(185.000000, 183.000000)">
+                    <rect id="Rectangle-Copy-15" fill="url(#linearGradient-1)" x="362" y="2" width="132" height="6"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group-5" transform="translate(534.000000, 214.000000)">
+                    <rect id="Rectangle-Copy-5" fill="url(#linearGradient-1)" x="362" y="2" width="214" height="6"></rect>
+                    <rect id="Rectangle-Copy-22" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group-7" transform="translate(293.000000, 259.000000)">
+                    <rect id="Rectangle-Copy-10" fill="url(#linearGradient-1)" x="362" y="2" width="80" height="6"></rect>
+                    <rect id="Rectangle-Copy-24" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group-10" transform="translate(115.000000, 349.000000)">
+                    <rect id="Rectangle-Copy-17" fill="url(#linearGradient-1)" x="362" y="2" width="80" height="6"></rect>
+                    <rect id="Rectangle-Copy-21" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group-8" transform="translate(165.000000, 287.000000)">
+                    <rect id="Rectangle-Copy-14" fill="url(#linearGradient-1)" x="362" y="2" width="80" height="6"></rect>
+                    <rect id="Rectangle-Copy-20" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+                <g id="Group-9" transform="translate(391.000000, 330.000000)">
+                    <rect id="Rectangle-Copy-11" fill="url(#linearGradient-1)" x="362" y="2" width="80" height="6"></rect>
+                    <rect id="Rectangle-Copy-23" fill="#FFFFFF" x="0" y="0" width="362" height="10"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+
+
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+
+
+var rects = $('.container svg g rect[fill="url(#linearGradient-1)"]');
+var white_rects = $('.container svg g rect[fill="#FFFFFF"]');
+
+
+function animate_svg(){
+
+
+rects.each(function(){
+
+var rect_el = $(this);
+var rect_x = Math.random();
+rect_x = rect_x*100;
+
+var rect_y = rect_el[0].getAttribute("transform");
+
+console.log(rect_el[0]);
+
+rect_el[0].setAttribute("transform","translate("+rect_x+",0)");
+
+
+
+
+//rect_el.css('-webkit-transform','translateX('+rect_x+')');
+
+});
+
+
+}
+
+
+
+
+$(document).ready(function(){
+
+setTimeout(function(){
+
+
+animate_svg();
+
+},1400);
+
+
+});
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
