@@ -197,6 +197,15 @@ font-size:$title_large_text;
 	background-size:cover;
 	background-position:20px 50%;
 }
+#pvr_cinemas_app_container .cover_background{
+		background-image:url('../images/PVR Cinemas Cover.jpg');
+	background-size:cover;
+}
+
+#crosschecks_container .cover_background{
+	background-image:url('../images/Crosschecks Cover.jpg');
+	background-size:cover;
+}
 
 #studycopter_container .cover_background{
 		background-image:url('../images/studycopter_cover.png');
@@ -381,8 +390,9 @@ font-size:$text_dark_color;
 
 .project_desc{
 	
-	margin:64px 10% 24px 10%;
+	margin:64px 10% 48px 10%;
 	width:80%;
+	text-align:center;
 }
 .project_desc p{
 	font-family:'TTNormsRegular';
@@ -402,8 +412,8 @@ font-size:$text_dark_color;
 	color:$text_dark_color;
 }
 .section_inner_container{
-	width:76%;
-	padding-left:$left_margin;
+	width:60%;
+	padding-left:16%;
 }
 
 .section:nth-child(1){
@@ -546,8 +556,8 @@ width:100%;
 	margin:48px 0px 40px 0px;
 }
 .subsection_inner_container{
-	width:76%;
-	padding-left:$left_margin;
+	width:64%;
+	padding-left:16%;
 }
 .subsection_title{
 	font-family:'TTNormsMedium';
@@ -556,7 +566,7 @@ width:100%;
 
 .credits_container{
 	padding-top:24px;
-	padding-left:$left_margin;
+	padding-left:16%;
 }
 .credits_list{
 	padding-top:24px;
@@ -776,8 +786,14 @@ background-image:url('../images/Litewallet Mockup.jpg');
 	background-position:-80px -160px;
 }
 
+
+
 #pvr_cinemas_app_work_container .works_cover_container{
-	background-image:url('../images/pvr_cinemas_cover.svg');
+	background-image:url('../images/PVR Cinemas Cover.jpg');
+	background-position:0px 0px;
+}
+
+#litewallet_container #pvr_cinemas_app_work_container .works_cover_container, #pvr_cinemas_container #pvr_cinemas_app_work_container .works_cover_container{
 	background-position:80px -160px;
 }
 
@@ -789,7 +805,7 @@ background-image:url('../images/Litewallet Mockup.jpg');
 }
 
 #crosschecks_work_container .works_cover_container{
-	background-image:url('../images/pvr_cinemas_cover.svg');
+	background-image:url('../images/Crosschecks Cover.jpg');
 }
 
 
@@ -876,20 +892,21 @@ min-height:460px;
 height:460px;
 }
 .works_right_container{
-position:absolute;
+position:absolute; 
 left:32%;
 bottom:-18%;
 width:52%;
 background:#fff;
 margin-left:-1px; 
 padding:16px 24px;
+padding-bottom:40px;
  
-}
+} 
 .works_text_container{
 	display:none;
 }
 .right_text_container{
-	padding-left:0%;
+padding-left:0%;
 }
 .works_detail_container{
 	padding-top:24px;
@@ -966,7 +983,7 @@ position:relative;
 min-height:216px;
 width:100%;
 padding:16px 0px 40px 0px;	
-border-top:1px solid #e6e6e6;
+border-top:2px solid #eee;
 overflow:hidden; 
 }
 .footer_text_container{
@@ -980,7 +997,7 @@ width:100%;
 line-height:60px;
 display:inline-block;
 margin-left:8%;
-}
+}footer
 .footer_title_2{
 	font-family:'TTNormsRegular';
 	font-size:$body_text;
@@ -997,7 +1014,7 @@ width:100%;
 margin-left:8%;
 }
 .footer_icons_container{
-margin-top:72px;
+margin-top:88px;
 min-height:48px;
 width:100%;
 margin-left:8%;
@@ -1104,7 +1121,7 @@ width:240px;
 
 .top_info_container{
 	min-height:120px;
-	padding-top:136px;
+	padding-top:160px;
 	padding-bottom:32px;
 	position:relative;
 }
@@ -1122,3 +1139,21 @@ width:240px;
  width:100%;
  text-align:center;
  }
+
+
+.multiple_images_newline{
+	margin-top:32px;
+}
+
+
+
+.multiple_inline_images_container{
+	margin-left:$left_margin;
+}
+
+.single_image_with_text.centered{
+	background:#fff;
+	text-align:center;
+}
+
+

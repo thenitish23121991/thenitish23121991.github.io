@@ -102,6 +102,14 @@ a {
   background-size: cover;
   background-position: 20px 50%; }
 
+#pvr_cinemas_app_container .cover_background {
+  background-image: url("../images/PVR Cinemas Cover.jpg");
+  background-size: cover; }
+
+#crosschecks_container .cover_background {
+  background-image: url("../images/Crosschecks Cover.jpg");
+  background-size: cover; }
+
 #studycopter_container .cover_background {
   background-image: url("../images/studycopter_cover.png");
   background-size: cover; }
@@ -254,8 +262,9 @@ a {
   font-size: rgba(0, 0, 0, 0.87); }
 
 .project_desc {
-  margin: 64px 10% 24px 10%;
-  width: 80%; }
+  margin: 64px 10% 48px 10%;
+  width: 80%;
+  text-align: center; }
 
 .project_desc p {
   font-family: 'TTNormsRegular';
@@ -274,8 +283,8 @@ a {
   color: rgba(0, 0, 0, 0.87); }
 
 .section_inner_container {
-  width: 76%;
-  padding-left: 10%; }
+  width: 60%;
+  padding-left: 16%; }
 
 .section:nth-child(1) {
   margin-top: 0px; }
@@ -400,8 +409,8 @@ a {
   margin: 48px 0px 40px 0px; }
 
 .subsection_inner_container {
-  width: 76%;
-  padding-left: 10%; }
+  width: 64%;
+  padding-left: 16%; }
 
 .subsection_title {
   font-family: 'TTNormsMedium';
@@ -409,7 +418,7 @@ a {
 
 .credits_container {
   padding-top: 24px;
-  padding-left: 10%; }
+  padding-left: 16%; }
 
 .credits_list {
   padding-top: 24px; }
@@ -587,7 +596,10 @@ a {
   background-position: -80px -160px; }
 
 #pvr_cinemas_app_work_container .works_cover_container {
-  background-image: url("../images/pvr_cinemas_cover.svg");
+  background-image: url("../images/PVR Cinemas Cover.jpg");
+  background-position: 0px 0px; }
+
+#litewallet_container #pvr_cinemas_app_work_container .works_cover_container, #pvr_cinemas_container #pvr_cinemas_app_work_container .works_cover_container {
   background-position: 80px -160px; }
 
 #studycopter_work_container .works_cover_container {
@@ -597,7 +609,7 @@ a {
   background-image: url("../images/goqii_background.jpg"); }
 
 #crosschecks_work_container .works_cover_container {
-  background-image: url("../images/pvr_cinemas_cover.svg"); }
+  background-image: url("../images/Crosschecks Cover.jpg"); }
 
 .works_new_tab_container {
   display: inline-block;
@@ -669,7 +681,8 @@ a {
   width: 52%;
   background: #fff;
   margin-left: -1px;
-  padding: 16px 24px; }
+  padding: 16px 24px;
+  padding-bottom: 40px; }
 
 .works_text_container {
   display: none; }
@@ -736,7 +749,7 @@ a {
   min-height: 216px;
   width: 100%;
   padding: 16px 0px 40px 0px;
-  border-top: 1px solid #e6e6e6;
+  border-top: 2px solid #eee;
   overflow: hidden; }
 
 .footer_text_container {
@@ -751,6 +764,7 @@ a {
   display: inline-block;
   margin-left: 8%; }
 
+footer
 .footer_title_2 {
   font-family: 'TTNormsRegular';
   font-size: 30.5px;
@@ -767,7 +781,7 @@ a {
   margin-left: 8%; }
 
 .footer_icons_container {
-  margin-top: 72px;
+  margin-top: 88px;
   min-height: 48px;
   width: 100%;
   margin-left: 8%; }
@@ -867,7 +881,7 @@ a {
 
 .top_info_container {
   min-height: 120px;
-  padding-top: 136px;
+  padding-top: 160px;
   padding-bottom: 32px;
   position: relative; }
 
@@ -883,6 +897,16 @@ a {
   color: rgba(0, 0, 0, 0.5);
   padding-top: 32px;
   width: 100%;
+  text-align: center; }
+
+.multiple_images_newline {
+  margin-top: 32px; }
+
+.multiple_inline_images_container {
+  margin-left: 10%; }
+
+.single_image_with_text.centered {
+  background: #fff;
   text-align: center; }
 
 /*# sourceMappingURL=case_study.css.map */
