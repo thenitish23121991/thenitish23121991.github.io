@@ -1477,4 +1477,15 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
   -o-transition: all 1.2s ease 0s, opacity 1.6s ease 0s;
   -ms-transition: all 1.2s ease 0s, opacity 1.6s ease 0s; }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .intro_title {
+    margin-top: 40%;
+    font-size: 39.06px; }
+
+  .intro_tagline {
+    font-size: 30.5px; }
+
+  .top_pattern_container {
+    display: none; } }
+
 /*# sourceMappingURL=style2.css.map */

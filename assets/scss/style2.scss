@@ -1887,3 +1887,54 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed{
 					-ms-transition:all 1.2s ease 0s, opacity 1.6s ease 0s;
 }
 
+
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+	
+.intro_title{
+	margin-top:40%;
+	font-size:$subtitle_text;
+}
+.intro_tagline{
+	font-size:$body_text;
+}
+.top_pattern_container{
+	display:none;
+}
+
+}
+
+
+@media only screen and (min-width:321px){
+	
+}
+
+
+@media only screen and (max-width:320px){
+	
+}
+
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){
+	
+}
+
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+	
+}
+
+
+@media only screen and (min-width:1224px){
+	
+}
+
+
+@media only screen and (min-width:1824px){
+	
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5){
+	
+}
