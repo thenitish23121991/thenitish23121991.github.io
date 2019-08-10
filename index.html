@@ -391,8 +391,8 @@
 
 
 <div class="works_title_container">
-<div class="works_title_text">Selected Works</div>
-<div class="works_heading_desc">Solving problems with craft and versatility</div>
+<div class="works_title_text"><div class="anim_container"><div class="anim_item from_below no_rotate">Selected Works</div></div></div>
+<div class="works_heading_desc"><div class="anim_container"><div class="anim_item from_below no_rotate delay_2">Solving problems with craft and versatility</div></div></div>
 <div class="title_line_container"><div class="works_title_line"></div></div>
 </div>
 
@@ -481,7 +481,7 @@
 
 <div class="works_text_title">Litewallet</div>
 
-<div class="works_timeline_container">Nov 2018 - Jul 2019</div>
+<div class="works_timeline_container">Sep 2018 - Jul 2019</div>
 
 
     </div>
@@ -831,6 +831,9 @@
 <script>
 
 
+
+$(document).ready(function(){
+
 var document_height = $(document).height();
 var works_pos = document.getElementById("works_container").getBoundingClientRect()
 var works_top = works_pos.top;
@@ -938,9 +941,47 @@ var actual_scroll = (scrollPosition-$(window).height());
 
 console.log(actual_scroll+' '+works_top);
 
-if(actual_scroll > (works_top-120)){
-$('.top_nav_container').addClass("active");
 
+if(actual_scroll > (works_top-720)){
+
+$('.works_title_text .anim_item').addClass('visible');
+
+$('.works_heading_desc .anim_item').addClass('visible');
+
+$('.title_line_container').addClass('visible');
+
+
+}
+
+
+
+if(scrollPosition > pvr_cinemas_app_top-60){
+
+$('.works_single_container#pvr_cinemas_app_work_container').addClass('visible');
+}
+if(scrollPosition > litewallet_top-60){
+$('.works_single_container#litewallet_work_container').addClass('visible');
+}
+if(scrollPosition > pvr_cinemas_top-60){
+$('.works_single_container#pvr_cinemas_work_container').addClass('visible');
+}
+if(scrollPosition > crosschecks_top-60){
+$('.works_single_container#crosschecks_work_container').addClass('visible');
+}
+if(scrollPosition > studycopter_top-60){
+$('.works_single_container#studycopter_work_container').addClass('visible');
+}
+if(scrollPosition > goqii_top-60){
+$('.works_single_container#goqii_work_container').addClass('visible');
+}
+if(scrollPosition > murals_top-60){
+$('.works_single_container#murals_work_container').addClass('visible');
+}
+
+
+if(actual_scroll > (works_top-120)){
+
+$('.top_nav_container').addClass("active");
 
 
 var scroll_count = 1;
@@ -1114,9 +1155,6 @@ $(this).attr('width',w_width_new);
 
 
 
-$(document).ready(function(){
-
-
 setTimeout(function(){
 
 $('.intro_container .anim_item').addClass('go_up');
@@ -1142,7 +1180,7 @@ $('#intro_svg g#Group-16 g rect').addClass('hide');
 
 },3600);
 
-});
+
 
 
 setTimeout(function(){
@@ -1348,7 +1386,7 @@ works_s.removeClass('without_border');
 
 });
 
-
+});
 
 	</script>
 
