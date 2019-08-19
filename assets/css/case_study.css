@@ -38,7 +38,7 @@
 html, body {
   min-height: 100%;
   min-width: 100%;
-  overflow: auto; }
+  overflow: overflow; }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -388,7 +388,7 @@ a {
   height: 460px;
   width: 228px; }
 
-#pvr_cinemas_container img.mockup_markings {
+#pvr_cinemas_app_container .multiple_images img.mockup_markings {
   height: 492px;
   width: 810px; }
 
