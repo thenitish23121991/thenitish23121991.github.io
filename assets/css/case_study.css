@@ -384,9 +384,9 @@ a {
 .multiple_images img.mockup, img.mockup_markings {
   box-shadow: none; }
 
-#pvr_cinemas_container .multiple_images img.mockup {
-  height: 491px;
-  width: 245px; }
+#pvr_cinemas_container .multiple_images img.mockup, #pvr_cinemas_app_container .multiple_images img.mockup {
+  height: 460px;
+  width: 228px; }
 
 #pvr_cinemas_container img.mockup_markings {
   height: 492px;

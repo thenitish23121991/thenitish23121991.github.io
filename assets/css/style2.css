@@ -1147,14 +1147,22 @@ After#about_container.dark_mode .right_headline {
 
 .works_left_container {
   position: absolute;
-  width: 66%;
+  width: 0%;
   height: 488px;
   overflow: hidden;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
   -ms-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-  -o-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
+  -o-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  transition: all .75s ease 1s;
+  -webkit-transition: all .75s ease 1s;
+  -moz-transition: all .75s ease 1s;
+  -o-transition: all .75s ease 1s;
+  -o-transition: all .75s ease 1s; }
+
+.works_single_container.visible .works_left_container {
+  width: 72%; }
 
 .works_right_container {
   position: absolute;
