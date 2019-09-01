@@ -1647,6 +1647,12 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
   margin-top: 16px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  html, body {
+    overflow-x: hidden; }
+
+  .text_title_container .anim_container .anim_item {
+    font-size: 30.5px; }
+
   .intro_title {
     margin-top: 40%;
     font-size: 39.06px; }
@@ -1677,7 +1683,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     height: 96px; }
 
   .text_title_container:nth-child(2) .anim_container {
-    height: 192px;
+    height: 144px;
     margin-top: 8px; }
 
   .text_title_container .anim_container .anim_item {
@@ -1716,6 +1722,12 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
   .past_experiences_container .anim_container .anim_item:nth-child(2) {
     display: block; }
 
+  .works_title_text .anim_container .anim_item {
+    font-size: 30.5px; }
+
+  .works_heading_desc .anim_container .anim_item {
+    font-size: 24px; }
+
   .works_single_container.visible .works_left_container {
     width: 100%; }
 
@@ -1735,10 +1747,14 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
   .works_single_container:nth-child(2) .works_right_container {
     left: 0%; }
 
+  .footer {
+    margin-top: 72px; }
+
   .footer_segment a {
     margin-top: 24px;
     display: table;
-    margin-left: 0px; }
+    margin-left: 0px;
+    font-size: 16px; }
 
   .footer_segment a:nth-child(1) {
     margin-left: 0px; }
@@ -1763,7 +1779,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
 
   .footer_icons_container {
     margin-top: 32px; } }
-@media only screen and (min-width: 321px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
   .intro_title {
     margin-top: 40%;
     font-size: 39.06px; }
@@ -1794,7 +1810,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     height: 96px; }
 
   .text_title_container:nth-child(2) .anim_container {
-    height: 192px;
+    height: 144px;
     margin-top: 8px; }
 
   .text_title_container .anim_container .anim_item {
@@ -1832,6 +1848,12 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
 
   .past_experiences_container .anim_container .anim_item:nth-child(2) {
     display: block; }
+
+  .works_title_text .anim_container .anim_item {
+    font-size: 30.5px; }
+
+  .works_heading_desc .anim_container .anim_item {
+    font-size: 24px; }
 
   .works_single_container.visible .works_left_container {
     width: 100%; }
@@ -1911,7 +1933,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     height: 96px; }
 
   .text_title_container:nth-child(2) .anim_container {
-    height: 192px;
+    height: 144px;
     margin-top: 8px; }
 
   .text_title_container .anim_container .anim_item {

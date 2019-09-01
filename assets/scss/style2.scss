@@ -2112,6 +2112,17 @@ width:56px;
 
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px){
+
+
+html,body{
+	overflow-x:hidden;
+}
+
+
+.text_title_container .anim_container .anim_item{
+	font-size:$body_text;
+}
+
 	
 .intro_title{
 	margin-top:40%;
@@ -2154,7 +2165,7 @@ width:56px;
 
 
 .text_title_container:nth-child(2) .anim_container{
-	height:192px;
+	height:144px;
 	margin-top:8px;
 }
 
@@ -2203,6 +2214,212 @@ width:56px;
 .past_experiences_container .anim_container .anim_item:nth-child(2){
 	display:block;
 }
+
+
+.works_title_text .anim_container .anim_item{
+font-size:$body_text;
+}
+
+.works_heading_desc .anim_container .anim_item{
+	font-size:$caption_text;
+}
+
+
+
+
+.works_single_container.visible .works_left_container{
+	width:100%;
+}
+
+
+
+
+.works_right_container{
+	
+left:0%;
+top:54%;
+bottom:auto;
+width:90%;
+
+}
+
+.works_right_container .right_text_container{
+}
+
+.works_timeline_container{
+	padding-left:0px;
+	margin-top:16px;
+}
+
+.works_single_container{
+	margin-top:280px;
+}
+
+.works_single_container:nth-child(2) .works_right_container{
+	left:0%;
+}
+
+.footer{
+	margin-top:72px;
+}
+
+.footer_segment a{
+	margin-top:24px;
+	display:table;
+	margin-left:0px;
+	font-size:16px;
+}
+
+.footer_segment a:nth-child(2n){
+
+}
+
+.footer_segment a:nth-child(1){
+	margin-left:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer_title{
+	font-size:$body_text;
+line-height:48px;
+width:88%;
+}
+.footer_pattern_right{
+	right:-7%;
+}
+.footer_title_2{
+	font-size:$caption_text;
+	line-height:36px;
+}
+.footer_desc{
+	margin-top:16px;
+}
+.footer_desc a{
+	margin-top:8px;
+}
+.footer_icons_container{
+	margin-top:32px;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width:321px) and (max-width:480px){
+	
+ 
+
+.intro_title{
+	margin-top:40%;
+	font-size:$subtitle_text;
+}
+.intro_tagline{
+	font-size:$body_text;
+}
+.top_pattern_container{
+	display:none;
+}
+
+.top_nav_container{
+	display:none;
+}
+
+.top_text_container{
+	margin-top:16%;
+	padding-left:8%;
+}
+
+.menu_icon_container{
+
+	display:block;	
+}
+
+.menu_container{
+	display:block;
+}
+
+
+
+.text_title_container:nth-child(2){
+	margin-top:0px;
+}
+
+.text_title_container .anim_container{
+	height:96px;
+}
+
+
+.text_title_container:nth-child(2) .anim_container{
+	height:144px;
+	margin-top:8px;
+}
+
+.text_title_container .anim_container .anim_item{
+	line-height:48px;
+}
+
+.text_title_container .anim_container .anim_item:nth-child(2), .text_title_container:nth-child(2) .anim_container .anim_item:nth-child(3){
+	margin-top:4px;
+}
+
+.text_desc_container{
+	padding-top:2%;
+	line-height:44px;
+}
+
+.text_desc_container .anim_container{
+	height:160px;
+}
+
+.text_desc_container .anim_container .anim_item{
+	font-size:$caption_text_halved;
+	line-height:40px;
+}
+.text_desc_container .anim_container .anim_item .anim_item, .text_desc_container .anim_container .anim_item{
+	display:inline;
+}
+.text_desc_container .anim_container{
+	display:inline;
+}
+
+
+.past_text{
+	margin-top:16px;
+	font-size:$caption_text;
+}
+
+.past_experiences_container .past_body{
+	display:inline;
+}
+
+.past_experiences_container .past_body a{
+	font-size:$caption_text_halved;
+}    
+
+.past_experiences_container .anim_container .anim_item:nth-child(2){
+	display:block;
+}
+
+
+.works_title_text .anim_container .anim_item{
+font-size:$body_text;
+}
+
+.works_heading_desc .anim_container .anim_item{
+	font-size:$caption_text;
+}
+
 
 .works_single_container.visible .works_left_container{
 	width:100%;
@@ -2290,185 +2507,9 @@ width:88%;
 }
 
 
-@media only screen and (min-width:321px){
-	
-
-
-.intro_title{
-	margin-top:40%;
-	font-size:$subtitle_text;
-}
-.intro_tagline{
-	font-size:$body_text;
-}
-.top_pattern_container{
-	display:none;
-}
-
-.top_nav_container{
-	display:none;
-}
-
-.top_text_container{
-	margin-top:16%;
-	padding-left:8%;
-}
-
-.menu_icon_container{
-
-	display:block;	
-}
-
-.menu_container{
-	display:block;
-}
 
 
 
-.text_title_container:nth-child(2){
-	margin-top:0px;
-}
-
-.text_title_container .anim_container{
-	height:96px;
-}
-
-
-.text_title_container:nth-child(2) .anim_container{
-	height:192px;
-	margin-top:8px;
-}
-
-.text_title_container .anim_container .anim_item{
-	line-height:48px;
-}
-
-.text_title_container .anim_container .anim_item:nth-child(2), .text_title_container:nth-child(2) .anim_container .anim_item:nth-child(3){
-	margin-top:4px;
-}
-
-.text_desc_container{
-	padding-top:2%;
-	line-height:44px;
-}
-
-.text_desc_container .anim_container{
-	height:160px;
-}
-
-.text_desc_container .anim_container .anim_item{
-	font-size:$caption_text_halved;
-	line-height:40px;
-}
-.text_desc_container .anim_container .anim_item .anim_item, .text_desc_container .anim_container .anim_item{
-	display:inline;
-}
-.text_desc_container .anim_container{
-	display:inline;
-}
-
-
-.past_text{
-	margin-top:16px;
-	font-size:$caption_text;
-}
-
-.past_experiences_container .past_body{
-	display:inline;
-}
-
-.past_experiences_container .past_body a{
-	font-size:$caption_text_halved;
-}    
-
-.past_experiences_container .anim_container .anim_item:nth-child(2){
-	display:block;
-}
-
-.works_single_container.visible .works_left_container{
-	width:100%;
-}
-
-
-
-
-.works_right_container{
-	
-left:0%;
-top:54%;
-bottom:auto;
-width:90%;
-
-}
-
-.works_right_container .right_text_container{
-}
-
-.works_timeline_container{
-	padding-left:0px;
-	margin-top:16px;
-}
-
-.works_single_container{
-	margin-top:280px;
-}
-
-.works_single_container:nth-child(2) .works_right_container{
-	left:0%;
-}
-
-
-
-.footer_segment a{
-	margin-top:24px;
-	display:table;
-	margin-left:0px;
-}
-
-.footer_segment a:nth-child(2n){
-
-}
-
-.footer_segment a:nth-child(1){
-	margin-left:0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.footer_title{
-	font-size:$body_text;
-line-height:48px;
-width:88%;
-}
-.footer_pattern_right{
-	right:-7%;
-}
-.footer_title_2{
-	font-size:$caption_text;
-	line-height:36px;
-}
-.footer_desc{
-	margin-top:16px;
-}
-.footer_desc a{
-	margin-top:8px;
-}
-.footer_icons_container{
-	margin-top:32px;
-}
-
-
-
-
-}
 
 
 @media only screen and (max-width:320px){
@@ -2516,7 +2557,7 @@ width:88%;
 
 
 .text_title_container:nth-child(2) .anim_container{
-	height:192px;
+	height:144px;
 	margin-top:8px;
 }
 
