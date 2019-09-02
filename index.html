@@ -874,7 +874,7 @@
 
 
 
-window.onload = function(){
+$(window).bind('load',function(){
 
 var document_height = $(document).height();
 var works_pos = document.getElementById("works_container").getBoundingClientRect()
@@ -1452,7 +1452,14 @@ works_s.removeClass('without_border');
 
 });
 
-}
+
+
+
+
+
+
+});
+
 
 	</script>
 
