@@ -144,17 +144,14 @@ width:100%;
 
 
 .inner_container{
-	height:100vh;
-	width:100vw;
-
 
 }
 
 .cover_container{
-	margin:1%;
-	width:98%;
+	margin:1% 0%;
+	width:100%;
 	height:96%;
-	min-height:240px;
+	min-height:480px;
 	position:relative; 
 
 }
@@ -169,13 +166,13 @@ width:100%;
 	z-index:100;
 }
 .cover_content_title{
-font-family:'TTNormsMedium';
+font-family:'TTNormsRegular';
 font-size:$title_large_text;	
 	width:100%;
 	text-align:center;
 }
 .cover_content_desc{
-	padding-top:24px;
+	padding-top:32px;
 	font-family:'TTNormsRegular';
 	font-size:$body_text;
 	color:$text_light_color;
@@ -436,14 +433,14 @@ margin-top:16px;
 	font-family:'TTNormsMedium';
 	font-size:$body_text;
 	color:$text_dark_color;
-	margin-top:8px;
+	margin-top:16px;
 }
 .para{
-	margin-top:24px;
+	margin-top:32px;
 	font-family:'FreightText';
 	font-size:$caption_text;
 	color:$text_dark_color;
-	line-height:44px;
+	line-height:48px;
 
 	 -webkit-font-smoothing: antialiased;
 }
@@ -651,7 +648,33 @@ background: $litewallet_background;
 	background:#111111;
 }
 .section.dark_background .para{
-	color:#fff;
+	color:$text_white;
+}
+.section.dark_background .title_text{
+	color:$text_white;
+}
+.section.dark_background .title_caption{
+	color:$text_white_light;
+}
+
+.multiple_images_container.dark_background{
+	background:#111;
+}
+.multiple_images_container.dark_background .single_image_text{
+	color:$text_white;
+}
+
+
+.subsection.dark_background{
+	background:#000;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:24px;
+	padding-bottom:24px;
+}
+
+.subsection.dark_background .subsection_title, .subsection.dark_background .para{
+	color:$text_white;
 }
 
 #pvr_cinemas_container .colored_background{
@@ -662,7 +685,7 @@ background: $litewallet_background;
 
 .quotes_container{
 	margin:40px 0px;
-	min-height:64px;
+	icon_backmin-height:64px;
 }
 
 #litewallet_container .section .quotes_container .quotes_text_container{
@@ -1191,7 +1214,7 @@ width:240px;
  font-family:'TTNormsRegular';
  font-size:$caption_text;
  color:$text_light_color;
- padding-top:32px;
+ padding-top:40px;
  width:100%;
  text-align:center;
  }
