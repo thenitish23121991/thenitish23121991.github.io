@@ -66,13 +66,13 @@ $text_white_light: rgba(255,255,255,.7);
 $text_white_disabled: rgba(255,255,255,.3);
 
 $title_large_text_2: 61.06 + px;
-$title_large_text: 53 + px;
-$title_text: 48.83 + px;
-$subtitle_text: 39.06 + px;
-$body_text: 30.5 + px;
-$caption_text_halved: 20 + px; 
+$title_large_text: 58.59 + px;
+$title_text: 46.88 + px;
+$subtitle_text: 37.50 + px;
+$body_text: 30 + px;
+$caption_text_halved: 19.20 + px; 
 $caption_text: 24px;
-$smaller_caption: 16px;
+$smaller_caption: 15.36px;
 
 
 $transition_delay_1: .2s;
@@ -910,7 +910,7 @@ line-height:56px;
 .works_bottom_text a{
 	padding:0px 8px;
 }
-
+starbu
 .works_title_desc{
 	font-family:'TTNormsRegular';
 	font-size:$body_text;
@@ -1453,7 +1453,7 @@ position:relative;
 min-height:460px;
 	width:100%;
 	background:#ffffff;
-	margin:104px 6%;
+	margin:104px 8%;
 	margin-top:180px;
 	overflow:visible;
 

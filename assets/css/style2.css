@@ -63,7 +63,7 @@ body {
 
 .intro_title {
   font-family: 'TTNormsMedium';
-  font-size: 48.83px;
+  font-size: 46.88px;
   color: rgba(0, 0, 0, 0.87);
   width: 100%;
   text-align: center;
@@ -81,7 +81,7 @@ body {
 
 .intro_tagline {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
   width: 100%;
   text-align: center;
@@ -347,7 +347,7 @@ text_title_container
 .top_nav_container ul li {
   float: left;
   font-family: 'TTNormsMedium';
-  font-size: 20px;
+  font-size: 19.2px;
   margin-left: 72px;
   list-style-type: none;
   padding-top: 16px;
@@ -440,7 +440,7 @@ text_title_container
 
 .text_title_container {
   font-family: 'TTNormsRegular';
-  font-size: 39.06px;
+  font-size: 37.5px;
   color: rgba(0, 0, 0, 0.87);
   margin-top: 16px; }
 
@@ -452,7 +452,7 @@ text_title_container
 
 .text_desc_container {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
   line-height: 56px;
   width: 88%;
@@ -483,7 +483,7 @@ text_title_container
 .link_container {
   display: inline-block;
   font-family: 'TTNormsRegular';
-  font-size: 16px; }
+  font-size: 15.36px; }
 
 .link_container a {
   padding-bottom: 4px;
@@ -519,7 +519,7 @@ text_title_container
 
 .works_title_text {
   font-family: 'TTNormsRegular';
-  font-size: 39.06px;
+  font-size: 37.5px;
   color: rgba(0, 0, 0, 0.87);
   width: 92%;
   padding-left: 8%; }
@@ -571,7 +571,7 @@ text_title_container
 
 .works_text_container .text_1 {
   font-family: 'TTNormsMedium';
-  font-size: 53px;
+  font-size: 58.59px;
   color: white;
   margin-top: 18%;
   display: inline-block; }
@@ -579,7 +579,7 @@ text_title_container
 .works_text_container .text_2 {
   margin-top: 3%;
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: white; }
 
 .works_new_tab_container {
@@ -679,16 +679,17 @@ text_title_container
 
 .works_bottom_text {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.87);
   line-height: 56px; }
 
 .works_bottom_text a {
   padding: 0px 8px; }
 
+starbu
 .works_title_desc {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   width: 100%;
   color: rgba(0, 0, 0, 0.5);
   padding-top: 16px;
@@ -707,7 +708,7 @@ text_title_container
 
 .footer_title {
   font-family: 'TTNormsRegular';
-  font-size: 39.06px;
+  font-size: 37.5px;
   color: rgba(0, 0, 0, 0.87);
   width: 100%;
   line-height: 60px;
@@ -716,7 +717,7 @@ text_title_container
 
 .footer_title_2 {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
   padding-top: 16px;
   margin-left: 8%; }
@@ -969,7 +970,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
 
 .right_headline {
   font-family: 'TTNormsRegular';
-  font-size: 39.06px;
+  font-size: 37.5px;
   line-height: 64px;
   color: rgba(0, 0, 0, 0.87);
   width: 84%;
@@ -1003,7 +1004,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
 
 .about_title {
   font-family: 'TTNormsMedium';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.87); }
 
 .about_section .about_body {
@@ -1123,7 +1124,7 @@ After#about_container.dark_mode .right_headline {
 
 .works_heading_desc {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
   padding-top: 16px;
   margin-left: 8%;
@@ -1134,7 +1135,7 @@ After#about_container.dark_mode .right_headline {
   min-height: 460px;
   width: 100%;
   background: #ffffff;
-  margin: 104px 6%;
+  margin: 104px 8%;
   margin-top: 180px;
   overflow: visible;
   opacity: 0;
@@ -1224,7 +1225,7 @@ After#about_container.dark_mode .right_headline {
   display: inline-block;
   color: #00B019;
   font-family: 'TTNormsMedium';
-  font-size: 16px;
+  font-size: 15.36px;
   padding-bottom: 6px;
   border-bottom: 2px solid #00B019;
   text-transform: uppercase;
@@ -1239,7 +1240,7 @@ After#about_container.dark_mode .right_headline {
 
 .works_timeline_container {
   font-family: 'TTNormsRegular';
-  font-size: 16px;
+  font-size: 15.36px;
   padding-left: 16px;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5); }
@@ -1282,7 +1283,7 @@ After#about_container.dark_mode .right_headline {
 .works_tags {
   padding-top: 16px;
   font-family: 'TTNormsRegular';
-  font-size: 20px;
+  font-size: 19.2px;
   color: rgba(0, 0, 0, 0.5); }
 
 .about_body ul li {
@@ -1303,7 +1304,7 @@ After#about_container.dark_mode .right_headline {
 
 .list_caption {
   font-family: 'TTNormsRegular';
-  font-size: 20px;
+  font-size: 19.2px;
   color: rgba(255, 255, 255, 0.9);
   line-height: 24px;
   display: inline-block;
@@ -1499,7 +1500,7 @@ After#about_container.dark_mode .right_headline {
 
 .works_tag_container {
   font-family: 'TTNormsRegular';
-  font-size: 16px;
+  font-size: 15.36px;
   color: #004FE5;
   text-transform: uppercase;
   padding: 16px 0px; }
@@ -1594,7 +1595,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
 
 .menu_inner_container ul li a {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: #fff;
   text-decoration: none;
   cursor: pointer; }
@@ -1654,14 +1655,14 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     overflow-x: hidden; }
 
   .text_title_container .anim_container .anim_item {
-    font-size: 30.5px; }
+    font-size: 30px; }
 
   .intro_title {
     margin-top: 40%;
-    font-size: 39.06px; }
+    font-size: 37.5px; }
 
   .intro_tagline {
-    font-size: 30.5px; }
+    font-size: 30px; }
 
   .top_pattern_container {
     display: none; }
@@ -1703,7 +1704,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     height: 160px; }
 
   .text_desc_container .anim_container .anim_item {
-    font-size: 20px;
+    font-size: 19.2px;
     line-height: 40px; }
 
   .text_desc_container .anim_container .anim_item .anim_item, .text_desc_container .anim_container .anim_item {
@@ -1720,13 +1721,13 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     display: inline; }
 
   .past_experiences_container .past_body a {
-    font-size: 20px; }
+    font-size: 19.2px; }
 
   .past_experiences_container .anim_container .anim_item:nth-child(2) {
     display: block; }
 
   .works_title_text .anim_container .anim_item {
-    font-size: 30.5px; }
+    font-size: 30px; }
 
   .works_heading_desc .anim_container .anim_item {
     font-size: 24px; }
@@ -1763,7 +1764,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     margin-left: 0px; }
 
   .footer_title {
-    font-size: 30.5px;
+    font-size: 30px;
     line-height: 48px;
     width: 88%; }
 
@@ -1785,10 +1786,10 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .intro_title {
     margin-top: 40%;
-    font-size: 39.06px; }
+    font-size: 37.5px; }
 
   .intro_tagline {
-    font-size: 30.5px; }
+    font-size: 30px; }
 
   .top_pattern_container {
     display: none; }
@@ -1830,7 +1831,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     height: 160px; }
 
   .text_desc_container .anim_container .anim_item {
-    font-size: 20px;
+    font-size: 19.2px;
     line-height: 40px; }
 
   .text_desc_container .anim_container .anim_item .anim_item, .text_desc_container .anim_container .anim_item {
@@ -1847,13 +1848,13 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     display: inline; }
 
   .past_experiences_container .past_body a {
-    font-size: 20px; }
+    font-size: 19.2px; }
 
   .past_experiences_container .anim_container .anim_item:nth-child(2) {
     display: block; }
 
   .works_title_text .anim_container .anim_item {
-    font-size: 30.5px; }
+    font-size: 30px; }
 
   .works_heading_desc .anim_container .anim_item {
     font-size: 24px; }
@@ -1886,7 +1887,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     margin-left: 0px; }
 
   .footer_title {
-    font-size: 30.5px;
+    font-size: 30px;
     line-height: 48px;
     width: 88%; }
 
@@ -1908,10 +1909,10 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
 @media only screen and (max-width: 320px) {
   .intro_title {
     margin-top: 40%;
-    font-size: 39.06px; }
+    font-size: 37.5px; }
 
   .intro_tagline {
-    font-size: 30.5px; }
+    font-size: 30px; }
 
   .top_pattern_container {
     display: none; }
@@ -1953,7 +1954,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     height: 160px; }
 
   .text_desc_container .anim_container .anim_item {
-    font-size: 20px;
+    font-size: 19.2px;
     line-height: 40px; }
 
   .text_desc_container .anim_container .anim_item .anim_item, .text_desc_container .anim_container .anim_item {
@@ -1970,7 +1971,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     display: inline; }
 
   .past_experiences_container .past_body a {
-    font-size: 20px; }
+    font-size: 19.2px; }
 
   .past_experiences_container .anim_container .anim_item:nth-child(2) {
     display: block; }
@@ -2003,7 +2004,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     margin-left: 0px; }
 
   .footer_title {
-    font-size: 30.5px;
+    font-size: 30px;
     line-height: 48px;
     width: 88%; }
 
