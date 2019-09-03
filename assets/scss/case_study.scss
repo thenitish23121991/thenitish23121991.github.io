@@ -73,8 +73,8 @@ $text_white_disabled: rgba(255,255,255,.3);
 $title_large_text_2: 61.06 + px;
 $title_large_text: 53 + px;
 $title_text: 48.83 + px;
-$subtitle_text: 39.06 + px;
-$body_text: 30.5 + px;
+$subtitle_text: 37.50 + px;
+$body_text: 30 + px;
 $caption_text_halved: 20 + px; 
 $caption_text: 24px;
 $smaller_caption: 16px;
@@ -690,7 +690,7 @@ background: $litewallet_background;
 
 
 .quotes_container{
-	margin:40px 0px;
+	margin:64px 0px 40px 0px;
 	icon_backmin-height:64px;
 }
 
@@ -703,7 +703,7 @@ background: $litewallet_background;
 
 
 .quotes_text_container{
-padding:0px 32px;
+padding:0px 40px;
 border-left:8px solid $primary_color;
 }
 
@@ -736,6 +736,7 @@ font-size:$body_text;
 .other_case_studies_content{
 margin:24px 0px 0px 0px;	
 }
+
 
 
 

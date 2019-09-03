@@ -78,7 +78,7 @@ a {
 .cover_content_desc {
   padding-top: 32px;
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
   width: 100%;
   text-align: center; }
@@ -229,7 +229,7 @@ a {
 
 .project_tagline {
   font-family: 'TTNormsRegular';
-  font-size: 39.06px;
+  font-size: 37.5px;
   color: rgba(0, 0, 0, 0.5);
   margin: 24px 0px;
   line-height: 56px; }
@@ -240,7 +240,7 @@ a {
 
 .project_role {
   font-family: 'TTNormsMedium';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.87);
   padding-left: 0px; }
 
@@ -254,7 +254,7 @@ a {
 
 .project_timeline {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   font-size: rgba(0, 0, 0, 0.87); }
 
 .project_desc {
@@ -265,7 +265,7 @@ a {
 .project_desc p {
   font-family: 'TTNormsRegular';
   color: rgba(0, 0, 0, 0.87);
-  font-size: 30.5px;
+  font-size: 30px;
   line-height: 56px;
   width: 100%;
   margin-top: 16px; }
@@ -296,7 +296,7 @@ a {
 
 .title_text {
   font-family: 'TTNormsMedium';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.87);
   margin-top: 16px; }
 
@@ -331,7 +331,7 @@ a {
 
 .stats_text {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   line-height: 48px;
   margin-top: 16px;
   width: 100%;
@@ -410,7 +410,7 @@ a {
 
 .subsection_title {
   font-family: 'TTNormsMedium';
-  font-size: 30.5px; }
+  font-size: 30px; }
 
 .credits_container {
   padding-top: 24px;
@@ -514,7 +514,7 @@ a {
   background: #000000; }
 
 .quotes_container {
-  margin: 40px 0px;
+  margin: 64px 0px 40px 0px;
   icon_backmin-height: 64px; }
 
 #litewallet_container .section .quotes_container .quotes_text_container {
@@ -524,12 +524,12 @@ a {
   border-left: 8px solid #000000; }
 
 .quotes_text_container {
-  padding: 0px 32px;
+  padding: 0px 40px;
   border-left: 8px solid #004FE5; }
 
 .quote_text {
   font-family: 'TTNormsMedium';
-  font-size: 30.5px;
+  font-size: 30px;
   line-height: 44px; }
 
 .quote_author {
@@ -547,7 +547,7 @@ a {
 
 .other_case_studies_text {
   font-family: 'TTNormsMedium';
-  font-size: 30.5px;
+  font-size: 30px;
   text-align: center; }
 
 .other_case_studies_content {
@@ -598,7 +598,7 @@ a {
 .works_text_container .text_2 {
   margin-top: 3%;
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: white; }
 
 #litewallet_work_container .works_cover_container {
@@ -813,7 +813,7 @@ a {
 
 .footer_title {
   font-family: 'TTNormsRegular';
-  font-size: 39.06px;
+  font-size: 37.5px;
   color: rgba(0, 0, 0, 0.87);
   width: 100%;
   line-height: 60px;
@@ -822,7 +822,7 @@ a {
 
 .footer_title_2 {
   font-family: 'TTNormsRegular';
-  font-size: 30.5px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
   padding-top: 16px;
   margin-left: 8%; }
