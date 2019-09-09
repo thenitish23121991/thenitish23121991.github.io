@@ -11,8 +11,28 @@
   margin: 0px;
   padding: 0px; }
 
+.gradient_text {
+  background: linear-gradient(to right, #004FE5 50%, #00B019 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 a {
   padding-bottom: 4px; }
+
+.link_bound {
+  display: inline-block;
+  transition: all .16s ease-out 0s;
+  -webkit-transition: all .16s ease-out 0s;
+  -moz-transition: all .16s ease-out 0s;
+  -ms-transition: all .16s ease-out 0s;
+  -o-transition: all .16s ease-out 0s; }
+
+.link_bound:hover {
+  transform: translateY(-8px);
+  -webkit-transform: translateY(-8px);
+  -moz-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  -o-transform: translateY(-8px); }
 
 html, body {
   min-height: 100%;
@@ -29,7 +49,10 @@ body {
 .primary_color {
   color: #004FE5; }
 
-a.primary_color {
+.litewallet_color {
+  color: #4488FF; }
+
+a.litewallet_color {
   text-decoration: none;
   padding-bottom: 4px;
   transition: all .15s ease 0s;
@@ -38,7 +61,7 @@ a.primary_color {
   -ms-transition: all .15s ease 0s;
   -o-transition: all .15s ease 0s; }
 
-a.primary_color:hover {
+a.litewallet_color:hover {
   border-bottom: 2px solid #004FE5; }
 
 #about_container ol, #about_container ul {
@@ -96,6 +119,15 @@ a.primary_color:hover {
   -moz-transition: all .24s ease 0s .45s;
   -ms-transition: all .24s ease 0s .45s;
   -o-transition: all .24s ease 0s .45s; }
+
+.intro_title .anim_container .anim_item.hide {
+  opacity: 0; }
+
+.intro_tagline .anim_container .anim_item.hide {
+  opacity: 0; }
+
+.intro_container.hide {
+  display: none; }
 
 .anim_container {
   display: inline-block;
@@ -516,6 +548,10 @@ text_title_container
   color: #00AC6C;
   border-bottom: 2px solid #00AC6C; }
 
+.past_experiences_container .past_body:hover {
+  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px); }
+
 .seperator {
   height: 6px;
   width: 6px;
@@ -670,8 +706,8 @@ text_title_container
   background-image: url("../images/goqii_background.jpg"); }
 
 #pvr_cinemas_work_container .works_cover_container {
-  background-image: url("../images/pvr_cinemas_cover.svg");
-  background-position: 0px -210px; }
+  background-image: url("../images/PVR Design Guidelines Cover.jpg");
+  background-position: 0px 0px; }
 
 #studycopter_work_container .works_cover_container {
   background-image: url("../images/studycopter_cover.png"); }
@@ -697,7 +733,6 @@ text_title_container
 .works_bottom_text a {
   padding: 0px 8px; }
 
-starbu
 .works_title_desc {
   font-family: 'TTNormsRegular';
   font-size: 30px;
@@ -1456,7 +1491,12 @@ After#about_container.dark_mode .right_headline {
   -o-transition: all .1s ease 0s; }
 
 .past_experiences_container a.pvr_cinemas_link {
-  color: #000000; }
+  color: #000000;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1); }
 
 .past_experiences_container a.pvr_cinemas_link:hover {
   border-bottom: 2px solid #000000; }
@@ -1611,7 +1651,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
   text-decoration: none;
   cursor: pointer; }
 
-.menu_inner_container ul li:nth-child(3) a {
+.menu_inner_container ul li.process_list_item a {
   color: rgba(255, 255, 255, 0.7); }
 
 .menu_container.visible .menu_inner_container ul li {
@@ -1763,7 +1803,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
     left: 0%; }
 
   .footer {
-    margin-top: 72px; }
+    margin-top: 144px; }
 
   .footer_segment a {
     margin-top: 24px;

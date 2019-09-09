@@ -76,9 +76,36 @@ $goqii_color:#4477ff;
 
 $cubic_anim: cubic-bezier(0.215, 0.61, 0.355, 1);
 
+.gradient_text{
+background: linear-gradient(to right, $primary_color 50%, $accent_color 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 a{
 	padding-bottom:4px;
+}
+
+
+.link_bound{
+	display:inline-block;
+
+	transition:all .16s ease-out 0s;
+		-webkit-transition:all .16s ease-out 0s;
+			-moz-transition:all .16s ease-out 0s;
+				-ms-transition:all .16s ease-out 0s;
+					-o-transition:all .16s ease-out 0s;
+
+}
+
+.link_bound:hover{
+
+transform:translateY(-8px);	
+-webkit-transform:translateY(-8px);	
+-moz-transform:translateY(-8px);	
+-ms-transform:translateY(-8px);	
+-o-transform:translateY(-8px);	
 }
 
 
@@ -106,7 +133,13 @@ body{
 	color:$primary_color;
 }
 
-a.primary_color{
+
+.litewallet_color{
+	color:$litewallet_color;
+}
+
+
+a.litewallet_color{
 	text-decoration:none;
 	padding-bottom:4px;
 
@@ -116,8 +149,10 @@ a.primary_color{
 				-ms-transition:all .15s ease 0s;
 					-o-transition:all .15s ease 0s;
 }
-a.primary_color:hover{
+a.litewallet_color:hover{
 	border-bottom:2px solid $primary_color;
+
+
 }
 
 
@@ -189,6 +224,18 @@ a.primary_color:hover{
 				-ms-transition:all .24s ease 0s .45s;
 					-o-transition:all .24s ease 0s .45s;
 }
+
+
+.intro_title .anim_container .anim_item.hide{
+opacity:0;
+}
+.intro_tagline .anim_container .anim_item.hide{
+opacity:0;
+}
+.intro_container.hide{
+	display:none;
+}
+
 
 .anim_container{
 display:inline-block;
@@ -394,7 +441,7 @@ opacity:0;
 
 
 
-						transition:all 1.4s $cubic_anim 0s;
+		transition:all 1.4s $cubic_anim 0s;
 		-webkit-transition:all 1.4s $cubic_anim 0s;
 			-moz-transition:all 1.4s $cubic_anim 0s;
 				-ms-transition:all 1.4s $cubic_anim 0s;
@@ -712,6 +759,12 @@ display:inline-block;
 
 	border-bottom:2px solid $medium_color;
 }
+
+.past_experiences_container .past_body:hover{
+	transform:translateY(-4px);	
+	-webkit-transform:translateY(-4px);
+}
+
 .seperator{
 	height:6px;
 	width:6px;
@@ -890,8 +943,8 @@ background-image:url('../images/Litewallet Mockup.jpg');
 	background-image:url('../images/goqii_background.jpg');
 }
 #pvr_cinemas_work_container .works_cover_container{ 
-	background-image:url('../images/pvr_cinemas_cover.svg');
-	background-position:0px -210px;
+	background-image:url('../images/PVR Design Guidelines Cover.jpg');
+	background-position:0px 0px;
 }
 #studycopter_work_container .works_cover_container{
 	background-image:url('../images/studycopter_cover.png');
@@ -919,7 +972,7 @@ line-height:56px;
 .works_bottom_text a{
 	padding:0px 8px;
 }
-starbu
+
 .works_title_desc{
 	font-family:'TTNormsRegular';
 	font-size:$body_text;
@@ -1863,7 +1916,16 @@ margin-top:0px;
 }
 .past_experiences_container a.pvr_cinemas_link{
 color:$pvr_cinemas_color;
+
+	transform:scale(1);
+		-webkit-transform:scale(1);
+			-moz-transform:scale(1);
+				-ms-transform:scale(1);
+					-o-transform:scale(1);
 }
+
+
+
 
 .past_experiences_container a.pvr_cinemas_link:hover{
 	border-bottom:2px solid $pvr_cinemas_color;
@@ -1886,7 +1948,8 @@ color:$amituslab_color;
 	border-bottom:2px solid $amituslab_color;
 }
 
-
+.past_experiences_container a:hover{
+}
 
 
 .past_text{
@@ -2061,7 +2124,7 @@ opacity:0;
 
 }
 
-.menu_inner_container ul li:nth-child(3) a{
+.menu_inner_container ul li.process_list_item a{
 	color:$text_white_light;
 }
 
@@ -2274,7 +2337,7 @@ width:90%;
 }
 
 .footer{
-	margin-top:72px;
+	margin-top:144px;
 }
 
 .footer_segment a{
@@ -2735,3 +2798,4 @@ width:88%;
 @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5){
 	
 }
+

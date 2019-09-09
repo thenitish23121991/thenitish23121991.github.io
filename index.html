@@ -147,7 +147,7 @@ opacity:0;
     
 <li><a href="index.html#works_container">Works</a></li>
 <li><a href="about.html">About Me</a></li>
-<li><a href="javascript:void(0);">Process</a></li>
+<li><a href="assets/Resume 2019.pdf">Resume</a></li>
 <li><a href="#footer">Contact</a></li>
 
 </ul>
@@ -391,8 +391,8 @@ opacity:0;
 
 <div class="top_text_container">
 
-<div class="text_title_container"><div class="anim_container"><div class="anim_item from_below">Hi, I'm Nitish,</div> <div class="anim_item from_below delay_2">a product designer.</div></div></div>
-<div class="text_title_container"><div class="anim_container second_line"><div class="anim_item from_below"><div class="anim_item from_below">I currently work</div> <div class="anim_item from_below delay_2">as the lead designer</div> <div class="anim_item from_below delay_3">for <a class="primary_color" href="http://www.golitewallet.com">Litewallet.</a></div></div></div></div>
+<div class="text_title_container"><div class="anim_container"><div class="anim_item from_below">Hi, I'm Nitish,</div> <div class="anim_item from_below delay_2">a <span class="gradient_text">product designer</span>.</div></div></div>
+<div class="text_title_container"><div class="anim_container second_line"><div class="anim_item from_below"><div class="anim_item from_below">I currently work</div> <div class="anim_item from_below delay_2">as the lead designer</div> <div class="anim_item from_below delay_3">for <div class="link_bound"><a class="litewallet_color" href="http://www.golitewallet.com">Litewallet.</a> </div>   </div></div></div></div>
 <!--
 
 <div class="text_title_container"><div class="anim_container"><div class="anim_item from_below">I am based out of New Delhi.</div></div></div>
@@ -422,7 +422,7 @@ opacity:0;
 </div>
 
 <div class="anim_item from_below delay_2">
-<div class="past_body" id="pvr_cinemas"><a class="pvr_cinemas_link" href="https://www.pvrcinemas.com" target="_blank">PVR Cinemas</a></div>, <div class="past_body" id="studycopter"><a class="studycopter_link" href="https://www.studycopter.com" target="_blank">Studycopter</a></div>, <div class="past_body" id="amituslab"><a class="amituslab_link" href="https://www.amituslab.com" target="_blank">AmitusLab</a></div>
+<div class="past_body" id="pvr_cinemas"><div class="link_bound"><a class="pvr_cinemas_link" href="https://www.pvrcinemas.com" target="_blank">PVR Cinemas</a></div></div>, <div class="past_body" id="studycopter"> <div class="link_bound"><a class="studycopter_link" href="https://www.studycopter.com" target="_blank">Studycopter</a></div></div>, <div class="past_body" id="amituslab"><div class="link_bound"><a class="amituslab_link" href="https://www.amituslab.com" target="_blank">AmitusLab</a></div></div>
 </div>
 
 
@@ -1024,7 +1024,7 @@ var actual_scroll = (scrollPosition-$(window).height());
 console.log(actual_scroll+' '+works_top);
 
 
-if(actual_scroll > (works_top-840)){
+if(actual_scroll > (works_top-980)){
 
 $('.works_title_text .anim_item').addClass('visible');
 
@@ -1336,6 +1336,14 @@ setTimeout(function(){
 
 intro_title.addClass('hide');
 intro_tagline.addClass('hide');
+
+
+setTimeout(function(){
+
+
+$('.intro_container').addClass('hide');
+
+},1000);
 
 
 },2400);
