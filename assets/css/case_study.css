@@ -116,6 +116,9 @@ a {
   width: 100%;
   background: rgba(0, 0, 0, 0.45); }
 
+#pvr_cinemas_container .cover_overlay {
+  background: none; }
+
 .cover_logo {
   position: absolute;
   top: 8%;
