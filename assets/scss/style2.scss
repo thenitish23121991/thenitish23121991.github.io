@@ -662,7 +662,7 @@ width:100%;
 .pattern_right{
 	position:absolute;
     top:-14%; 
-	right:-14%; 
+	right:-18%; 
 	padding-top:0%;
 }
 
@@ -802,9 +802,19 @@ padding-left:8%;
 }
 .works_title_line{
 	height:4px;
-	width:64px;
+	width:0px;
 	background:$primary_color;
 	display:inline-block;
+
+	transition:all .6s $cubic_anim .8s;
+	-webkit-transition:all .6s $cubic_anim .8s;
+	-moz-transition:all .6s $cubic_anim .8s;
+	-ms-transition:all .6s $cubic_anim .8s;
+	-o-transition:all .6s $cubic_anim .8s;
+}
+
+.title_line_container.visible .works_title_line{
+width:64px;	
 }
 
 .wworks_title_textorks_content_container{
