@@ -527,11 +527,12 @@ opacity:0;
 	height:64px;
 	overflow:hidden;
 }
-.text_desc_container .anim_container{
-	height:60px;
+.text_desc_container .anim_container:nth-child(1){
+	height:120px;
 }
 .text_desc_container .anim_container:nth-child(2){
 	margin-top:-16px;
+	height:60px;
 }
 text_title_container
 
