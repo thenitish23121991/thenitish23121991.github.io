@@ -12,9 +12,13 @@
   padding: 0px; }
 
 .gradient_text {
-  background: linear-gradient(to right, #004FE5 50%, #00B019 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  /*
+  
+  background: linear-gradient(to right, $primary_color 50%, $accent_color 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  */ }
 
 a {
   padding-bottom: 4px; }
@@ -50,7 +54,7 @@ body {
   color: #004FE5; }
 
 .litewallet_color {
-  color: #4488FF; }
+  color: #3600B3; }
 
 a.litewallet_color {
   text-decoration: none;
@@ -566,7 +570,7 @@ text_title_container
   margin-top: -24px; }
 
 .works_container {
-  padding-top: 8%; }
+  padding-top: 2%; }
 
 .works_title_text {
   font-family: 'TTNormsRegular';

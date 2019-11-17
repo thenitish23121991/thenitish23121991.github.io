@@ -65,8 +65,6 @@ $goqii_color:#4477ff;
 $litewallet_background: #0052E9;
 
 
-
-
 $behance_color: #1769FF; 
 $linkedin_color: #4078C0;
 $medium_color: #00AC6C;
@@ -131,6 +129,11 @@ width:100%;
 }
 
 
+
+
+
+
+
 .cover_content_container{
 	position:absolute;
 	top:41%;
@@ -163,7 +166,6 @@ font-size:$title_large_text;
 	width:100%;
 	background-image:url('../images/Litewallet Mockup.jpg');
 	background-size:cover;
-	background-attachment:fixed;
 }
 
 #pvr_cinemas_container .cover_background{
@@ -455,6 +457,7 @@ margin-top:16px;
 }
 
 
+
 .single_image_with_text{
 	padding:64px 8% 40px 0%;
 	width:84%;
@@ -488,6 +491,7 @@ margin-top:16px;
 	height:360px;
 	width:202px;
 
+}
 
 #pvr_cinemas_container .multiple_images img{
 	height:426px;
@@ -886,6 +890,12 @@ display:inline-block;
 
 
 
+
+
+
+
+
+
 .works_tag_container{
 	font-family:'TTNormsRegular';
 	font-size:$smaller_caption;
@@ -1227,5 +1237,10 @@ width:240px;
 	background:#fff;
 	text-align:center;
 }
+
+
+
+
+
 
 
