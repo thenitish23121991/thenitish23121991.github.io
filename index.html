@@ -150,7 +150,7 @@ Loading...
 </div>
 
 
-<div class="container">
+<div class="container" id="container">
 
 <div data-scroll>
 
@@ -969,11 +969,6 @@ $(window).bind('load',function(){
 
 
 
-
-
-
-
-
 const math = {
     lerp: (a, b, n) => {
         return (1 - n) * a + n * b
@@ -1020,7 +1015,7 @@ class Smooth {
       left: 0,
       height: '100%',
       width: '100%',
-      overflow: 'hidden'        
+      overflow: 'hidden'      
     })   
   }
 
@@ -1110,10 +1105,10 @@ class Smooth {
   }
 }
 
+
+
+
 new Smooth();
-
-
-
 
 
 
@@ -1185,6 +1180,8 @@ kickoff_rects();
 
 
 kickoff_intro();
+
+new Smooth();
 
 }
 
