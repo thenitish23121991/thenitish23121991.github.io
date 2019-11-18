@@ -388,7 +388,7 @@ font-size:$text_dark_color;
 }
 
 .section{
-	padding:32px 0px 40px 0px;
+	padding:32px 0px 0px 0px;
 	width:100%;
 	color:$text_dark_color;
 }
@@ -414,7 +414,7 @@ margin-top:16px;
 	font-family:'TTNormsMedium';
 	font-size:$body_text;
 	color:$text_dark_color;
-	margin-top:16px;
+	margin-top:8px;
 }
 .para{
 	margin-top:32px;
@@ -478,6 +478,7 @@ margin-top:16px;
 }
 
 .multiple_images_container{
+margin-top:48px;
 		padding:64px 0% 40px 0%;
 	width:100%;
 	background:#eeeeee;

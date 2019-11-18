@@ -261,7 +261,7 @@ a {
   margin-top: 0px; }
 
 .section {
-  padding: 32px 0px 40px 0px;
+  padding: 32px 0px 0px 0px;
   width: 100%;
   color: rgba(0, 0, 0, 0.87); }
 
@@ -285,7 +285,7 @@ a {
   font-family: 'TTNormsMedium';
   font-size: 30px;
   color: rgba(0, 0, 0, 0.87);
-  margin-top: 16px; }
+  margin-top: 8px; }
 
 .para {
   margin-top: 32px;
@@ -342,6 +342,7 @@ a {
   text-align: center; }
 
 .multiple_images_container {
+  margin-top: 48px;
   padding: 64px 0% 40px 0%;
   width: 100%;
   background: #eeeeee; }
