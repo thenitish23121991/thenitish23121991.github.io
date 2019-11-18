@@ -347,6 +347,9 @@ a {
   width: 100%;
   background: #eeeeee; }
 
+.multiple_images_container.no_margin {
+  margin-top: 0px; }
+
 .multiple_images {
   width: 100%;
   text-align: center; }
@@ -487,7 +490,7 @@ a {
   background: #fff;
   padding-bottom: 40px; }
 
-.multiple_images_container.dark_background .single_image_text {
+.multiple_images_container.white_background .single_image_text {
   color: rgba(0, 0, 0, 0.87); }
 
 .subsection.dark_background {

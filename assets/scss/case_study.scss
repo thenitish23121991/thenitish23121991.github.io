@@ -483,6 +483,11 @@ margin-top:48px;
 	width:100%;
 	background:#eeeeee;
 }
+
+.multiple_images_container.no_margin{
+	margin-top:0px;
+}
+
 .multiple_images{
 		width:100%;
 	text-align:center;
@@ -655,7 +660,7 @@ background: $litewallet_background;
 }
 
 
-.multiple_images_container.dark_background .single_image_text{
+.multiple_images_container.white_background .single_image_text{
 	color:$text_dark_color;
 }
 
