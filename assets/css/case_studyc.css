@@ -43,7 +43,7 @@ a {
   margin: 1% 0%;
   width: 100%;
   height: 96%;
-  min-height: 560px;
+  min-height: 480px;
   position: relative; }
 
 .cover_content_container {
@@ -84,8 +84,7 @@ a {
 
 #pvr_cinemas_app_container .cover_background {
   background-image: url("../images/PVR Cinemas Cover.jpg");
-  background-size: cover;
-  background-position: 0px -180px; }
+  background-size: cover; }
 
 #crosschecks_container .cover_background {
   background-image: url("../images/Crosschecks Cover.jpg");
@@ -333,11 +332,11 @@ a {
   width: 100%; }
 
 .single_image_inner {
-  height: 720px;
+  height: 480px;
   width: 100%;
   background-size: cover; }
 
-.single_image_inner.prebooking {
+.single_image_cover.prebooking {
   background-image: url("../images/screens/pvr/Prebooking Mockup.jpg"); }
 
 .single_image_with_text.centered .single_image {
@@ -966,4 +965,4 @@ a {
   background: #fff;
   text-align: center; }
 
-/*# sourceMappingURL=case_study.css.map */
+/*# sourceMappingURL=case_studyc.css.map */

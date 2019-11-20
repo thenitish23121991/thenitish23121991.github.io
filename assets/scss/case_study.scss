@@ -123,7 +123,7 @@ width:100%;
 	margin:1% 0%;
 	width:100%;
 	height:96%;
-	min-height:480px;
+	min-height:560px;
 	position:relative; 
 
 }
@@ -176,6 +176,7 @@ font-size:$title_large_text;
 #pvr_cinemas_app_container .cover_background{
 		background-image:url('../images/PVR Cinemas Cover.jpg');
 	background-size:cover;
+	background-position:0px -180px; 
 }
 
 #crosschecks_container .cover_background{
@@ -465,6 +466,19 @@ margin-top:16px;
 .single_image{
 	width:100%;
 }
+
+.single_image_inner{
+	height:720px;
+	width:100%;
+background-size:cover;
+}
+
+.single_image_inner.prebooking{
+	
+	background-image:url('../images/screens/pvr/Prebooking Mockup.jpg');
+}
+
+
 .single_image_with_text.centered .single_image{
 	
 	text-align:center;
