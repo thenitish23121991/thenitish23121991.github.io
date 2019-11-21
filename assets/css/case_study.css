@@ -108,6 +108,10 @@ a {
   background-image: url("../images/screens/murals/wall_mockup_1.jpg");
   background-size: cover; }
 
+#feetapart_container .cover_background {
+  background-image: url("../images/Feetapart Cover.png");
+  background-size: cover; }
+
 .cover_overlay {
   position: absolute;
   top: 0px;
@@ -378,6 +382,10 @@ a {
 #pvr_cinemas_container .multiple_images img.mockup, #pvr_cinemas_app_container .multiple_images img.mockup {
   height: 460px;
   width: 228px; }
+
+#feetapart_container .multiple_images_container img.mockup, #feetapart_container .multiple_images img.mockup {
+  height: 435px;
+  width: 212px; }
 
 #pvr_cinemas_app_container .multiple_images img.mockup_markings {
   height: 492px;

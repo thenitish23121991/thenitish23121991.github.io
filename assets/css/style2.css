@@ -139,11 +139,11 @@ a.litewallet_color:hover {
 
 .anim_item {
   display: inline-block;
-  transition: all 1300ms cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -webkit-transition: all 1300ms cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -moz-transition: all 1300s cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -ms-transition: all 1300ms cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -o-transition: all 0.55s cubic-bezier(0.5, 0, 0.08, 1) 0s; }
+  transition: all 1300ms cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -webkit-transition: all 1300ms cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -moz-transition: all 1300s cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -ms-transition: all 1300ms cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -o-transition: all 0.55s cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s; }
 
 .anim_item.from_up {
   opacity: 1;
@@ -290,11 +290,11 @@ a.litewallet_color:hover {
   -moz-transform: translateY(-140px);
   -ms-transform: translateY(-140px);
   -o-transform: translateY(-140px);
-  transition: all 1900ms cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -webkit-transition: all 1900ms cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -moz-transition: all 1900ms cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -ms-transition: all 1900ms cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -o-transition: all 1900ms cubic-bezier(0.5, 0, 0.08, 1) 0s; }
+  transition: all 1900ms cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -webkit-transition: all 1900ms cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -moz-transition: all 1900ms cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -ms-transition: all 1900ms cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -o-transition: all 1900ms cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s; }
 
 .anim_item.go_below {
   transform: translateY(80px);
@@ -304,11 +304,11 @@ a.litewallet_color:hover {
   -o-transform: translateY(80px); }
 
 .anim_item.visible {
-  transition: all 0.65s cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -webkit-transition: all 0.65s cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -moz-transition: all 0.45s cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -ms-transition: all 0.45s cubic-bezier(0.5, 0, 0.08, 1) 0s;
-  -o-transition: all 0.45s cubic-bezier(0.5, 0, 0.08, 1) 0s; }
+  transition: all 0.65s cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -webkit-transition: all 0.65s cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -moz-transition: all 0.45s cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -ms-transition: all 0.45s cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s;
+  -o-transition: all 0.45s cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s; }
 
 .text_desc_container .anim_container .anim_item.from_below, .past_experiences .anim_container .anim_item.from_below {
   opacity: 0;
@@ -734,6 +734,10 @@ text_title_container
 #pvr_cinemas_app_work_container .works_cover_container {
   background-image: url("../images/PVR Cinemas Cover.jpg");
   background-position: 0px -90px; }
+
+#feetapart_work_container .works_cover_container {
+  background-image: url("../images/Feetapart Cover.png");
+  background-position: 0px 0px; }
 
 .works_bottom_container {
   margin-top: 64px;

@@ -206,6 +206,12 @@ font-size:$title_large_text;
 }
 
 
+#feetapart_container .cover_background{
+	background-image:url('../images/Feetapart Cover.png');
+	background-size:cover;
+}
+
+
 #pvr_cinemas_container .cover_overlay, #crosschecks_container .cover_overlay{
 
 }
@@ -526,6 +532,12 @@ box-shadow:none;
 height:460px;
 width:228px;	
 }
+
+#feetapart_container .multiple_images_container img.mockup, #feetapart_container .multiple_images img.mockup{
+height:435px;
+width:212px;	
+}
+
 
 #pvr_cinemas_app_container .multiple_images img.mockup_markings{
 	height:492px;

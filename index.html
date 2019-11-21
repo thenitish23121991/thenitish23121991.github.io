@@ -626,6 +626,59 @@ print products. I am currently available for freelance work.
 
 
 
+<div class="works_single_container" id="feetapart_work_container">
+
+<a href="case study/feetapart.html" target="_blank">
+
+<div class="works_left_container">
+
+
+<div class="works_cover_container"></div>
+
+
+
+</div>
+
+
+<div class="works_right_container">
+    <div class="right_text_container">
+
+    <div class="works_tag_container">ANDROID AND IOS APP</div>
+
+
+        <div class="works_text_desc"><a href="case study/feetapart.html" target="_blank">I worked with Litewallet to ensure small stores to maximise their potential and manage their customers better.</a></div>
+
+
+        <div class="works_detail_container">
+
+<div class="works_text_title">Feetapart</div>
+
+<div class="works_timeline_container">Sep 2019 - Currently</div>
+
+
+    </div>
+
+
+</div>
+
+
+<div class="works_actions_container">
+
+
+
+</div>
+
+
+</div>
+
+</a>
+
+</div>
+
+
+
+
+
 
 
 <div class="works_single_container" id="litewallet_work_container">
@@ -1152,6 +1205,7 @@ var crosschecks_pos = document.getElementById('crosschecks_work_container').getB
 var studycopter_pos = document.getElementById('studycopter_work_container').getBoundingClientRect();
 var goqii_pos = document.getElementById('goqii_work_container').getBoundingClientRect();
 var murals_pos = document.getElementById('murals_work_container').getBoundingClientRect();
+var feetapart_pos = document.getElementById('feetapart_work_container').getBoundingClientRect();
 
 var pvr_cinemas_top = pvr_cinemas_pos.top;
 var litewallet_top = litewallet_pos.top;
@@ -1160,6 +1214,7 @@ var crosschecks_top = crosschecks_pos.top;
 var studycopter_top = studycopter_pos.top;
 var goqii_top = goqii_pos.top;
 var murals_top = murals_pos.top;
+var feetapart_top = feetapart_pos.top;
 
 
 var intro_title = $('.intro_container .intro_title .anim_container .anim_item.from_below');
@@ -1325,7 +1380,7 @@ var scale_factor = .15;
 
 var actual_scroll = (scrollPosition-$(window).height());
 
-console.log(actual_scroll+' '+works_top);
+//console.log(actual_scroll+' '+works_top);
 
 
 if(actual_scroll > (works_top-940)){
@@ -1351,6 +1406,12 @@ $('.works_single_container#litewallet_work_container').addClass('visible');
 if(scrollPosition > pvr_cinemas_top-120){
 $('.works_single_container#pvr_cinemas_work_container').addClass('visible');
 }
+
+if(scrollPosition > feetapart_top-120){
+$('.works_single_container#feetapart_work_container').addClass('visible');
+}
+
+
 if(scrollPosition > crosschecks_top-120){
 $('.works_single_container#crosschecks_work_container').addClass('visible');
 }
@@ -1525,7 +1586,7 @@ setTimeout(function(){
 
 white_rects.each(function(){
 
-console.log(this);
+//console.log(this);
 var w_width = $(this).attr('width');
 w_width = parseInt(w_width);
 var w_width_new = w_width+270;
@@ -1693,8 +1754,8 @@ var modulus_random = Math.floor(Math.random()*100);
 var final_x,x_attr,second_final_x;
 var item_id = item_1.getAttribute("id");
 
-console.log('active elements: '+active_anim_objects);
-console.log('item id: '+item_id);
+//console.log('active elements: '+active_anim_objects);
+//console.log('item id: '+item_id);
 
 
 if(active_anim_objects.indexOf(item_id) == -1){
@@ -1702,7 +1763,7 @@ if(active_anim_objects.indexOf(item_id) == -1){
 
 
 
-console.log(modulus_random);
+//console.log(modulus_random);
 
 /*
 
@@ -1746,7 +1807,7 @@ whiz_again(final_x,translate_x,x_attr,item_1,item_id);
 
 }
 else{
-	console.log(active_anim_objects);
+	//console.log(active_anim_objects);
 }
 
 
