@@ -41,8 +41,14 @@ $text_white_disabled: rgba(255,255,255,.3);
 $title_large_text_2: 61.06 + px;
 $title_large_text: 58.59 + px;
 $title_text: 46.88 + px;
-$subtitle_text: 37.50 + px;
-$body_text: 30 + px;
+// $subtitle_text: 37.50 + px;
+
+$subtitle_text: 35 + px;
+
+// $body_text: 30 + px;
+
+$body_text: 27 + px; 
+
 $caption_text_halved: 19.20 + px; 
 $caption_text: 24px;
 $smaller_caption: 15.36px;
@@ -715,10 +721,12 @@ padding-left:16.2%;
 	line-height:56px;
 	width:88%;
 	margin-top:0%;
+	margin-top:-8px;
 } 
 
 .feature_container{
 margin-top:.9%;
+margin-top:0%;
 width:100%;
 }
 .feature{
@@ -1983,6 +1991,7 @@ transform:translateX(30%);
 
 .past_experiences_container{
 margin-top:0px;
+margin-top:-12px;
 }
 
 .past_experiences_container a{
