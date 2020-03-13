@@ -17,22 +17,24 @@ src:url('../fonts/TTNorms-Medium.woff');
 
 
 @font-face{
-src:url('../fonts/FreightText-Book.ttf');
-	font-family:'FreightText';
+src:url('../fonts/TTNorms-Bold.otf');
+	font-family:'TTNormsBold';
 }
+
 
 
 @font-face{
-src:url('../fonts/TiemposText-Regular.ttf');
-	font-family:'LyonText';
+src:url('../fonts/FreightText-Book.ttf');
+	font-family:'FreightText';
 }
-
 
 
 
 $primary_color: #004FE5; 
 $accent_color: #00B019;
 $secondary_color: #1B50B3;
+
+$primary_color_lighter: rgba(0,79,229,.3);
 
 
 $text_dark_color: rgba(0,0,0,0.87);
@@ -1324,4 +1326,32 @@ list-style-position:inside;
 	font-family:'TTNormsRegular';
 }
 
+
+
+
+
+.imp_text{
+display:inline;
+background:$primary_color_lighter;
+color:rgba(0,0,0,.5);
+padding:8px 12px;
+	font-family:'TTNormsMedium'; 
+	font-size:21px;
+}
+
+
+
+.single_image_container{
+	margin:32px 0px;
+	width:100%;
+	text-align:center;
+}
+.single_image_container img{
+	box-shadow:0px 2px 4px 0px rgba(0,0,0,.12);
+
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+-moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+-ms-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+-o-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
 
