@@ -394,8 +394,8 @@ text_title_container
 
 .top_nav_container ul li {
   float: left;
-  font-family: 'TTNormsMedium';
-  font-size: 19.2px;
+  font-family: 'TTNormsRegular';
+  font-size: 17.8px;
   margin-left: 72px;
   list-style-type: none;
   padding-top: 16px;
@@ -486,29 +486,31 @@ text_title_container
   right: -19%; }
 
 .top_text_container {
-  padding-top: 10.6%;
+  padding-top: 12.6%;
   padding-left: 16.2%; }
 
 .text_title_container {
   font-family: 'TTNormsRegular';
-  font-size: 35px;
-  color: rgba(0, 0, 0, 0.87);
-  margin-top: 16px; }
-
-.text_title_container:nth-child(2) {
-  margin-top: 8px; }
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.87); }
 
 .text_title_container:nth-child(3) {
   margin-top: 0px; }
 
 .text_desc_container {
   font-family: 'TTNormsRegular';
-  font-size: 27px;
+  font-size: 25px;
   color: rgba(0, 0, 0, 0.5);
-  line-height: 56px;
+  line-height: 40px;
   width: 88%;
   margin-top: 0%;
   margin-top: -8px; }
+
+.text_desc_container .anim_container .anim_item {
+  line-height: 52px; }
+
+.text_desc_container .anim_container:nth-child(2) {
+  margin-top: -28px; }
 
 .feature_container {
   margin-top: .9%;
