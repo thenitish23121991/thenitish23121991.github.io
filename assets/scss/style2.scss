@@ -20,7 +20,7 @@ src:url('../fonts/FreightText-Book.ttf');
 $primary_color: #004FE5; 
 $accent_color: #00B019;
 
-$secondary_color: #1B50B3;
+$secondary_color: #1a50ad;
 
 
 *{
@@ -589,13 +589,13 @@ display:inline-block;
 }
 .top_nav_container ul li{
 	float:left;
-	font-family:'TTNormsRegular';
+	font-family:'TTNormsMedium';
 	font-size: 17.8px;
 	margin-left:72px;
 	list-style-type:none; 
 	padding-top:16px;
 	cursor:pointer;
-	padding-bottom:8px;
+	padding-bottom:4px;
 
 	transition:all .1s ease-in;
 		-webkit-transition:all .1s ease-in;
@@ -631,7 +631,7 @@ display:inline-block;
 	margin-left:0px;
 }
 .top_nav_container ul li:nth-child(3){
-	margin-top:-24px;
+	margin-top:-20px;
 }
 
 
@@ -802,7 +802,8 @@ display:inline-block;
 
 
 .works_container{
-	padding-top:2%; 
+	padding-top:5%; 
+	padding-bottom:2.5%;
 }
 .works_title_container{
 	
@@ -1032,6 +1033,7 @@ width:100%;
 padding:16px 0px 40px 0px;	
 border-top:2px solid #eee;
 overflow-x:hidden; 
+margin-top:24px;
 }
 .footer_text_container{
 	margin-top:16px;
@@ -1704,11 +1706,17 @@ opacity:1;
 	display:inline-block;
 }
 .works_text_desc{
-	font-family:'TTNormsRegular'; 
+	font-family:'TTNormsMedium'; 
 	font-size:$text_light_color;
 	font-size:$caption_text;
 	line-height:44px;
 	}
+
+.works_text_desc a{
+line-height:48px;
+	color:$secondary_color;
+	padding-bottom:4px;
+}
 
 
 .works_heading_desc .anim_container{
@@ -2112,7 +2120,7 @@ left:0px;
 }
 
 .works_single_container .works_right_container .works_text_desc a{
-	text-decoration:underline;
+	border-bottom:2px solid $secondary_color;
 }
 
 .works_text_desc a:visited{
