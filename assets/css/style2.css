@@ -1603,6 +1603,9 @@ After#about_container.dark_mode .right_headline {
 #amituslab {
   color: #6622cc; }
 
+#stanza_living a {
+  color: #44f155; }
+
 .works_cover_outer_container {
   position: absolute;
   top: 0px;
