@@ -1,9 +1,9 @@
 @font-face {
-  src: url("../fonts/TTNorms-Regular.woff");
-  font-family: 'TTNormsRegular'; }
+  src: url("../fonts/Graphik-Regular.ttf");
+  font-family: 'GraphikRegular'; }
 @font-face {
-  src: url("../fonts/TTNorms-Medium.woff");
-  font-family: 'TTNormsMedium'; }
+  src: url("../fonts/Graphik-Medium.ttf");
+  font-family: 'GraphikMedium'; }
 @font-face {
   src: url("../fonts/FreightText-Book.ttf");
   font-family: 'FreightText'; }
@@ -89,7 +89,7 @@ a.litewallet_color:hover {
   opacity: 0; }
 
 .intro_title {
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   font-size: 46.88px;
   color: rgba(0, 0, 0, 0.87);
   width: 100%;
@@ -107,7 +107,7 @@ a.litewallet_color:hover {
   -o-transition: all .24s ease-in 0s; }
 
 .intro_tagline {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 27px;
   color: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -394,7 +394,7 @@ text_title_container
 
 .top_nav_container ul li {
   float: left;
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   font-size: 17.8px;
   margin-left: 72px;
   list-style-type: none;
@@ -490,7 +490,7 @@ text_title_container
   padding-left: 16.2%; }
 
 .text_title_container {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 32px;
   color: rgba(0, 0, 0, 0.87); }
 
@@ -498,7 +498,7 @@ text_title_container
   margin-top: 0px; }
 
 .text_desc_container {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 25px;
   color: rgba(0, 0, 0, 0.5);
   line-height: 40px;
@@ -521,13 +521,13 @@ text_title_container
   display: inline-block; }
 
 .feature_text {
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   padding: 16px;
   color: white;
   font-size: 24px; }
 
 .feature_text_accent {
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   padding: 0px;
   font-size: 24px;
   color: #00B019; }
@@ -537,7 +537,7 @@ text_title_container
 
 .link_container {
   display: inline-block;
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 15.36px; }
 
 .link_container a {
@@ -578,7 +578,7 @@ text_title_container
   padding-bottom: 2.5%; }
 
 .works_title_text {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 35px;
   color: rgba(0, 0, 0, 0.87);
   width: 92%;
@@ -638,7 +638,7 @@ text_title_container
   padding-left: 6%; }
 
 .works_text_container .text_1 {
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   font-size: 58.59px;
   color: white;
   margin-top: 18%;
@@ -646,7 +646,7 @@ text_title_container
 
 .works_text_container .text_2 {
   margin-top: 3%;
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 27px;
   color: white; }
 
@@ -667,7 +667,7 @@ text_title_container
   width: 24px; }
 
 .new_tab_text_container {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(255, 255, 255, 0.7);
   padding-left: 16px;
@@ -699,7 +699,7 @@ text_title_container
 
 .tab_text_container {
   display: inline-block;
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: white;
   margin-left: 16px; }
@@ -750,7 +750,7 @@ text_title_container
   padding-left: 12%; }
 
 .works_bottom_text {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 27px;
   color: rgba(0, 0, 0, 0.87);
   line-height: 56px; }
@@ -759,7 +759,7 @@ text_title_container
   padding: 0px 8px; }
 
 .works_title_desc {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 27px;
   width: 100%;
   color: rgba(0, 0, 0, 0.5);
@@ -779,7 +779,7 @@ text_title_container
   margin-top: 16px; }
 
 .footer_title {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 35px;
   color: rgba(0, 0, 0, 0.87);
   width: 100%;
@@ -788,14 +788,14 @@ text_title_container
   margin-left: 8%; }
 
 .footer_title_2 {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 27px;
   color: rgba(0, 0, 0, 0.5);
   padding-top: 16px;
   margin-left: 8%; }
 
 .footer_desc {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
   margin-top: 32px;
@@ -1041,7 +1041,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
   padding-top: 1%; }
 
 .right_headline {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 35px;
   line-height: 64px;
   color: rgba(0, 0, 0, 0.87);
@@ -1075,7 +1075,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
   padding: 8px 12%; }
 
 .about_title {
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   font-size: 27px;
   color: rgba(0, 0, 0, 0.87); }
 
@@ -1090,7 +1090,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
   padding-top: 0px; }
 
 .content_para_smaller {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
   line-height: 44px;
@@ -1102,7 +1102,7 @@ svg.no_width g#Experiments g#Homepage rect:nth-child(29) {
 
 #about_container .list_title {
   color: rgba(0, 0, 0, 0.87);
-  font-family: 'TTNormsMedium'; }
+  font-family: 'GraphikMedium'; }
 
 #about_container .list_caption {
   color: rgba(0, 0, 0, 0.5); }
@@ -1179,23 +1179,23 @@ After#about_container.dark_mode .right_headline {
   width: 48px; }
 
 .hori_title {
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   font-size: 24px;
   color: white;
   padding: 16px 0px;
   text-align: center; }
 
 .hori_text {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(255, 255, 255, 0.9); }
 
 #about_container.dark_mode .list_title {
   color: rgba(255, 255, 255, 0.9);
-  font-family: 'TTNormsMedium'; }
+  font-family: 'GraphikMedium'; }
 
 .works_heading_desc {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 27px;
   color: rgba(0, 0, 0, 0.5);
   padding-top: 16px;
@@ -1306,13 +1306,13 @@ After#about_container.dark_mode .right_headline {
   padding-top: 24px; }
 
 .works_text_title {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
   display: inline-block; }
 
 .works_text_desc {
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   font-size: rgba(0, 0, 0, 0.5);
   font-size: 24px;
   line-height: 44px; }
@@ -1331,7 +1331,7 @@ After#about_container.dark_mode .right_headline {
 .case_study_button {
   display: inline-block;
   color: #00B019;
-  font-family: 'TTNormsMedium';
+  font-family: 'GraphikMedium';
   font-size: 15.36px;
   padding-bottom: 6px;
   border-bottom: 2px solid #00B019;
@@ -1346,7 +1346,7 @@ After#about_container.dark_mode .right_headline {
   border-bottom: none; }
 
 .works_timeline_container {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 15.36px;
   padding-left: 16px;
   display: inline-block;
@@ -1360,7 +1360,7 @@ After#about_container.dark_mode .right_headline {
 
 .footer_segment {
   display: inline-block;
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87); }
 
@@ -1389,7 +1389,7 @@ After#about_container.dark_mode .right_headline {
 
 .works_tags {
   padding-top: 16px;
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 19.2px;
   color: rgba(0, 0, 0, 0.5); }
 
@@ -1403,14 +1403,14 @@ After#about_container.dark_mode .right_headline {
   display: inline-block; }
 
 .list_desc {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(255, 255, 255, 0.9);
   line-height: 24px;
   padding-top: 8px; }
 
 .list_caption {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 19.2px;
   color: rgba(255, 255, 255, 0.9);
   line-height: 24px;
@@ -1449,7 +1449,7 @@ After#about_container.dark_mode .right_headline {
   margin-top: 8px; }
 
 .text_desc_container .text_desc_details .anim_container .anim_item {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: #004FE5;
   display: inline-block;
@@ -1470,7 +1470,7 @@ After#about_container.dark_mode .right_headline {
   width: 44%; }
 
 .vertical_list_title {
-  font-family: "TTNormsMedium";
+  font-family: "GraphikMedium";
   font-size: 24px;
   width: 100%;
   border-bottom: 2px solid #eee;
@@ -1480,7 +1480,7 @@ After#about_container.dark_mode .right_headline {
   padding-top: 16px; }
 
 .vertical_list_body ul li {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
   margin-top: 8px;
@@ -1576,7 +1576,7 @@ After#about_container.dark_mode .right_headline {
   border-bottom: 2px solid #6622cc; }
 
 .past_text {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   display: inline-block;
   color: rgba(0, 0, 0, 0.87); }
@@ -1612,7 +1612,7 @@ After#about_container.dark_mode .right_headline {
   overflow: hidden; }
 
 .works_tag_container {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 15.36px;
   color: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
@@ -1628,7 +1628,7 @@ After#about_container.dark_mode .right_headline {
   color: #1a50ad; }
 
 .view_works_container {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
   width: 76%;
@@ -1707,7 +1707,7 @@ svg.no_width g#Experiments g#LeftSvg g#Homepage rect.whizzed {
   -o-transition: all .3s ease .2s; }
 
 .menu_inner_container ul li a {
-  font-family: 'TTNormsRegular';
+  font-family: 'GraphikRegular';
   font-size: 27px;
   color: #fff;
   text-decoration: none;
