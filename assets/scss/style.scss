@@ -2306,6 +2306,8 @@ position:absolute;
 	position:absolute;
 	left:0%;
 	top:0%;
+	height:100%;
+	width:100%;
 	z-index:10;
 
 	opacity:0;
@@ -2317,7 +2319,7 @@ position:absolute;
 	-o-transition:all .7s $transition_4 0;
 }
 
-
+ 
 
 .home_pattern_container.show{
 	opacity:1;
