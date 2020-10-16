@@ -6,13 +6,40 @@
 
 <link rel="stylesheet" href="assets/css/style.css"  />
 
+<style type="text/css">
+
+
+#loading{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	z-index:1000;
+	font-family:system-ui, "Arial";
+	font-size:56px;
+	text-align:center;
+	padding-top:20%;
+	color:#fff;
+}
+
+
+</style>
+
+
 </head>
 
 <body>
 
+<div id="loading">
+	
+
+
+
+</div>
+
 
 <div class="container" id="home_container">
-
 
 
 
@@ -1866,44 +1893,6 @@ new Smooth();
 }
 
 
-function kickoff_rects(){
-
-
-
-setTimeout(function(){
-
-
-$(rects).each(function(ev){
-
-$(this).parent().removeClass('animated');
-
-//$(this).attr('width',widths[ev])
-
-});
-
-
-//$('svg#intro_svg').addClass('hide');
-
-rects.each(function(){
-
-$(this).addClass('whizzed');
-
-});
-
-setInterval(function(){
-
-start_whizzy_anim();
-
-},50);
-
-
-},7400);
-
-
-}
-
-
-
 
 
 
@@ -2141,6 +2130,38 @@ $('.selected_works_tag').removeClass('hide_below');
 
 
 }
+
+
+
+
+
+function hide_loading(){
+
+loading.css('display','none');
+
+}
+
+
+
+function onReady(callback) {
+  var intervalId = window.setInterval(function() {
+    if (document.getElementsByTagName('body')[0] !== undefined) {
+      window.clearInterval(intervalId);
+      callback.call(this);
+    }
+  }, 1000);
+}
+
+
+
+onReady(function(){
+
+hide_loading();
+intro_animation();
+
+
+});
+
 
 
 
