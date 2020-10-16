@@ -1,0 +1,417 @@
+.case_top_container {
+  position: relative;
+  height: 540px;
+  width: 100%;
+  height: 80vh; }
+
+.case_cover_container {
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+
+.case_overlay_container {
+  position: Absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%; }
+
+#feetapart_case_container .case_cover_container {
+  background-image: url("../images/Feetapart Cover.png");
+  background-position: -120px -40px; }
+
+#crosschecks_case_container .case_cover_container {
+  background-image: url("../images/Crosschecks Cover.jpg");
+  background-size: cover; }
+
+#litewallet_case_container .case_cover_container {
+  background-image: url("../images/Litewallet Mockup.jpg");
+  background-size: cover; }
+
+#pvr_app_case_container .case_cover_container {
+  background-image: url("../images/PVR Cinemas Cover.jpg");
+  background-size: cover; }
+
+#pvr_cinemas_case_container .case_cover_container {
+  background-image: url("../images/PVR Design Guidelines Cover.jpg");
+  background-size: cover; }
+
+#goqii_case_container .case_cover_container {
+  background-image: url("../images/goqii_background.jpg");
+  background-size: cover; }
+
+#studycopter_case_container .case_cover_container {
+  background-image: url("../images/studycopter_cover.png");
+  background-size: cover; }
+
+#murals_case_container .case_cover_container {
+  background-image: url("../images/murals_cover.jpg");
+  background-size: cover; }
+
+.case_intro_container {
+  padding-left: 20vw; }
+
+.case_intro_line {
+  margin-top: 44px;
+  font-family: "UntitledSansRegular";
+  font-size: 39.81px;
+  line-height: 64px;
+  width: 60vw; }
+
+.case_intro_name {
+  margin-top: 4px;
+  font-family: "UntitledSansRegular";
+  font-size: 23.04px;
+  line-height: 44px;
+  color: #4DC997; }
+
+#crosschecks_case_container .case_intro_name {
+  color: #1DB321; }
+
+#litewallet_case_container .case_intro_name {
+  color: #3600b3; }
+
+#pvr_app_case_container .case_intro_name {
+  color: #333344; }
+
+#pvr_cinemas_case_container .case_intro_name {
+  color: #111122; }
+
+#goqii_case_container .case_intro_name {
+  color: #231dd2; }
+
+#murals_case_container .case_intro_name {
+  color: #FF1133; }
+
+.case_intro_date {
+  margin-top: 8px;
+  font-family: "UntitledSansRegular";
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5); }
+
+.case_context_container {
+  margin-top: 40px;
+  width: 60vw;
+  padding-left: 20vw; }
+
+.context_body {
+  font-family: "UntitledSansRegular";
+  font-size: 23.04px;
+  line-height: 44px; }
+
+.para_title_1 {
+  font-family: "UntitledSansMedium";
+  font-size: 13.3px;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 56vw; }
+
+.para_title_2 {
+  font-family: "UntitledSansMedium";
+  font-size: 27.65px;
+  line-height: 52px;
+  width: 56vw; }
+
+#feetapart_case_container .para_title_1 {
+  color: #4DC997; }
+
+#crosschecks_case_container .para_title_1 {
+  color: #1DB321; }
+
+#litewallet_case_container .para_title_1 {
+  color: #3600b3; }
+
+#pvr_app_case_container .para_title_1 {
+  color: #333344; }
+
+#pvr_cinemas_case_container .para_title_1 {
+  color: #111122; }
+
+#goqii_case_container .para_title_1 {
+  color: #231dd2; }
+
+#murals_case_container .para_title_1 {
+  color: #FF1133; }
+
+.para {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100vw- 20vw;
+  padding-left: 20vw; }
+
+.para.dark_background .para_title_2 {
+  color: white; }
+
+.para_body {
+  margin-top: 12px;
+  font-family: "FreightTextBook";
+  font-size: 23.04px;
+  line-height: 44px;
+  width: 56vw; }
+
+.images_container {
+  background: #F3F3F3;
+  padding: 48px 0px 40px 0px;
+  width: 100%; }
+
+.images_container {
+  text-align: center; }
+
+.images_container img {
+  height: 360px;
+  width: 202px;
+  margin-left: 48px; }
+
+.images_container img:nth-child(1) {
+  margin-left: 0px; }
+
+.images_text {
+  margin-top: 32px;
+  text-align: center;
+  width: 100%;
+  font-family: "UntitledSansMedium";
+  font-size: 23.04px; }
+
+.images_container div:nth-child(2) {
+  margin-top: 40px; }
+
+.case_end_container {
+  padding: 32px 0px;
+  padding-left: 20vw;
+  background: #fff; }
+
+.case_end_dash {
+  display: inline-block;
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.16); }
+
+.case_end_pattern {
+  display: inline-block;
+  padding: 0px 16px; }
+
+.more_case_studies_container {
+  margin-top: 16px; }
+
+.more_case_studies_title {
+  font-family: "UntitledSansRegular";
+  font-size: 23.04px;
+  line-height: 44px;
+  width: 100%;
+  text-align: center; }
+
+.more_case_studies_body {
+  margin-top: 16px;
+  padding-left: 8vw;
+  position: relative;
+  min-height: 240px;
+  min-width: 800vw;
+  padding-bottom: 48px; }
+
+.more_case_study_single {
+  float: left;
+  margin-left: 64px; }
+
+.more_case_study_single:nth-child(1) {
+  margin-left: 0px; }
+
+.about_highlights_container:after {
+  content: "";
+  clear: both;
+  display: block; }
+
+.para.dark_background .para_title_2 {
+  color: white; }
+
+#about_container .para {
+  padding-left: 12vw;
+  margin-top: 8px; }
+
+#about_container .para:nth-child(1) {
+  width: 76vw;
+  margin-top: 12px; }
+
+.quote_container {
+  margin-top: 28px;
+  margin-bottom: 4px;
+  padding: 0px 32px;
+  border-left: 6px solid #123FEC;
+  background: transparent; }
+
+.quote_text {
+  font-family: "UntitledSansRegular";
+  font-size: 27.65px;
+  line-height: 52px;
+  padding-top: 4px; }
+
+.quote_author {
+  margin-top: 8px;
+  font-family: "UntitledSansMedium";
+  font-size: 19.2px;
+  line-height: 28px; }
+
+.education_list {
+  margin-top: 16px;
+  list-style-position: inside; }
+
+.case_list_item {
+  font-family: "UntitledSansRegular";
+  margin-top: 32px; }
+
+.case_list_item:nth-child(1) {
+  margin-top: 0px; }
+
+.list_item_title {
+  position: relative;
+  top: 14px;
+  font-size: 23.04px;
+  line-height: 44px;
+  display: inline-block; }
+
+.list_item_time {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.7); }
+
+.list_item_secondary {
+  font-size: 19.2px;
+  line-height: 28px;
+  margin-top: 4px; }
+
+#feetapart_case_container .header_list_item a, #litewallet_case_container .header_list_item a, #pvr_app_case_container .header_list_item a, #crosschecks_case_container .header_list_item a, #goqii_case_container .header_list_item a, #murals_case_container .header_list_item a, #pvr_cinemas_case_container .header_list_item a, #studycopter_case_container .header_list_item a {
+  color: white; }
+
+#feetapart_case_container .header_top.header_fixed .header_list_item a, #litewallet_case_container .header_top.header_fixed .header_list_item a, #pvr_app_case_container .header_top.header_fixed .header_list_item a, #crosschecks_case_container .header_top.header_fixed .header_list_item a, #goqii_case_container .header_top.header_fixed .header_list_item a, #murals_case_container .header_top.header_fixed .header_list_item a, #pvr_cinemas_case_container .header_top.header_fixed .header_list_item a, #studycopter_case_container .header_top.header_fixed .header_list_item a {
+  color: rgba(0, 0, 0, 0.87); }
+
+.images_container img.mockup {
+  height: 460px;
+  width: 228px; }
+
+.images_container img.mockup_markings {
+  height: 492px;
+  width: 810px; }
+
+.para.dark_background {
+  background: #111111;
+  padding-top: 48px; }
+
+.para.dark_background .para_title_2 {
+  color: white; }
+
+.para.dark_background .para_body {
+  color: white; }
+
+#pvr_app_case_container para.dark_background .para_title_1 {
+  color: rgba(255, 255, 255, 0.7); }
+
+.images_container.dark_background {
+  background: #111111; }
+
+.images_container.dark_background .images_text {
+  color: white; }
+
+div.para + div.para {
+  padding-top: 12px; }
+
+.hero_image_container {
+  width: 100%; }
+
+.prebooking_hero_image {
+  height: 720px;
+  background-image: url("../images/screens/pvr/Prebooking Mockup.jpg");
+  background-size: cover; }
+
+.para p {
+  margin-top: 16px; }
+
+.quote_container {
+  margin-left: 20vw;
+  margin-top: 8px; }
+
+.images_container.no_background {
+  background: transparent; }
+
+.images_container.left_aligned {
+  text-align: left;
+  padding-left: 20vw; }
+
+.images_container img.guideline_image {
+  height: 700px;
+  width: 512px; }
+
+.images_container.full_size img {
+  height: auto;
+  width: auto; }
+
+.images_container img.goqii_home_image {
+  height: 562px;
+  width: 800px; }
+
+.images_container.left_aligned .images_text {
+  text-align: left; }
+
+.images_container img.studycopter_gui {
+  height: 500px;
+  width: 700px; }
+
+.more_case_studies_body .work_container {
+  margin-top: 0px; }
+
+.stats_container {
+  padding: 16px 0px;
+  margin-left: 20vw; }
+
+.stat_container {
+  min-height: 40px;
+  width: 100%;
+  font-family: "UntitledSansRegular";
+  margin-top: 48px;
+  width: 62vw; }
+
+.stat_container:nth-child(1) {
+  margin-top: 0px; }
+
+.stat_number {
+  display: table;
+  color: linear-gradient(to right, #123FEC, #328FFF);
+  font-family: "UntitledSansMedium";
+  font-size: 39.81px;
+  line-height: 64px; }
+
+.stat_text {
+  display: table;
+  margin-left: 10vw;
+  margin-top: -48px;
+  font-size: 23.04px;
+  line-height: 44px; }
+
+.para_list_container ul {
+  list-style-position: inside;
+  margin-top: 24px; }
+
+.para_list_container ul li {
+  font-family: "UntitledSansRegular";
+  font-size: 19.2px;
+  line-height: 28px;
+  margin-top: 24px; }
+
+.para_list_container ul li:nth-child(1) {
+  margin-top: 0px; }
+
+.images_container.no_background img {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  -ms-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  -o-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12); }
+
+.top_scrim {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0));
+  height: 96px;
+  z-index: 80; }
+
+/*# sourceMappingURL=case.e.css.map */
