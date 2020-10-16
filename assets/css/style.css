@@ -1280,7 +1280,7 @@ a.amituslab::after {
 
 .copy_vertical_right_inner {
   position: absolute;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.9);
   width: 100vw;
   text-align: center;
   font-size: 19.2px;
@@ -1311,7 +1311,7 @@ a.amituslab::after {
   display: inline-block;
   font-family: "BasisGrotesqueRegular";
   font-size: 19.2px;
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(255, 255, 255, 0.9); }
 
 .header_new_container {
   width: 100%;
