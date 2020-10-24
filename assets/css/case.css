@@ -250,7 +250,8 @@
   font-family: "BasisGrotesqueRegular";
   font-size: 27.65px;
   line-height: 52px;
-  padding-top: 4px; }
+  padding-top: 4px;
+  letter-spacing: .02em; }
 
 .quote_author {
   margin-top: -4px;
