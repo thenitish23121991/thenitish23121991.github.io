@@ -63,7 +63,7 @@ a.primary_color {
 a::after {
   position: absolute;
   width: 0%;
-  height: 1px;
+  height: 2px;
   background: #9199de;
   content: '';
   top: 104%;
