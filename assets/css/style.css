@@ -40,6 +40,11 @@ html, body {
 @font-face {
   src: url("../fonts/Mier-Book.ttf");
   font-family: 'MierRegular'; }
+.container.home_initial {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
 body {
   transform-origin: center;
   -webkit-transform-origin: center;

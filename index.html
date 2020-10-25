@@ -24,6 +24,11 @@
 }
 
 
+html,body{
+	overflow-y:hidden;
+}
+
+
 </style>
 
 
@@ -1894,7 +1899,9 @@ function kick_animations_off(){
 
 
 kickoff_rects();
+
 new Smooth();
+
 
 
 
@@ -1945,6 +1952,7 @@ $('.intro_new_container').addClass('go_up');
 
 
 show_home_text();
+fix_body();
 
 
 
@@ -1986,6 +1994,7 @@ var home_pattern_container = $('.home_pattern_container');
 setTimeout(function(){
 
 
+
 home_text_1.addClass('visible');
 home_text_2.addClass('visible');
 home_text_3.addClass('visible');
@@ -2008,7 +2017,11 @@ scroll_for_more_container.addClass('show');
 copy_vertical_1.addClass('show');
 copy_vertical_2.addClass('show');
 
+
 home_pattern_container.addClass('show');
+
+
+
 
 },800);
 
@@ -2139,7 +2152,14 @@ $('.selected_works_tag').removeClass('hide_below');
 
 }
 
+function fix_body(){
 
+$('html').css('height','auto');
+$('body').css('width','auto');
+$('html').css('overflow','auto');
+$('body').css('overflow','auto');
+
+}
 
 
 
@@ -2167,7 +2187,8 @@ onReady(function(){
 hide_loading();
 intro_animation();
 
-
+$('html').css('height',window_height);
+$('body').css('width',window_width);
 
 });
 
