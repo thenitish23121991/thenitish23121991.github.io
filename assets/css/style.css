@@ -3094,4 +3094,7 @@ a.hide::after {
   -ms-transition: all .65s ease 0s;
   -o-transition: all .65s ease 0s; }
 
+#about_container .para.dark_background .para_body:not(:first-child) {
+  margin-top: 24px; }
+
 /*# sourceMappingURL=style.css.map */

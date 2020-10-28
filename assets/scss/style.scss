@@ -3309,7 +3309,9 @@ z-index:100;
 
 
 
-
+#about_container .para.dark_background .para_body:not(:first-child){
+	margin-top:24px;
+}
 
 
 
