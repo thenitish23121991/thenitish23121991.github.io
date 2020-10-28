@@ -69,7 +69,7 @@
 <div class="about_head_container">
 
 
-<div class="about_large_title">Form + Function</div>
+<div class="about_large_title">Form plus Function</div>
 
 <div class="about_head_large_desc">
 
@@ -496,6 +496,24 @@ var header = $('.header_new_container');
 var last_scroll = 0;
 var h_background_height = header.height();
 
+
+setTimeout(function(){
+
+show_header();
+
+},800);
+
+
+
+function show_header(){
+
+var header_logo = $('.header_logo');
+var header_menu_list_item = $('.header_menu_list_item');
+
+header_menu_list_item.addClass('show');
+header_logo.addClass('show');
+
+}
 
 
 const math = {
