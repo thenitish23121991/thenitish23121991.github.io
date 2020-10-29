@@ -3097,4 +3097,11 @@ a.hide::after {
 #about_container .para.dark_background .para_body:not(:first-child) {
   margin-top: 24px; }
 
+.images_container.image_auto_width img {
+  height: auto;
+  width: auto; }
+
+.para_body:not(:first-child) {
+  margin-top: 24px; }
+
 /*# sourceMappingURL=style.css.map */
