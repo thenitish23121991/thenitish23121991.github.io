@@ -758,13 +758,13 @@ background: $pvr_cinemas_gradient;
 
  
 #feetapart_container .case_study_button{
-	background:#679348;
+	background:#6d964c;
 }
 
 
 #stanza_container .work_container_inner{
 	// background:#11b68a;
-	background:#0aaf87;
+	background:rgb(62,174,176);
 
 }
 
@@ -781,7 +781,7 @@ background:rgba(0,0,0,.11);
 
 
 #litewallet_container .case_study_button{
-background:#5712BF;
+background:#5912C2;
 }
 
 
@@ -2092,7 +2092,7 @@ color:#fff;
 }
 
 #selected_works_container{
-	margin-top:21vh;
+	margin-top:16vh;
 	padding-bottom:6h;
 	padding-left:8vw;
 	color:#fff;
@@ -2354,7 +2354,7 @@ position:absolute;
 
 .intro_text_container{
 	position:absolute;
-	top:77%;
+	top:37%;
 	left:20%;
 	width:60%;
 	text-align:center;
@@ -2420,19 +2420,33 @@ display:inline-block;
 .element_2{
 display:inline-block; 
 	width:64px;
-	height:0px;	
+	height:3px;	
 	background:#555566;
 	margin-top:32px;
+	opacity:0;
 
-	transition:all .25s $transition_4 0s;
-	-webkit-transition:all .25s $transition_4 0s;
-	-moz-transition:all .25s $transition_4 0s;
-	-ms-transition:all .25s $transition_4 0s;
-	-o-transition:all .25s $transition_4 0s;			
+	transform:translateX(40px);
+	-webkit-transform:translateX(40px);
+	-moz-transform:translateX(40px);
+	-ms-transform:translateX(40px);
+	-o-transform:translateX(40px);
+
+	transition:all .12s ease 0s;
+	-webkit-transition:all .12s ease 0s;
+	-moz-transition:all .12s ease 0s;
+	-ms-transition:all .12s ease 0s;
+	-o-transition:all .12s ease 0s;			
 }
 
 .element_2.show{
-	height:1px;
+
+opacity:1;
+
+	transform:translateX(0px);
+	-webkit-transform:translateX(0px);
+	-moz-transform:translateX(0px);
+	-ms-transform:translateX(0px);
+	-o-transform:translateX(0px);
 }
 
 .element_2.expand_width{
@@ -2899,6 +2913,19 @@ opacity:0;
 	-moz-transform:translateX(-140px);
 	-ms-transform:translateX(-140px);
 	-o-transform:translateX(-140px);
+}
+
+
+
+.element_2.show.hide_left{
+	opacity:0;
+
+	transform:translateX(-140px);
+	-webkit-transform:translateX(-140px);
+	-moz-transform:translateX(-140px);
+	-ms-transform:translateX(-140px);
+	-o-transform:translateX(-140px);
+
 }
 
 .intro_text_2.hide_left{
