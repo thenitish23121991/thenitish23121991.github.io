@@ -462,7 +462,7 @@ height:488px;
   background: #232a32; }
 
 #feetapart_container .work_container_inner {
-  background: #7DA960; }
+  background: #739E56; }
 
 #feetapart_container .case_study_button {
   background: #6d964c; }
@@ -1584,11 +1584,11 @@ a.amituslab::after {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: all 1.4s ease 0;
-  -webkit-transition: all 1.4s ease 0;
-  -moz-transition: all 1.4s ease 0;
-  -ms-transition: all 1.4s ease 0;
-  -o-transition: all 1.4s ease 0; }
+  transition: all 2.1s ease 0;
+  -webkit-transition: all 2.1s ease 0;
+  -moz-transition: all 2.1s ease 0;
+  -ms-transition: all 2.1s ease 0;
+  -o-transition: all 2.1s ease 0; }
 
 .home_pattern_container.show {
   opacity: 1; }
