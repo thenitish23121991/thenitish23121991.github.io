@@ -732,6 +732,24 @@ var last_scroll = 0;
 var h_background_height = header.height();
 
 
+setTimeout(function(){
+
+show_header();
+
+},800);
+
+
+
+function show_header(){
+
+var header_logo = $('.header_logo');
+var header_menu_list_item = $('.header_menu_list_item');
+
+header_menu_list_item.addClass('show');
+header_logo.addClass('show');
+
+}
+
 var more_work_container = $('.more_case_studies_container .work_container');
 
 var top_temp = more_work_container.position();
