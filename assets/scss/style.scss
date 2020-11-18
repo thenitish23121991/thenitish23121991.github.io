@@ -10,35 +10,6 @@ html,body{
 	overflow-x:hidden;
 }
 
-@font-face{
-	src:url('../fonts/GT-Haptik-Regular.ttf');
-	font-family:'GTHaptikRegular';
-}
-@font-face{
-	src:url('../fonts/GT-Haptik-Medium.ttf');
-	font-family:'GTHaptikMedium';
-}
-
-
-@font-face{
-	src:url('../fonts/Graphik-Regular.ttf');
-	font-family:'GraphikRegular';
-}
-@font-face{
-	src:url('../fonts/Graphik-Medium.ttf');
-	font-family:'GraphikMedium';
-}
-
-@font-face{
-	src:url('../fonts/FreightText-Book.ttf');
-	font-family:'FreightTextBook';
-}
-
-
-@font-face{
-	src:url('../fonts/NeuzeitStdBook.otf');
-	font-family:'NeuzeitRegular';
-}
 
 
 @font-face{
@@ -54,17 +25,6 @@ html,body{
 @font-face{
 	src:url('../fonts/basis-grotesque-bold.ttf');
 	font-family:'BasisGrotesqueBold';
-}
-
-
-@font-face{
-	src:url('../fonts/FavoritStd-Regular.woff');
-	font-family:'FavoritRegular';
-}
-
-@font-face{
-	src:url('../fonts/Mier-Book.ttf');
-	font-family:'MierRegular';
 }
 
 
@@ -1765,8 +1725,10 @@ opacity:0;
 
 
 .container{
-	background:#0f181d;
+	// background:#0f181d;
 	// background:#1d1d21;
+
+	background:#1D1D22;
 }
 
 
