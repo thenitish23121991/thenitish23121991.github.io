@@ -444,13 +444,13 @@ height:488px;
   background: #648f42; }
 
 #stanza_container .work_container_inner {
-  background: #47889B; }
+  background: linear-gradient(to bottom right, #5798AB, #27687B); }
 
 #stanza_container .case_study_button {
   background: rgba(0, 0, 0, 0.11); }
 
 #litewallet_container .work_container_inner {
-  background: #6c1dD5; }
+  background: linear-gradient(to bottom right, #7c2dDB, #5207CC); }
 
 #litewallet_container .case_study_button {
   background: #5912C2; }
@@ -462,10 +462,10 @@ height:488px;
   background: #234b35; }
 
 #studycopter_container .work_container_inner {
-  background: #52518A; }
+  background: #62619A; }
 
 #studycopter_container .case_study_button {
-  background: #424172; }
+  background: #4D4E7E; }
 
 #goqii_container .work_container_inner {
   background: #3567FF; }

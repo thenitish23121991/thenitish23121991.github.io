@@ -94,7 +94,7 @@ $feetapart_color_2: #4DD197;
 $stanza_color_random: #E22834;
 $goqii_color_2: rgb(5,110,227);
 
-$studycopter_color_3: #52518A;
+$studycopter_color_3: #62619A;
 
 $litewallet_link_color: #8e68d9;
 
@@ -724,7 +724,8 @@ background: $pvr_cinemas_gradient;
 
 #stanza_container .work_container_inner{
 	// background:#11b68a;
-	background:#47889B;
+	// background:#47889B;
+	background:linear-gradient(to bottom right, #5798AB, #27687B);
 
 }
 
@@ -736,7 +737,8 @@ background:rgba(0,0,0,.11);
 
 #litewallet_container .work_container_inner{
 	//background:$litewallet_color_2;
-	background:#6c1dD5;
+	// background:#6c1dD5;
+	background:linear-gradient(to bottom right, #7c2dDB,#5207CC);
 }
 
 
@@ -761,7 +763,7 @@ background:#5912C2;
 
 
 #studycopter_container .case_study_button{
-	background:#424172;
+	background:#4D4E7E;
 }
 
 
