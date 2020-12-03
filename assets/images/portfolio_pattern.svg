@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="761px" viewBox="0 0 151 761" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>portfolio_pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="311" height="800"></rect>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#26C366" offset="0%"></stop>
+            <stop stop-color="#7335F5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Plus" transform="translate(0.000000, -39.000000)">
+            <g id="portfolio_pattern">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group-2" mask="url(#mask-2)" fill="url(#linearGradient-3)">
+                    <g transform="translate(-37.010202, 451.465856) rotate(-34.000000) translate(37.010202, -451.465856) translate(-385.510202, 141.965856)" id="Rectangle">
+                        <rect x="379" y="54" width="318" height="7"></rect>
+                        <rect x="315" y="36" width="318" height="7"></rect>
+                        <rect x="335" y="18" width="318" height="7"></rect>
+                        <rect x="290" y="0" width="318" height="7"></rect>
+                        <rect x="323" y="72" width="318" height="7"></rect>
+                        <rect x="299" y="90" width="318" height="7"></rect>
+                        <rect x="343" y="108" width="318" height="7"></rect>
+                        <rect x="273" y="126" width="318" height="7"></rect>
+                        <rect x="247" y="144" width="318" height="7"></rect>
+                        <rect x="222" y="162" width="318" height="7"></rect>
+                        <rect x="202" y="180" width="318" height="7"></rect>
+                        <rect x="216" y="198" width="318" height="7"></rect>
+                        <rect x="260" y="216" width="318" height="7"></rect>
+                        <rect x="198" y="234" width="318" height="7"></rect>
+                        <rect x="224" y="252" width="318" height="7"></rect>
+                        <rect x="173" y="270" width="318" height="7"></rect>
+                        <rect x="194" y="288" width="318" height="7"></rect>
+                        <rect x="152" y="306" width="318" height="7"></rect>
+                        <rect x="187" y="324" width="318" height="7"></rect>
+                        <rect x="139" y="342" width="318" height="7"></rect>
+                        <rect x="213" y="360" width="318" height="7"></rect>
+                        <rect x="173" y="378" width="318" height="7"></rect>
+                        <rect x="194" y="396" width="318" height="7"></rect>
+                        <rect x="135" y="414" width="318" height="7"></rect>
+                        <rect x="170" y="432" width="318" height="7"></rect>
+                        <rect x="94" y="450" width="318" height="7"></rect>
+                        <rect x="58" y="468" width="318" height="7"></rect>
+                        <rect x="113" y="486" width="318" height="7"></rect>
+                        <rect x="85" y="504" width="318" height="7"></rect>
+                        <rect x="41" y="522" width="318" height="7"></rect>
+                        <rect x="74" y="540" width="318" height="7"></rect>
+                        <rect x="57" y="558" width="318" height="7"></rect>
+                        <rect x="24" y="576" width="318" height="7"></rect>
+                        <rect x="54" y="594" width="318" height="7"></rect>
+                        <rect x="0" y="612" width="318" height="7"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
