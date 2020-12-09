@@ -699,4 +699,11 @@ div.para + div.para.dark_background {
 .inline_list {
   list-style-position: inside; }
 
+.images_container.no_shadow img {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none; }
+
 /*# sourceMappingURL=case.css.map */

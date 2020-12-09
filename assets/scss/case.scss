@@ -1058,4 +1058,10 @@ margin-top:12px;
 
 
 
-
+.images_container.no_shadow img{
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-ms-box-shadow:none;
+	-o-box-shadow:none;
+}
