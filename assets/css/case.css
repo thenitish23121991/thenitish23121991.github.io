@@ -706,4 +706,10 @@ div.para + div.para.dark_background {
   -ms-box-shadow: none;
   -o-box-shadow: none; }
 
+.hero_image_container.feetapart_store_hero_image {
+  height: 900px;
+  background: url("../images/screens/feetapart/Feetapart Store Cover.jpg");
+  background-size: cover;
+  background-position: 0px -200px; }
+
 /*# sourceMappingURL=case.css.map */

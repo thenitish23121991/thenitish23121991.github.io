@@ -444,7 +444,7 @@ height:488px;
   background: #5e873a; }
 
 #stanza_container .work_container_inner {
-  background: linear-gradient(to bottom right, #5798AB, #27687B); }
+  background: linear-gradient(to bottom right, #5798CD, #276894); }
 
 #stanza_container .case_study_button {
   background: rgba(0, 0, 0, 0.11); }
@@ -456,7 +456,7 @@ height:488px;
   background: #5912C2; }
 
 #crosschecks_container .work_container_inner {
-  background: #39614b; }
+  background: linear-gradient(to right bottom, #33866A, #0A4833); }
 
 #crosschecks_container .case_study_button {
   background: #234b35; }
@@ -2974,7 +2974,7 @@ a.hide::after {
 
 #stanza_container .work_cover_container {
   left: 44%;
-  top: 2%; }
+  top: 5%; }
 
 #pvr_cinemas_app_container .case_study_button_text {
   color: rgba(0, 0, 0, 0.87); }

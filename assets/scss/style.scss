@@ -103,6 +103,11 @@ $studycopter_background:#E2EBF0;
 $crosschecks_background:#49494b;
 
 
+
+
+$crosschecks_background_gradient: linear-gradient(to right bottom, #33866A, #0A4833);
+
+
 $guidelines_color_2: rgb(113,115,130);
 
 
@@ -725,7 +730,7 @@ background: $pvr_cinemas_gradient;
 #stanza_container .work_container_inner{
 	// background:#11b68a;
 	// background:#47889B;
-	background:linear-gradient(to bottom right, #5798AB, #27687B);
+	background:linear-gradient(to bottom right, #5798CD, #276894);
 
 }
 
@@ -748,7 +753,7 @@ background:#5912C2;
 
 
 #crosschecks_container .work_container_inner{
-	background:$crosschecks_color_3;
+	background:$crosschecks_background_gradient;
 }
 
 #crosschecks_container .case_study_button{
@@ -790,6 +795,8 @@ background:#08080a;
 	background-image:url('../images/mural_background.png');
 	background-size:cover;
 }
+
+
 
 
 #crosschecks_container .work_desc_num{
@@ -3134,7 +3141,7 @@ top:-2px;
 
 #stanza_container .work_cover_container{
 	left:44%;
-	top:2%;
+	top:5%;
 }
 
 #pvr_cinemas_app_container .case_study_button_text{
