@@ -3089,6 +3089,9 @@ a.hide::after {
   -ms-transition: all .65s ease 0s;
   -o-transition: all .65s ease 0s; }
 
+#stanza_container .work_cover_container {
+  top: 12.5%; }
+
 .images_container.image_auto_width img {
   height: auto;
   width: auto; }
