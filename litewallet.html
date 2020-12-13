@@ -576,55 +576,19 @@ header_logo.addClass('show');
 
 
 
-var works_container_scroll = works_container.offset();
-var contact_container_scroll = contact_container.offset();
-
-
-var loc_array = document.location.href.split('/');
-
-$(window).scrollTop(works_container_scroll.top);
-
-
-if(loc_array[loc_array.length - 1] == 'index.html#works'){
-
-
-$(window).scrollTop(works_container_scroll.top);
-
-
-
-
-}
-
-else if(loc_array[loc_array.length - 1] == 'index.html#contact'){
-
-
-$(window).scrollTop(contact_container_scroll.top);
-
-}
-
-
-else{
-
-intro_animation();
-
-}
-
-
 
 
 
 $('#works_list_item').click(function(){
 
-var works_container_scroll = works_container.offset();
-$(window).scrollTop(works_container_scroll.top);
+window.location.href = work_url+'.html#works';
 
 
 });
 
 $('#contact_list_item').click(function(){
 
-var contact_container_scroll = contact_container.offset();
-$(window).scrollTop(contact_container_scroll.top);
+window.location.href = work_url+'.html#contact';
 
 
 });
