@@ -1,6 +1,11 @@
 
 
 
+@font-face{
+src:url('../fonts/TiemposTextWeb-Regular.woff');
+	font-family:'TiemposText';
+}
+
 $large_title: 39.81px;
 $title: 33.18px;
 $subhead: 27.65px;
@@ -37,8 +42,8 @@ $primary_color_alternate: #123FEC;
  
 $type_regular: 'BasisGrotesqueRegular';
 $type_medium: 'BasisGrotesqueMedium';
-$serif_regular: 'Charter';
-
+$serif_regular: 'TiemposText';
+ 
 
 $charter_font_size: 21px;
 $charter_line_height: 40px;
@@ -296,8 +301,9 @@ letter-spacing:.02em;
 .para_body{
 margin-top:4px;
 	font-family:$serif_regular;
-	font-size:21px;
+	font-size:19.5px;
 	line-height:40px;
+	color:rgba(0,0,0,.82);
 
 width:$para_width;
 } 
@@ -635,8 +641,9 @@ margin-top:24px;
 .para_list_container ul li{
 font-family:$type_regular;
 font-size:$body_2;	
-line-height:$body_2_line;
+line-height:32px;
 margin-top:24px;
+width:92%;
 }
 .para_list_container ul li:nth-child(1){
 	margin-top:0px;
@@ -657,7 +664,7 @@ margin-top:24px;
 	left:0px;
 	width:100%;
 	background:linear-gradient(to bottom, rgba(0,0,0,.7) 50%, rgba(0,0,0,0));
-	height:100px;
+	height:92px;
 	z-index:80;
 }
 
@@ -727,7 +734,7 @@ transition-delay:.25s;
 	width:100%;
 	height:96px;
 	z-index:70;
-	background:linear-gradient(to bottom, rgba(0,0,0,.67) 45%, rgba(0,0,0,0));
+	background:linear-gradient(to bottom, rgba(40,40,40,.67) 60%, rgba(40,40,40,0));
 
 transition: all .4s $transition;
 -webkit-transition: all .4s $transition;
