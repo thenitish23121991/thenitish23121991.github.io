@@ -83,7 +83,7 @@ $goqii_color: rgb(5,121,242);
 
 
 
-$pvr_cinemas_app_color_2: rgb(106,113,129);
+$pvr_cinemas_app_color_2: rgb(216,209,208);
 $litewallet_color_2: #5c0dC5;
 $crosschecks_color_2: rgb(49,89,67);
 
@@ -701,11 +701,11 @@ margin-top:0px;
 
 
 #pvr_cinemas_app_container .work_container_inner{
-background: $pvr_cinemas_gradient;
+background: #f4eedd;
 }
 
 #pvr_cinemas_app_container .case_study_button{
-	background:#f6C253;
+	background:#ddd8c8;
 }
 
 #pvr_cinemas_container .work_container_inner{
@@ -730,7 +730,7 @@ background: $pvr_cinemas_gradient;
 #stanza_container .work_container_inner{
 	// background:#11b68a;
 	// background:#47889B;
-	background:linear-gradient(to bottom right, #5798CD, #276894);
+	background:rgb(186, 196, 159);
 
 }
 
@@ -796,7 +796,13 @@ background:#08080a;
 	background-size:cover;
 }
 
+#stanza_container .case_study_button{
+	color:$text_dark;
+}
 
+#stanza_container .work_desc_date{
+	color:rgba(0,0,0,.5);
+}
 
 
 #crosschecks_container .work_desc_num{
@@ -3291,7 +3297,7 @@ z-index:100;
 
 
 #stanza_container .work_cover_container{
-	top:12.5%;
+	top:4%;
 }
 
 
