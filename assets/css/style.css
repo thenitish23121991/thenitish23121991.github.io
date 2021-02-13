@@ -794,6 +794,10 @@ height:488px;
   width: 100vw;
 }
 
+#about_container.container .para_body {
+  color: white;
+}
+
 .about_body_container {
   min-height: 240px;
   width: 100%;
