@@ -493,15 +493,15 @@ height:488px;
 }
 
 #pvr_cinemas_app_container .work_container_inner {
-  background: #aabbc4;
+  background: linear-gradient(to bottom, #FFE6B6, #CFB686);
 }
 
 #pvr_cinemas_app_container .case_study_button {
-  background: #91a2ab;
+  background: #CAB181;
 }
 
 #pvr_cinemas_container .work_container_inner {
-  background: #383848;
+  background: linear-gradient(to bottom, #484858, #383848);
 }
 
 #pvr_cinemas_container .case_study_button {
@@ -517,7 +517,7 @@ height:488px;
 }
 
 #stanza_container .work_container_inner {
-  background: #bac49f;
+  background: linear-gradient(to bottom, #40b6c0, #2096a0);
 }
 
 #stanza_container .case_study_button {
@@ -525,11 +525,11 @@ height:488px;
 }
 
 #litewallet_container .work_container_inner {
-  background: linear-gradient(to bottom right, #7728D7, #4804C2);
+  background: linear-gradient(to bottom right, #5f469f, #331873);
 }
 
 #litewallet_container .case_study_button {
-  background: #510aba;
+  background: #391f79;
 }
 
 #crosschecks_container .work_container_inner {
@@ -549,19 +549,19 @@ height:488px;
 }
 
 #goqii_container .work_container_inner {
-  background: #3567FF;
+  background: linear-gradient(to bottom, #454f69, #27314b);
 }
 
 #goqii_container .case_study_button {
-  background: #2356EB;
+  background: #18223c;
 }
 
 #murals_container .work_container_inner {
-  background: #2f2f33;
+  background: linear-gradient(to bottom, #353538, #252528);
 }
 
 #murals_container .case_study_button {
-  background: #1f1f24;
+  background: #39393d;
 }
 
 #murals_container .work_desc_cover_container {
