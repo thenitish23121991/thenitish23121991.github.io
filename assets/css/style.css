@@ -573,6 +573,10 @@ height:488px;
   color: rgba(0, 0, 0, 0.5);
 }
 
+#stanza_container .case_study_button {
+  color: rgba(0, 0, 0, 0.87);
+}
+
 #crosschecks_container .work_desc_num {
   color: rgba(0, 0, 0, 0.35);
 }
