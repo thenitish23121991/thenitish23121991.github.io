@@ -517,7 +517,7 @@ height:488px;
 }
 
 #stanza_container .work_container_inner {
-  background: linear-gradient(to bottom, #40b6c0, #2096a0);
+  background: linear-gradient(to bottom right, #b3d9b4, #779d78);
 }
 
 #stanza_container .case_study_button {
@@ -680,7 +680,7 @@ height:488px;
 }
 
 #litewallet_container .work_desc_num {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.45);
 }
 
 .work_desc_title {
