@@ -505,15 +505,15 @@ height:488px;
 }
 
 #pvr_cinemas_container .case_study_button {
-  background: #2e2e34;
+  background: #28282e;
 }
 
 #feetapart_container .work_container_inner {
-  background: #739E56;
+  background: linear-gradient(to bottom right, #83ae66, #537e36);
 }
 
 #feetapart_container .case_study_button {
-  background: #5e873a;
+  background: #588134;
 }
 
 #stanza_container .work_container_inner {
@@ -570,7 +570,7 @@ height:488px;
 }
 
 #stanza_container .case_study_button {
-  color: rgba(0, 0, 0, 0.87);
+  color: white;
 }
 
 #stanza_container .work_desc_date {
@@ -672,11 +672,15 @@ height:488px;
 }
 
 #pvr_cinemas_container .work_desc_num, #murals_container .work_desc_num {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#murals_container .work_desc_num {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #litewallet_container .work_desc_num {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .work_desc_title {
@@ -1657,7 +1661,7 @@ a.amituslab::after {
 }
 
 #selected_works_container {
-  margin-top: 16vh;
+  margin-top: 18vh;
   padding-bottom: 6h;
   padding-left: 8vw;
   color: #fff;
@@ -1681,7 +1685,7 @@ a.amituslab::after {
 .selected_works_tag {
   font-family: "BasisGrotesqueRegular";
   font-size: 25px;
-  margin: 12px 0px 12px 0px;
+  margin: 16px 0px 12px 0px;
   transition-delay: 0.35s;
   -webkit-transition-delay: 0.35s;
   -moz-transition-delay: 0.35s;
@@ -3434,7 +3438,7 @@ a.hide::after {
 }
 
 .case_study_button_container {
-  margin-top: 28px;
+  margin-top: 24px;
 }
 
 .case_study_button {
@@ -3622,6 +3626,10 @@ a.hide::after {
 .images_container.image_auto_width img {
   height: auto;
   width: auto;
+}
+
+.experiments_container .selected_works_text, .experiments_container .selected_works_tag {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
