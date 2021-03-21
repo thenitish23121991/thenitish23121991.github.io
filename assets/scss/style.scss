@@ -2201,26 +2201,27 @@ font-size:25px;
 
 .footer_link_icon{
 display:inline-block;
+
+transition: all .22s $transition 0s;
+-webkit-transition: all .22s $transition 0s;
+-moz-transition: all .22s $transition 0s;
+-ms-transition: all .22s $transition 0s;
+-o-transition: all .22s $transition 0s;
 }
 .footer_link_icon img{
 	
-	height:12px;
-	width:12px;
+	height:15px;
+	width:15px;
 
-transition: all .4s $transition 0s;
--webkit-transition: all .4s $transition 0s;
--moz-transition: all .4s $transition 0s;
--ms-transition: all .4s $transition 0s;
--o-transition: all .4s $transition 0s;
 }
 
-.footer_link_icon img:hover{
+.footer_social_links a:hover .footer_link_icon{
 
-transform:rotate(30deg);
--webkit-transform:rotate(30deg);
--moz-transform:rotate(30deg);
--ms-transform:rotate(30deg);
--o-transform:rotate(30deg);
+transform:rotate(-37deg);
+-webkit-transform:rotate(-37deg);
+-moz-transform:rotate(-37deg);
+-ms-transform:rotate(-37deg);
+-o-transform:rotate(-37deg);
 }
 
 
