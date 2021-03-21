@@ -1771,6 +1771,19 @@ a.amituslab::after {
 .footer_link_icon img {
   height: 12px;
   width: 12px;
+  transition: all 0.4s cubic-bezier(0.52, 1.18, 0.87, 1.03) 0s;
+  -webkit-transition: all 0.4s cubic-bezier(0.52, 1.18, 0.87, 1.03) 0s;
+  -moz-transition: all 0.4s cubic-bezier(0.52, 1.18, 0.87, 1.03) 0s;
+  -ms-transition: all 0.4s cubic-bezier(0.52, 1.18, 0.87, 1.03) 0s;
+  -o-transition: all 0.4s cubic-bezier(0.52, 1.18, 0.87, 1.03) 0s;
+}
+
+.footer_link_icon img:hover {
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
 }
 
 #goqii_container img:nth-child(1) {
