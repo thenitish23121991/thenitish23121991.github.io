@@ -1381,7 +1381,7 @@ a.amituslab::after {
 }
 
 .container {
-  background: #1D1D22;
+  background: #16161E;
 }
 
 .top_text {
@@ -1392,7 +1392,7 @@ a.amituslab::after {
 
 .top_text_1 {
   font-size: 31.25px;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "BasisGrotesqueRegular";
   line-height: 64px;
   margin-top: 2vh;
   color: #fff;
