@@ -248,7 +248,7 @@ html,body{
   
 <div class="header_background"></div>  
 
-<div class="header_logo"><a href="index.html"><img src="assets/images/nitish_logo.png" /></a></div>
+<div class="header_logo"><a href="index.html"><img src="assets/images/nitish_logo_dark.png" /></a></div>
 
 <div class="header_menu">
     
@@ -673,7 +673,7 @@ Solving problems with craft and grit
 
 
 
-<div class="work_container dark_container" id="pvr_cinemas_container" tabindex="11" work-url="pvr_cinemas">
+<div class="work_container dark_container white_text" id="pvr_cinemas_container" tabindex="11" work-url="pvr_cinemas">
 
 <div class="w_transition"></div>
 
@@ -1166,7 +1166,7 @@ Solving problems with craft and grit
 
 
 
-<div class="work_container dark_container" id="goqii_container" tabindex="16" work-url="goqii">
+<div class="work_container dark_container white_text" id="goqii_container" tabindex="16" work-url="goqii">
 
 <div class="w_transition"></div>
 
@@ -1469,8 +1469,14 @@ var header_background = $('.header_background');
 var h_background_height = header.height();
 
 
+setTimeout(function(){
+
 header.removeClass('hide');
 console.log('hide called');
+
+},2800);
+
+
 
 var window_height = window.innerHeight;
 var window_width = window.innerWidth;
@@ -1521,8 +1527,10 @@ var stanza_top = position_top.top;
 
 var set_height = 488;
 
-$('.work_container').css('height',set_height+'px');
 
+
+
+$('.work_container').css('height',set_height+'px');
 
 
 

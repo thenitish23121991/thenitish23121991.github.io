@@ -105,8 +105,10 @@ $crosschecks_background:#49494b;
 
 
 
+$litewallet_gradient_final: linear-gradient(to right bottom, #906FD8, #331873);
 
-$crosschecks_background_gradient: linear-gradient(to right bottom, #33866A, #0A4833);
+
+$crosschecks_background_gradient: linear-gradient(to right bottom, #33866A, #07422C);
 
 
 $guidelines_color_2: rgb(113,115,130);
@@ -114,13 +116,14 @@ $guidelines_color_2: rgb(113,115,130);
 
 $pvr_cinemas_case_color: #FFCE49;
 
-$pvr_cinemas_gradient: linear-gradient(to right bottom, );
+$pvr_cinemas_gradient_final: linear-gradient(to right bottom, #79CEF2, #095EAA);
 
 
 $pinterest_color: #bd081c;
 
 
-$pvr_cinemas_gradient: linear-gradient(to right bottom, #FFD96b, #FFDA7c);
+$pvr_cinemas_gradient: linear-gradient(to right bottom, #FFECBB, #FFD88C);
+$feetapart_gradient_final: linear-gradient(to right bottom, #6CBD2F, #419B01);
 
 
 $transition: cubic-bezier(.52,1.18,.87,1.03);
@@ -703,11 +706,12 @@ margin-top:0px;
 
 #pvr_cinemas_app_container .work_container_inner{
 // background: rgb(170,187,196);
-background:linear-gradient(to bottom, #FFE6B6, #CFB686);
+// background:linear-gradient(to bottom, #FFE6B6, #CFB686);
+background: $pvr_cinemas_gradient;
 }
 
 #pvr_cinemas_app_container .case_study_button{
-	background:#CAB181;
+	background:#FFCD6B;
 }
 
 #pvr_cinemas_container .work_container_inner{
@@ -722,12 +726,13 @@ background:linear-gradient(to bottom, #FFE6B6, #CFB686);
 
 #feetapart_container .work_container_inner{
 	// background:#739E56;
-	background:linear-gradient(to bottom right, #83ae66, #537e36);
+	// background:linear-gradient(to bottom right, #83ae66, #537e36);
+	background: $feetapart_gradient_final;
 }
 
  
 #feetapart_container .case_study_button{
-	background:#588134;
+	background:#3A9601;
 }
 
 
@@ -749,12 +754,13 @@ background:rgba(0,0,0,.11);
 #litewallet_container .work_container_inner{
 	//background:$litewallet_color_2;
 	// background:#6c1dD5;
-	background:linear-gradient(to bottom right, #684ba8 ,#331873);
+	// background:linear-gradient(to bottom right, #684ba8 ,#331873);
+	background:$litewallet_gradient_final;
 }
 
 
 #litewallet_container .case_study_button{
-background:#391f79;
+background:#4c338b;
 }
 
 
@@ -780,7 +786,8 @@ background:#391f79;
 
 #goqii_container .work_container_inner{
 // background:#3567FF;
-background:linear-gradient(to bottom, rgb(69,79,105), rgb(39,49,75));
+// background:linear-gradient(to bottom, rgb(69,79,105), rgb(39,49,75));
+background:linear-gradient(to right bottom, rgb(76,86,112), rgb(33,43,69));
 }
 
 
