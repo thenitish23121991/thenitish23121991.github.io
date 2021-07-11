@@ -106,9 +106,10 @@ $crosschecks_background:#49494b;
 
 
 $litewallet_gradient_final: linear-gradient(to right bottom, #906FD8, #331873);
+$litewallet_gradient_link: linear-gradient(to right, #906FD8, #331873 220%);
 
 
-$crosschecks_background_gradient: linear-gradient(to right bottom, #33866A, #07422C);
+$crosschecks_background_gradient: linear-gradient(to right bottom, #4DAB8B, #0C4834);
 
 
 $guidelines_color_2: rgb(113,115,130);
@@ -122,8 +123,8 @@ $pvr_cinemas_gradient_final: linear-gradient(to right bottom, #79CEF2, #095EAA);
 $pinterest_color: #bd081c;
 
 
-$pvr_cinemas_gradient: linear-gradient(to right bottom, #FFECBB, #FFD88C);
-$feetapart_gradient_final: linear-gradient(to right bottom, #6CBD2F, #419B01);
+$pvr_cinemas_gradient: linear-gradient(to right bottom, #FFECBB, #FFC267);
+$feetapart_gradient_final: linear-gradient(to right bottom, #6CBD2F, #419B01 85%);
 
 
 $transition: cubic-bezier(.52,1.18,.87,1.03);
@@ -141,8 +142,13 @@ $dark_primary_color:rgb(145,153,222);
 
 $litewallet_color_3: rgb(123,94,142);
 
+$shell_gradient: linear-gradient(to right, #facd30, #dd1d21 240%);
+
+
+$crosschecks_gradient_blue: linear-gradient(to right bottom, #BDC4FF, #606FF3);
 
 *{
+
 }
 
 
@@ -711,7 +717,7 @@ background: $pvr_cinemas_gradient;
 }
 
 #pvr_cinemas_app_container .case_study_button{
-	background:#FFCD6B;
+	background:#FFC267; 
 }
 
 #pvr_cinemas_container .work_container_inner{
@@ -720,19 +726,20 @@ background: $pvr_cinemas_gradient;
 }
 
 #pvr_cinemas_container .case_study_button{
-	background:#28282e;
+	background:#323239;
 }
  
 
 #feetapart_container .work_container_inner{
 	// background:#739E56;
 	// background:linear-gradient(to bottom right, #83ae66, #537e36);
-	background: $feetapart_gradient_final;
+	// background: $feetapart_gradient_final;
+	background:linear-gradient(to right, rgb(179,217,180), rgb(162,200,163) 70%, rgb(99,137,100) 95%);
 }
 
  
 #feetapart_container .case_study_button{
-	background:#3A9601;
+	background:rgb(102,140,103);
 }
 
 
@@ -741,7 +748,8 @@ background: $pvr_cinemas_gradient;
 	// background:#47889B;
 	// background:rgb(186, 196, 159);
 	// background:linear-gradient(to bottom, #40b6c0, #2096a0);
-	background:linear-gradient(to bottom right, rgb(179,217,180), rgb(99,137,100));
+	// background:linear-gradient(to right, rgb(179,217,180), rgb(132,170,133) 70%, rgb(99,137,100) 90%);
+	background:$crosschecks_background_gradient;
 
 }
 
@@ -765,7 +773,7 @@ background:#4c338b;
 
 
 #crosschecks_container .work_container_inner{
-	background:$crosschecks_background_gradient;
+	background:$crosschecks_gradient_blue;
 }
 
 #crosschecks_container .case_study_button{
@@ -787,22 +795,23 @@ background:#4c338b;
 #goqii_container .work_container_inner{
 // background:#3567FF;
 // background:linear-gradient(to bottom, rgb(69,79,105), rgb(39,49,75));
-background:linear-gradient(to right bottom, rgb(76,86,112), rgb(33,43,69));
+// background:linear-gradient(to right bottom, rgb(76,86,112), rgb(33,43,69));
+background:linear-gradient(to right bottom, #5D6783, #212B45);
 }
 
 
 #goqii_container .case_study_button{
-	background:rgb(24,34,60);
+	background:rgb(44,54,80);
 }
 
 
 #murals_container .work_container_inner{
 	//background:#2f2f33;
-	background:linear-gradient(to bottom, #353538, #252528);
+	background:linear-gradient(to right, #353538, #252528);
 }
 
 #murals_container .case_study_button{
-background:#39393d;
+background:#19191d;
 } 
 
 
@@ -812,11 +821,11 @@ background:#39393d;
 }
 
 #stanza_container .work_desc_date{
-	color:rgba(0,0,0,.5);
+	color:rgba(255,255,255,.7);
 }
 
 #stanza_container .case_study_button{
-	color:$text_dark;
+	color:$text_white;
 }
 
 
@@ -830,7 +839,7 @@ color:rgba(0,0,0,.35);
 }
 
 .work_container.white_text .work_desc_num{
-	color:rgba(255,255,255,.7);
+	color:rgba(255,255,255,.6);
 }
 
 
@@ -928,7 +937,7 @@ transition: all .4s ease-in 0s;
 }
 
 #pvr_cinemas_container .work_desc_num, #murals_container .work_desc_num{
-	color:rgba(0,0,0,.4);
+
 }
 
 #murals_container .work_desc_num{
@@ -2078,7 +2087,9 @@ color:#fff;
 
 
 .litewallet_link{
-	color:$litewallet_link_color;
+  background-image: $litewallet_gradient_link;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .litewallet_link::After{
@@ -3366,4 +3377,57 @@ z-index:100;
 .experiments_container .selected_works_text, .experiments_container .selected_works_tag{
 	color:$text_white;
 }
+
+
+.shell_link{
+overflow:visible;
+  background-image: $shell_gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.shell_link::after{
+	background:$shell_gradient;
+	top:88%;
+
+}
+
+.litewallet_link::after{
+	background:$litewallet_gradient_link;
+	top:88%;
+
+}
+
+
+.work_container .work_container_scrim{
+position:absolute;
+top:0px;
+left:0px;
+height:100%;
+width:100%;
+width:90%;
+}
+
+#crosschecks_container .work_container_scrim{
+	
+background:linear-gradient(to right, rgba(82,99,255,70%), rgba(82,99,255,0));
+}
+
+#feetapart_container .work_container_scrim{
+	
+background:linear-gradient(to right, rgba(99,137,100,75%), rgba(99,137,100,0));
+}
+
+
+
+
+
+
+
+
+
+
+
 
