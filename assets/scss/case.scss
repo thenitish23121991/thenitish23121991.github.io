@@ -70,6 +70,9 @@ $murals_color_alternate: #FF1133;
 $studycopter_color_3: #52518A;
 
 
+$shell_gradient: linear-gradient(to right, #facd30, #dd1d21 240%);
+
+
 $para_width: 56vw;
  
 
@@ -151,6 +154,10 @@ position:relative;
 	background-size:cover; 
 }
 
+#wells_activities_container .case_cover_container{
+		background-image:url('../images/Wells Activities Cover.png');
+	background-size:cover; 
+}
 
 
 .case_body_container{
@@ -276,6 +283,10 @@ letter-spacing:.02em;
 
 #murals_case_container .para_title_1{
 	color:$murals_color_alternate;
+}
+
+#wells_activities_container .para_title_1{
+	color:$shell_gradient;
 }
 
 
@@ -626,7 +637,7 @@ width:800px;
 	font-size:$para;
 	line-height:$para_line;
 
-}
+} 
 
 .para_list_container{
 	

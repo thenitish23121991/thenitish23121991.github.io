@@ -453,13 +453,13 @@ height:488px;
   background: linear-gradient(to right bottom, #906FD8, #331873); }
 
 #litewallet_container .case_study_button {
-  background: #4c338b; }
+  background: #533793; }
 
 #crosschecks_container .work_container_inner {
   background: linear-gradient(to right bottom, #BDC4FF, #606FF3); }
 
 #crosschecks_container .case_study_button {
-  background: rgba(0, 0, 0, 0.19); }
+  background: rgba(0, 0, 0, 0.135); }
 
 #studycopter_container .work_container_inner {
   background: #62619A; }
@@ -483,6 +483,19 @@ height:488px;
   background-image: url("../images/mural_background.png");
   background-size: cover; }
 
+#wells_activities_work_container .work_desc_cover_container {
+  background-image: url("../images/Wells Activities Cover.png");
+  background-size: cover; }
+
+#wells_activities_work_container .work_container_inner {
+  background: linear-gradient(to right, #facd30, #dd1d21 240%); }
+
+#wells_activities_work_container .case_study_button {
+  background: #ffd634; }
+
+#wells_activities_work_container .case_study_button_text {
+  color: rgba(0, 0, 0, 0.87); }
+
 #stanza_container .work_desc_date {
   color: rgba(255, 255, 255, 0.7); }
 
@@ -499,7 +512,7 @@ height:488px;
   color: rgba(255, 255, 255, 0.6); }
 
 .work_container.dark_text .work_desc_date {
-  color: rgba(0, 0, 0, 0.87); }
+  color: rgba(0, 0, 0, 0.64); }
 
 #litewallet_container .work_cover_container img {
   margin-top: 0%;

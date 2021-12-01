@@ -234,6 +234,12 @@ font-size:$title_large_text;
 	background-size:cover;
 }
 
+#wells_activities_container .cover_background{
+	background-image:url('../images/Wells Activities Cover.png');
+	background-size:cover;
+}
+
+
 
 #pvr_cinemas_container .cover_overlay, #crosschecks_container .cover_overlay{
 
@@ -904,7 +910,9 @@ background-image:url('../images/Litewallet Mockup.jpg');
 	background-image:url('../images/Crosschecks Cover.jpg');
 }
 
-
+#wells_activities_container .works_cover_container{
+	background-image:url('../images/Wells Activities Cover.png');
+}
 
 
 .works_new_tab_container{
@@ -1414,7 +1422,7 @@ padding:8px 12px;
 .case_study_button{
 	display:inline-block;
 	font-family:$type_medium;
-	font-size:$body;
+	font-size:$body_text;
 	color:$text_white;
 	padding:2px 24px;
 	border-radius:32px;

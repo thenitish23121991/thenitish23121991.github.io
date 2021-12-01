@@ -57,6 +57,10 @@
   background-image: url("../images/Murals Cover Large.jpg");
   background-size: cover; }
 
+#wells_activities_container .case_cover_container {
+  background-image: url("../images/Wells Activities Cover.png");
+  background-size: cover; }
+
 .case_intro_container {
   padding-left: 20vw; }
 
@@ -146,6 +150,9 @@
 
 #murals_case_container .para_title_1 {
   color: #FF1133; }
+
+#wells_activities_container .para_title_1 {
+  color: linear-gradient(to right, #facd30, #dd1d21 240%); }
 
 .para {
   padding-top: 32px;

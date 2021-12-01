@@ -581,6 +581,102 @@ Solving problems with craft and grit
 
 
 
+<div class="work_container dark_text" id="wells_activities_work_container" tabindex="14" work-url="Wells Activities Sequence">
+
+<div class="w_transition"></div>
+
+
+<div class="work_container_inner"></div>
+
+<div class="work_container_scrim"></div>
+
+<a href="javascript:void(0);">        
+
+<div class="work_cover_container">
+    
+<img src="assets/images/Wells Activities.png" width="760" height="540" />
+
+</div>
+
+
+<div class="work_desc_container">
+
+
+<div class="work_desc_num">02 -</div> 
+
+    
+<div class="work_desc_title">
+
+<div class="work_word_container">
+
+<div class="work_word" word_number="1">I </div>
+<div class="work_word" word_number="2">helped </div>
+<div class="work_word" word_number="3">design </div>
+<div class="work_word" word_number="4">the </div>
+<div class="work_word" word_number="5">Crosschecks</div> 
+
+</div>
+
+<div class="work_word_container">
+
+<div class="work_word" word_number="6">app, </div>
+<div class="work_word" word_number="7">collaborated </div>
+<div class="work_word" word_number="8">with </div>
+<div class="work_word" word_number="9">the </div>
+
+</div>
+
+<div class="work_word_container">
+
+<div class="work_word" word_number="10">founders </div>
+<div class="work_word" word_number="11">and </div>
+<div class="work_word" word_number="12">developers </div>
+<div class="work_word" word_number="13">of </div>
+<div class="work_word" word_number="14">the</div> 
+<div class="work_word" word_number="15">app</div> 
+<div class="work_word" word_number="16">to</div> 
+<div class="work_word" word_number="17">design</div> 
+
+
+
+</div>
+
+
+</div>
+<div class="work_desc_date">Dec 2018 - Feb 2019</div>
+
+
+
+
+
+
+<div class="case_study_button_container">
+	
+<div class="case_study_button">
+
+<div class="case_study_button_text">SEE CASE STUDY </div> <img src="assets/images/arrow_forward_dark.svg" />
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+</a>
+
+</div>
+
+
+
 
 
 
@@ -607,7 +703,7 @@ Solving problems with craft and grit
 <div class="work_desc_container">
 
 
-<div class="work_desc_num">02 -</div> 
+<div class="work_desc_num">03 -</div> 
 
     
 <div class="work_desc_title">
@@ -704,7 +800,7 @@ Solving problems with craft and grit
 <div class="work_desc_container">
 
 
-<div class="work_desc_num">03 -</div> 
+<div class="work_desc_num">04 -</div> 
 
 <div class="work_desc_title">
 
@@ -807,7 +903,7 @@ Solving problems with craft and grit
 <div class="work_desc_container">
 
 
-<div class="work_desc_num">04 -   </div>
+<div class="work_desc_num">05 -   </div>
     
 <div class="work_desc_title">
 
@@ -905,7 +1001,7 @@ Solving problems with craft and grit
 <div class="work_desc_container">
 
 
-<div class="work_desc_num">05 -</div> 
+<div class="work_desc_num">06 -</div> 
     
 <div class="work_desc_title">
 
@@ -1006,7 +1102,7 @@ Solving problems with craft and grit
 
 <div class="work_desc_container">
 
-<div class="work_desc_num">06 -</div> 
+<div class="work_desc_num">07 -</div> 
     
 <div class="work_desc_title">
 
@@ -1197,7 +1293,7 @@ Solving problems with craft and grit
 <div class="work_desc_container">
 
 
-<div class="work_desc_num">07 -</div> 
+<div class="work_desc_num">08 -</div> 
 
     
 <div class="work_desc_title">
@@ -1502,6 +1598,7 @@ var studycopter_container = $('.work_container#studycopter_container');
 var goqii_container = $('.work_container#goqii_container');
 var murals_container = $('.work_container#murals_container');
 var stanza_container = $('.work_container#stanza_container');
+var wells_activities_container = $('.work_container#wells_activities_work_container');
 
 
 
@@ -1534,6 +1631,10 @@ var murals_top = position_top.top;
 
 position_top = stanza_container.position();
 var stanza_top = position_top.top;
+
+position_top = wells_activities_container.position();
+var wells_activities_top = position_top.top;
+
 
 
 var set_height = 488;
@@ -1803,6 +1904,7 @@ new Smooth();
 function show_work_container(scroll){
 
 
+console.log(wells_activities_container);
 
 if(scroll > feetapart_top-360){
 
@@ -1811,7 +1913,7 @@ show_work_titles();
 }
 
 
-if(scroll > feetapart_top-310 && scroll < crosschecks_top-120){
+if(scroll > feetapart_top-310 && scroll < wells_activities_top-120){
 
 feetapart_container.addClass('show');
 
@@ -1819,6 +1921,17 @@ show_work_elements(feetapart_container);
 
 
 }
+
+else if(scroll > wells_activities_top-270 && scroll < crosschecks_top-120){
+
+
+console.log('called');
+
+wells_activities_container.addClass('show');
+show_work_elements(wells_activities_container);
+}
+
+
 
 else if(scroll > crosschecks_top-270 && scroll < pvr_cinemas_top-120){
 
