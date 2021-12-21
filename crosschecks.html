@@ -159,16 +159,92 @@ Due to slow mobile networks, an OTP might be received on a delay. An OTP message
 
 
 
+<div class="para title_para">
 
 
 
-<div class="para">
+<div class="para_title_subhead">
+  
+
+<div>The Guards App</div>
+
+
+</div>
+
+
+<div class="para_body">
+We started off by designing the app for guards, since it was most central to achieving the goal of reducing/stopping the car thefts. With the help of this app, security guards confirm the identity of the drivers of the vehicles in the late night time slot(11 PM - 5 AM in most cases) and if the driver tries to flee the spot, with the help of the alert button, the guards can inform the nearest police station about the car theft. 
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="para dark_background">
 
 <div class="para_title_1">Our Target Users</div>
 <div class="para_title_2">Understanding our users</div>
 
 <div class="para_body">
-Based on our thorough user research, we realised that most of the mobile phones used by the security guards at these colonies were low end android devices. Although, the security guards were not very literate, they were well versed with the usage of the OTP process since they had experience of using a lot of banking apps which use OTP as well. A lot of guards suffered from low visibility.
+
+Our users for the guards app were security guards who man the society gate during the night. After intensive interviews, conducting research and creating user personas, we understood how they use their phones, what kind of devices they use, we found out following key insights that helped us design an easy to use and efficient app for them:
+
+
+
+<div class="para_list_container">
+
+<ul>
+
+
+<li>
+Most of the guards used low end android devices.
+</li>
+
+
+
+
+<li>
+Since a lot of them were older in age, a lot of them had visibility issues. Most of them had a lower vision than an average person.
+</li>
+
+
+
+
+</ul>
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="para dark_background">
+
+<div class="para_title_1">Other Screens</div>
+<div class="para_title_2">Some initial sketching</div>
+
+<div class="para_body">
+
+Some sketches we developed early in the process for each of the applications. These cover the UX and the flow of the applications briefly. While creating the sketches for the app, we encountered a key question regarding the use case for this app: What happens if while the guard is generating an OTP for a car, another car appears and the driver is looking to get verified? 
+
+<br/>
+<br/>
+
+<div>
+
+This is a very real possibility since the there is sometimes a delay in receiving an OTP on devices in India due to a poor network. We tried to solve this problem by adding a way for the guard to create multiple OTPs at the same time.
+
 </div>
 
 
@@ -178,23 +254,60 @@ Based on our thorough user research, we realised that most of the mobile phones 
 
 
 
-<div class="para">
+</div>
+
+
+
+
+
+<div class="images_container dark_background">
+
+<div>
+<img src="assets/images/screens/crosschecks/sketch1.jpg" />
+<img src="assets/images/screens/crosschecks/sketch2.jpg" />
+<img src="assets/images/screens/crosschecks/sketch3.jpg" />
+
+<img src="assets/images/screens/crosschecks/sketch4.jpg" />
+
+
+
+<div class="images_text">
+
+Some sketches
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="para dark_background">
 
 <div class="para_title_1">Initial Wireframing</div>
 <div class="para_title_2">Wireframes</div>
 
 <div class="para_body">
 
-</div>
+Some initial wireframes for the app
 
 
 </div>
 
 
+</div>
 
 
 
-<div class="images_container">
+
+
+<div class="images_container dark_background">
 
 <div>
 <img src="assets/images/screens/crosschecks/wireframes/guard_otp2@1x.jpg" />
@@ -211,6 +324,61 @@ Wireframes for Crosschecks app
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="para dark_background">
+
+<div class="para_title_1">The Guard App</div>
+<div class="para_title_2">Mockups</div>
+
+<div class="para_body">
+The Guard App is geared towards the confirming the owner of the vehicle by generating the OTP and matching it with the OTP received by the vehicle owner. In case that fails, the guard calls one of the owners of the vehicles through the app.
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="images_container dark_mockups_container">
+
+<div>
+<img src="assets/images/screens/crosschecks/Guards Home.png" />
+<img src="assets/images/screens/crosschecks/Guards Home_2.png" />
+<img src="assets/images/screens/crosschecks/Guards OTP.png" />
+</div>
+
+<div>
+
+<img src="assets/images/screens/crosschecks/Guards OTP_2.png" />
+<img src="assets/images/screens/crosschecks/Guards Confirm Driver.png" />
+
+
+</div>
+
+
+<div class="images_text">
+Crosschecks Guards app
+</div>
+
+
+</div>
+
+
 
 
 
@@ -218,11 +386,11 @@ Wireframes for Crosschecks app
 
 <div class="para">
 
-<div class="para_title_1">Other Screens</div>
-<div class="para_title_2">Some initial sketching</div>
+<div class="para_title_1">The User App</div>
+<div class="para_title_2">The User App</div>
 
 <div class="para_body">
-Some sketches we developed early in the process for each of the applications. These cover the UX and the flow of the applications briefly.
+The vehicle owner is requested to upload their vehicle details on the app and keep them updated. The owner also uploads the details of the his/her family on the app. Every member of a family is assumed as an owner of all the vehicles of the family. When an OTP is generated by a guard or a police official, the same OTP is sent to the owners of the vehicle.
 </div>
 
 
@@ -235,20 +403,19 @@ Some sketches we developed early in the process for each of the applications. Th
 <div class="images_container">
 
 <div>
-<img src="assets/images/screens/crosschecks/wireframes/guard_otp2@1x.jpg" />
-<img src="assets/images/screens/crosschecks/wireframes/mycarapp_menu@1x.jpg" />
-<img src="assets/images/screens/crosschecks/wireframes/police_home@1x.jpg" />
-<img src="assets/images/screens/crosschecks/wireframes/police_otp3@1x.jpg" />
+<img src="assets/images/screens/crosschecks/Resident Home.png" />
+<img src="assets/images/screens/crosschecks/Resident Vehicles.png" />
+<img src="assets/images/screens/crosschecks/Resident Car Details.png" />
 </div>
 
 
 <div class="images_text">
-
-Wireframes for Crosschecks app
+Crosschecks Resident app
 </div>
 
 
 </div>
+
 
 
 
@@ -291,52 +458,6 @@ Crosschecks app
 
 
 
-
-<div class="para dark_background">
-
-<div class="para_title_1">The Guard App</div>
-<div class="para_title_2">The Guard App</div>
-
-<div class="para_body">
-The Guard App is geared towards the confirming the owner of the vehicle by generating the OTP and matching it with the OTP received by the vehicle owner. In case that fails, the guard calls one of the owners of the vehicles through the app.
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="images_container dark_mockups_container">
-
-<div>
-<img src="assets/images/screens/crosschecks/Guards Home.png" />
-<img src="assets/images/screens/crosschecks/Guards Home_2.png" />
-<img src="assets/images/screens/crosschecks/Guards OTP.png" />
-</div>
-
-<div>
-
-<img src="assets/images/screens/crosschecks/Guards OTP_2.png" />
-<img src="assets/images/screens/crosschecks/Guards Confirm Driver.png" />
-
-
-</div>
-
-
-<div class="images_text">
-Crosschecks Guards app
-</div>
-
-
-</div>
-
-
-
-
-
-
 <div class="para">
 
 <div class="para_title_1">The Police App</div>
@@ -371,45 +492,6 @@ Crosschecks Police app
 
 </div>
 
-
-
-
-
-
-
-
-
-<div class="para">
-
-<div class="para_title_1">The User App</div>
-<div class="para_title_2">The User App</div>
-
-<div class="para_body">
-The vehicle owner is requested to upload their vehicle details on the app and keep them updated. The owner also uploads the details of the his/her family on the app. Every member of a family is assumed as an owner of all the vehicles of the family. When an OTP is generated by a guard or a police official, the same OTP is sent to the owners of the vehicle.
-</div>
-
-
-</div>
-
-
-
-
-
-<div class="images_container">
-
-<div>
-<img src="assets/images/screens/crosschecks/Resident Home.png" />
-<img src="assets/images/screens/crosschecks/Resident Vehicles.png" />
-<img src="assets/images/screens/crosschecks/Resident Car Details.png" />
-</div>
-
-
-<div class="images_text">
-Crosschecks Resident app
-</div>
-
-
-</div>
 
 
 

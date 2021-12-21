@@ -728,4 +728,15 @@ div.para + div.para.dark_background {
   height: 424px;
   width: 212px; }
 
+.para_title_subhead {
+  font-family: "BasisGrotesqueMedium";
+  font-size: 33.18px; }
+
+.title_para {
+  padding-top: 0px;
+  margin-top: 28px; }
+
+.title_para .para_body {
+  margin-top: 16px; }
+
 /*# sourceMappingURL=case.css.map */
