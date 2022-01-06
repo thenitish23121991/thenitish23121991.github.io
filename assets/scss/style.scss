@@ -3463,7 +3463,11 @@ font-size:$large_title;
 
 .anim_container{
 	height:64px;
-	line-height:80px;
+	line-height:96px;
+}
+
+.top_text_2 .anim_container .anim_text_word{
+	font-size:$title;
 }
 
 
