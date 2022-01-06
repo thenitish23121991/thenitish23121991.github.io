@@ -3182,6 +3182,9 @@ a.hide::after {
     font-size: 33.18px; }
 
   .work_container {
-    width: 68vw; } }
+    width: 68vw; }
+
+  .selected_works_container {
+    padding: 0px 14vw; } }
 
 /*# sourceMappingURL=style.css.map */
