@@ -3169,6 +3169,9 @@ a.hide::after {
 
   .copy_vertical_inner {
     top: -32%;
-    left: -950%; } }
+    left: -950%; }
+
+  .anim_container .anim_text_word {
+    font-size: 27.65px; } }
 
 /*# sourceMappingURL=style.css.map */
