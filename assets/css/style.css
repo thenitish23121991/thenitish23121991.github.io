@@ -3172,6 +3172,10 @@ a.hide::after {
     left: -950%; }
 
   .anim_container .anim_text_word {
-    font-size: 39.81px; } }
+    font-size: 39.81px; }
+
+  .anim_container {
+    height: 64px;
+    line-height: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
