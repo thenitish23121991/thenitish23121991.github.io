@@ -3163,4 +3163,12 @@ a.hide::after {
 #feetapart_container .work_container_scrim {
   background: linear-gradient(to right, rgba(99, 137, 100, 0.75), rgba(99, 137, 100, 0)); }
 
+@media only screen and (min-width: 2880px) {
+  body {
+    background-color: lightblue; }
+
+  .copy_vertical_inner {
+    top: -32%;
+    left: -1400%; } }
+
 /*# sourceMappingURL=style.css.map */
