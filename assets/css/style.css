@@ -3184,7 +3184,7 @@ a.hide::after {
   .work_container {
     width: 68vw; }
 
-  .selected_works_container {
+  #selected_works_container {
     padding-left: 14vw; } }
 
 /*# sourceMappingURL=style.css.map */
