@@ -8,14 +8,14 @@ html, body {
   overflow-x: hidden; }
 
 @font-face {
-  src: url("../fonts/basis-grotesque-regular.ttf");
-  font-family: 'BasisGrotesqueRegular'; }
+  src: url("../fonts/TTNorms-Regular.ttf");
+  font-family: 'TTNormsRegular'; }
 @font-face {
-  src: url("../fonts/basis-grotesque-medium.ttf");
-  font-family: 'BasisGrotesqueMedium'; }
+  src: url("../fonts/TTNorms-Regular.ttf");
+  font-family: 'TTNormsMedium'; }
 @font-face {
-  src: url("../fonts/basis-grotesque-bold.ttf");
-  font-family: 'BasisGrotesqueBold'; }
+  src: url("../fonts/TTNorms-Regular.ttf");
+  font-family: 'TTNormsBold'; }
 .container.home_initial {
   height: 100%;
   width: 100%;
@@ -238,7 +238,7 @@ body {
   float: left;
   margin-left: 60px;
   list-style-type: none;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 17px;
   transform: translateY(0px);
   -webkit-transform: translateY(0px);
@@ -329,7 +329,7 @@ a:hover::after {
   width: 0%; }
 
 .header_menu_list_item.selected {
-  font-family: "BasisGrotesqueMedium"; }
+  font-family: "TTNormsMedium"; }
 
 .header_list_item:nth-child(1) {
   margin-left: 0px; }
@@ -345,7 +345,7 @@ a:hover::after {
   margin-top: 72px;
   width: 76%;
   padding: 88px 10% 0px 196px;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 31.5px;
   line-height: 48px; }
 
@@ -358,7 +358,7 @@ a:hover::after {
   overflow: hidden; }
 
 .header_text_desc {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
   line-height: 52px;
@@ -366,7 +366,7 @@ a:hover::after {
   margin-top: 16px; }
 
 .past_experiences_container {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 20px;
   line-height: 32px;
   margin-top: 20px; }
@@ -378,12 +378,12 @@ a:hover::after {
   padding: 0px 6vw; }
 
 .heading {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 31px;
   line-height: 48px; }
 
 .heading_desc {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 24px;
   line-height: 48px;
   color: rgba(0, 0, 0, 0.5); }
@@ -589,7 +589,7 @@ height:488px;
   color: rgba(0, 0, 0, 0.45); }
 
 .work_desc_title {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 25px;
   line-height: 48px;
   margin-top: 8px;
@@ -601,7 +601,7 @@ height:488px;
   -o-transform: translateY(20px); }
 
 .work_desc_date {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 17px;
   margin-top: 4px;
   color: white;
@@ -646,12 +646,12 @@ height:488px;
   min-height: 96px; }
 
 .footer_text_1 {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 31px;
   line-height: 48px; }
 
 .footer_text_2, .footer_text_3 {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 20px;
   line-height: 40px;
   margin-top: 8px; }
@@ -698,7 +698,7 @@ height:488px;
 
 .about_head_container {
   color: white;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 27.65px;
   line-height: 52px;
   float: left;
@@ -717,7 +717,7 @@ height:488px;
   margin-top: 56px; }
 
 .title_2 {
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 24px; }
 
 .body_2 {
@@ -739,12 +739,12 @@ height:488px;
   margin-top: 8px; }
 
 .quote_text {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 24px;
   line-height: 36px; }
 
 .quote_author {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 20px;
   margin-top: 12px;
   margin-bottom: 4px; }
@@ -817,7 +817,7 @@ a.amituslab::after {
   margin-left: 0px; }
 
 .social_link_seperator {
-  font-family: "BasisGrotesqueMedium"; }
+  font-family: "TTNormsMedium"; }
 
 .social_link_icon img {
   height: 12px;
@@ -850,7 +850,7 @@ a.amituslab::after {
 .copyright {
   width: 100%;
   text-align: center;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 16px;
   color: rgba(0, 0, 0, 0.87);
   margin-top: 24px; }
@@ -869,7 +869,7 @@ a.amituslab::after {
 
 .design_mark {
   padding: 16px 15%;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 20px;
   line-height: 36px;
   width: 70%;
@@ -883,14 +883,14 @@ a.amituslab::after {
   -ms-transition: all 1.2s cubic-bezier(0.52, 1.18, 0.87, 1.03) 0s, opacity 1.6s cubic-bezier(0.52, 1.18, 0.87, 1.03) 0s; }
 
 .copy_vertical_inner {
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   color: rgba(255, 255, 255, 0.75); }
 
 #footer {
   padding-bottom: 24px;
   padding-top: 48px;
   padding-left: 8vw;
-  font-family: "BasisGrotesqueRegular"; }
+  font-family: "TTNormsRegular"; }
 
 #footer.white_background {
   background: linear-gradient(to bottom right, #F6F6F6, #FCFCFC); }
@@ -899,13 +899,13 @@ a.amituslab::after {
   background: linear-gradient(to bottom right, #2a2a2a, #333339); }
 
 .footer_title {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 33.18px;
   line-height: 56px; }
 
 .footer_title_2 {
   margin-top: 16px;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 23.04px;
   line-height: 40px; }
 
@@ -949,13 +949,13 @@ a.amituslab::after {
   color: white; }
 
 .highlight_body {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 23.04px;
   line-height: 40px;
   color: white; }
 
 .highlight_time {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 16px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.7);
@@ -986,7 +986,7 @@ a.amituslab::after {
   margin-top: 8vh; }
 
 .scroll_container_text {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 13.3px;
   color: rgba(0, 0, 0, 0.64);
   width: 100%;
@@ -1014,15 +1014,15 @@ a.amituslab::after {
   text-align: center; }
 
 .intro_name {
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 39.81px; }
 
 .intro_desc {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 23.04px; }
 
 .intro_city {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 23.04px; }
 
 .anim_container {
@@ -1177,7 +1177,7 @@ a.amituslab::after {
 
 .top_text_1 {
   font-size: 31.25px;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   line-height: 64px;
   margin-top: 2vh;
   color: #fff; }
@@ -1227,7 +1227,7 @@ a.amituslab::after {
   margin-top: -32px; }
 
 .top_text_2 {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 25px;
   line-height: 48px;
   color: #bbbbbb;
@@ -1308,11 +1308,11 @@ a.amituslab::after {
 
 .copy_span {
   display: inline;
-  font-family: "BasisGrotesqueRegular"; }
+  font-family: "TTNormsRegular"; }
 
 .copy_span_right {
   display: inline-block;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 19.2px;
   color: rgba(255, 255, 255, 0.9); }
 
@@ -1358,7 +1358,7 @@ a.amituslab::after {
 
 .header_menu ul li a {
   color: #fff;
-  font-family: "BasisGrotesqueMedium"; }
+  font-family: "TTNormsMedium"; }
 
 .header_menu ul li a:after {
   background: #fff;
@@ -1373,7 +1373,7 @@ a.amituslab::after {
   z-index: 200; }
 
 .scroll_for_more_text {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 18px;
   display: inline-block;
   padding-right: 24px;
@@ -1420,7 +1420,7 @@ a.amituslab::after {
 
 .selected_works_text {
   font-size: 31.25px;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   transform: translateY(0px) rotate(0deg);
   -webkit-transform: translateY(0px) rotate(0deg);
   -moz-transform: translateY(0px) rotate(0deg);
@@ -1433,7 +1433,7 @@ a.amituslab::after {
   -o-transition: all 0.65s cubic-bezier(0.31, 1.02, 0.84, 0.99) 0s; }
 
 .selected_works_tag {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 25px;
   margin: 16px 0px 12px 0px;
   transition-delay: .35s;
@@ -1550,7 +1550,7 @@ a.amituslab::after {
   -o-transition: all 0.4s cubic-bezier(0.52, 1.18, 0.87, 1.03) 0s; }
 
 .about_head_title_1 {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 16px;
   line-height: 24px;
   color: #9199de; }
@@ -1627,7 +1627,7 @@ a.amituslab::after {
   text-align: center; }
 
 .intro_text_1 {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 39.81px;
   color: white;
   width: 100%;
@@ -1642,7 +1642,7 @@ a.amituslab::after {
   -o-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1); }
 
 .intro_text_2 {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 23.04px;
   color: white;
   width: 100%;
@@ -1756,7 +1756,7 @@ a.amituslab::after {
 
 .about_large_title {
   font-size: 47.76px;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   line-height: 64px;
   margin-top: 8vh; }
 
@@ -1768,7 +1768,7 @@ a.amituslab::after {
   -o-transform: translateY(-100%); }
 
 .work_desc_title_2 {
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 27.65px;
   display: inline-block;
   padding-bottom: 4px;
@@ -1819,7 +1819,7 @@ a.hide::after {
   height: 3px; }
 
 .about_head_large_desc {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 23.04px;
   line-height: 44px;
   margin-top: 12px;
@@ -2201,7 +2201,7 @@ a.hide::after {
   top: -4px;
   color: rgba(0, 0, 0, 0.3);
   font-size: 27.65px;
-  font-family: "BasisGrotesqueMedium"; }
+  font-family: "TTNormsMedium"; }
 
 .work_container.coming_soon .text_word {
   margin-left: -5px; }
@@ -2892,7 +2892,7 @@ a.hide::after {
   opacity: 1; }
 
 .scroll_for_more_text {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 19.2px;
   color: rgba(255, 255, 255, 0.7);
   display: inline-block; }
@@ -2970,7 +2970,7 @@ a.hide::after {
 
 .case_study_button {
   display: inline-block;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 16px;
   color: white;
   padding: 2px 24px;
