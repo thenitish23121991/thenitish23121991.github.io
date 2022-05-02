@@ -491,10 +491,10 @@ height:488px;
   background: linear-gradient(to right, #facd30, #dd1d21 240%); }
 
 #wells_activities_work_container .case_study_button {
-  background: #ffd634; }
+  background: #fffffff; }
 
 #wells_activities_work_container .case_study_button_text {
-  color: rgba(0, 0, 0, 0.87); }
+  color: white; }
 
 #stanza_container .work_desc_date {
   color: rgba(255, 255, 255, 0.7); }
