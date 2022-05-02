@@ -13,18 +13,18 @@ html,body{
 
 
 @font-face{
-	src:url('../fonts/basis-grotesque-regular.ttf');
-	font-family:'BasisGrotesqueRegular';
+	src:url('../fonts/TTNorms-Regular.ttf');
+	font-family:'TTNormsRegular';
 }
 
 @font-face{
-	src:url('../fonts/basis-grotesque-medium.ttf');
-	font-family:'BasisGrotesqueMedium';
+	src:url('../fonts/TTNorms-Regular.ttf');
+	font-family:'TTNormsMedium';
 }
 
 @font-face{
-	src:url('../fonts/basis-grotesque-bold.ttf');
-	font-family:'BasisGrotesqueBold';
+	src:url('../fonts/TTNorms-Regular.ttf');
+	font-family:'TTNormsBold';
 }
 
 
@@ -54,8 +54,8 @@ $text_dark_light: rgba(0,0,0,.64);
 $text_white: rgba(255,255,255,1);
 $text_white_light: rgba(255,255,255,.7);
  
-$type_regular: 'BasisGrotesqueRegular';
-$type_medium: 'BasisGrotesqueMedium';
+$type_regular: 'TTNormsRegular';
+$type_medium: 'TTNormsMedium';
 $serif_regular: 'FreightTextBook';
 
 
