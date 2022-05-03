@@ -11,10 +11,10 @@ html, body {
   src: url("../fonts/TTNorms-Regular.ttf");
   font-family: 'TTNormsRegular'; }
 @font-face {
-  src: url("../fonts/TTNorms-Regular.ttf");
+  src: url("../fonts/TTNorms-Medium.ttf");
   font-family: 'TTNormsMedium'; }
 @font-face {
-  src: url("../fonts/TTNorms-Regular.ttf");
+  src: url("../fonts/TTNorms-Boldttf");
   font-family: 'TTNormsBold'; }
 .container.home_initial {
   height: 100%;
