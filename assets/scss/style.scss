@@ -937,8 +937,9 @@ color:rgba(0,0,0,.35);
 
 .work_desc_num{
 	color:rgba(0,0,0,.32);
-	font-family: 'BasisGrotesqueBold';
+	font-family: $type_regular;
 	font-size:42px;
+	font-weight: bold;
 
 	opacity:0;
 
@@ -1607,7 +1608,7 @@ display:inline-block;
 	overflow:hidden;
 	width:100%;
 	height:auto;
-	line-height:52px;
+	line-height:40px;
 
 }
 
@@ -1818,7 +1819,7 @@ opacity:0;
 
 .anim_container{
 	height:48px;
-	line-height:64px;
+	line-height:56px;
 	overflow:hidden;
 
 }
@@ -2412,8 +2413,7 @@ position:absolute;
 	font-size:$large_title;
 	color:rgb(255,255,255);
 	width:100%;
-	text-align:center;
-	letter-spacing:.03em;
+	text-align:center; 
 	height:64px;
 	overflow:hidden;
 
@@ -2697,7 +2697,7 @@ a.hide::after{
 
 .intro_text_1 .text_word{
 	
-	margin-left:-13px;
+	margin-left:-7px;
 }
 
 
@@ -2707,7 +2707,7 @@ a.hide::after{
 
 
 .intro_text_2 .text_word{
-margin-left:-6px;
+margin-left:-4px;
 }
 
 
