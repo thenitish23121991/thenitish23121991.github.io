@@ -66,14 +66,14 @@
 
 .case_intro_line {
   margin-top: 44px;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 39.81px;
   line-height: 64px;
   width: 60vw; }
 
 .case_intro_name {
   margin-top: 4px;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 23.04px;
   line-height: 44px;
   color: #4DC997; }
@@ -98,7 +98,7 @@
 
 .case_intro_date {
   margin-top: 16px;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5); }
@@ -109,19 +109,19 @@
   padding-left: 20vw; }
 
 .context_body {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 23.04px;
   line-height: 44px; }
 
 .para_title_1 {
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 13.3px;
   line-height: 20px;
   text-transform: uppercase;
   width: 56vw; }
 
 .para_title_2 {
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 27.65px;
   line-height: 52px;
   width: 56vw;
@@ -194,7 +194,7 @@
   margin-top: 32px;
   text-align: center;
   width: 100%;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 23.04px; }
 
 .images_container div:nth-child(2) {
@@ -219,7 +219,7 @@
   width: 84vw; }
 
 .more_case_studies_title {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 23.04px;
   line-height: 44px;
   width: 100%;
@@ -258,7 +258,7 @@
   background: transparent; }
 
 .quote_text {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 27.65px;
   line-height: 52px;
   padding-top: 4px;
@@ -266,7 +266,7 @@
 
 .quote_author {
   margin-top: -4px;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 19.2px;
   line-height: 28px; }
 
@@ -275,7 +275,7 @@
   list-style-position: inside; }
 
 .case_list_item {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   margin-top: 32px; }
 
 .case_list_item:nth-child(1) {
@@ -386,7 +386,7 @@ div.para + div.para {
 .stat_container {
   min-height: 40px;
   width: 100%;
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   margin-top: 48px;
   width: 62vw; }
 
@@ -396,7 +396,7 @@ div.para + div.para {
 .stat_number {
   display: table;
   color: linear-gradient(to right, #123FEC, #328FFF);
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 39.81px;
   line-height: 64px; }
 
@@ -412,7 +412,7 @@ div.para + div.para {
   margin-top: 24px; }
 
 .para_list_container ul li {
-  font-family: "BasisGrotesqueRegular";
+  font-family: "TTNormsRegular";
   font-size: 19.2px;
   line-height: 32px;
   margin-top: 24px;
@@ -549,7 +549,7 @@ div.para + div.para {
 
 .case_study_button {
   display: inline-block;
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 16px;
   color: white;
   padding: 2px 24px;
@@ -701,12 +701,12 @@ div.para + div.para.dark_background {
   margin-top: 0px; }
 
 .inline_list_title {
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   display: inline-block; }
 
 .inline_list_body {
   display: inline;
-  font-family: "BasisGrotesqueRegular"; }
+  font-family: "TTNormsRegular"; }
 
 .inline_list {
   list-style-position: inside; }
@@ -729,7 +729,7 @@ div.para + div.para.dark_background {
   width: 212px; }
 
 .para_title_subhead {
-  font-family: "BasisGrotesqueMedium";
+  font-family: "TTNormsMedium";
   font-size: 33.18px; }
 
 .title_para {
