@@ -531,7 +531,7 @@ height:488px;
 .work_cover_container {
   position: absolute;
   left: 37%;
-  top: -2%;
+  top: 12%;
   width: 140%;
   opacity: 0;
   transition: all .8s ease 2.1s;
