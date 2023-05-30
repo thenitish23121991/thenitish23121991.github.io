@@ -316,8 +316,20 @@ html,body{
 <div class="copy_vertical">
 
 <div class="copy_vertical_inner">    
+
+<script>
+	
+
+const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+
+var d = new Date();
+
+
+</script>
+
     
-<div class="copy_span_right">&copy; Portfolio 2020</div> &nbsp; // <div class="copy_span_right"> &nbsp; Updated July 2020</div>
+<div class="copy_span_right">&copy; Portfolio <script> document.write(d.getFullYear()); </script></div> &nbsp; // <div class="copy_span_right"> &nbsp; Updated <script>document.write(month[d.getMonth()]+' '+d.getFullYear());</script></div>
 
 </div>    
 </div>
