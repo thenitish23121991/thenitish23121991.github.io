@@ -36,6 +36,16 @@ html,body{
 
 <body>
 
+
+
+<svg xmlns="http://www.w3.org/2000/svg" id="svg_element">
+</svg>
+
+
+
+
+
+
 <div id="loading">
 	
 
@@ -1627,6 +1637,11 @@ var wells_activities_container = $('.work_container#wells_activities_work_contai
 var loading = $('#loading');
 
 
+var svg_number = 0;
+var svg_interval;
+var svg_element = $('#svg_element');
+
+
 
 var position_top = pvr_cinemas_app_container.position();
 var pvr_cinemas_app_top = position_top.top;
@@ -2367,6 +2382,30 @@ loading.css('display','none');
 
 
 
+function run_svg(){
+
+
+
+if(elem_number < 50){
+
+var rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+
+rect.setAttribute('fill','#9199de');
+rect.setAttribute('height',40);
+rect.setAttribute('width',40);
+
+svg_element.appendChild(rect);
+
+elem_number = elem_number + 1;
+
+}
+
+}
+
+
+
+
+
 function onReady(callback) {
   var intervalId = window.setInterval(function() {
     if (document.getElementsByTagName('body')[0] !== undefined) {
@@ -2387,6 +2426,8 @@ $(window).scrollTop(0);
 
 hide_loading();
 intro_animation();
+
+svg_interval = setInterval(run_svg,500);
 
 $('html').css('height',window_height);
 $('body').css('width',window_width);

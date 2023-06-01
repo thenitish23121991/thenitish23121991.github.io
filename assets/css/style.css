@@ -28,6 +28,12 @@ body {
   -ms-transform-origin: center;
   -o-transform-origin: center; }
 
+#svg_element {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -5; }
+
 a {
   position: relative;
   color: #1111ee;

@@ -849,9 +849,16 @@ padding-top:8px;
 	height:469px;
 }
 
+#crosschecks_case_container .images_container.image_auto_width img{
+	height:auto;
+	width:auto;
+}
 
 
-
+#crosschecks_case_container .images_container.image_auto_width.user_flow img{
+	height:644px;
+	width:1111px; 
+}
 
 
 
