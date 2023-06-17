@@ -660,10 +660,23 @@ height:488px;
   width: 100%; }
 
 .footer {
+  position: relative;
   background: #f9f9f9;
   margin-top: 40px;
   padding: 40px 88px 32px 120px;
   min-height: 96px; }
+
+.footer_pattern_container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%; }
+
+.footer_pattern_container img {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
 
 .footer_text_1 {
   font-family: "TTNormsRegular";
