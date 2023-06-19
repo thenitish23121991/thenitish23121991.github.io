@@ -1271,6 +1271,7 @@ a.amituslab::after {
   top: 0%;
   left: 7.2%;
   opacity: 0;
+  display: none;
   transition: all 0.4s cubic-bezier(0.31, 1.02, 0.84, 0.99);
   -webkit-transition: all 0.4s cubic-bezier(0.31, 1.02, 0.84, 0.99);
   -moz-transition: all 0.4s cubic-bezier(0.31, 1.02, 0.84, 0.99);
