@@ -61,6 +61,17 @@
 
 
 
+
+<div class="home_pattern_container" style="z-index:-5;">
+
+
+
+ <img src="assets/images/about_pattern.png" /> 
+
+
+</div>
+
+
 <div class="about_body_container">
 	
 
@@ -450,6 +461,15 @@ University of San Diego
 <div class="footer dark_background" id="footer">
     
 
+
+
+<div class="footer_pattern_container">
+
+ <img src="assets/images/footer.png" /> 
+
+</div>
+
+
 <div class="footer_text">
     
 
@@ -514,6 +534,8 @@ var header = $('.header_new_container');
 var last_scroll = 0;
 var h_background_height = header.height();
 
+var home_pattern_container = $('.home_pattern_container');
+
 
 setTimeout(function(){
 
@@ -530,6 +552,9 @@ var header_menu_list_item = $('.header_menu_list_item');
 
 header_menu_list_item.addClass('show');
 header_logo.addClass('show');
+
+
+home_pattern_container.addClass('show');
 
 }
 
