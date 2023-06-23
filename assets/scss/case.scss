@@ -292,7 +292,7 @@ letter-spacing:.02em;
 
 .para{
 	padding-top:32px;
-	padding-bottom:32px;
+	padding-bottom:44px;
 	width:(100vw-$margin_left);
 
 	padding-left:$margin_left;
@@ -558,7 +558,7 @@ color:$text_dark;
 }
 
 div.para + div.para{
-	padding-top:12px;
+	padding-top:24px;
 }
 
 .hero_image_container{

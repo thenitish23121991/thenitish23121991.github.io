@@ -1204,7 +1204,7 @@ a.amituslab::after {
   background: #16161E; }
 
 .top_text {
-  padding-left: 18vw;
+  padding-left: 16vw;
   padding-top: 24vh;
   width: 62vw; }
 
@@ -1357,7 +1357,7 @@ a.amituslab::after {
 
 .header_logo {
   float: left;
-  margin-left: 10vw;
+  margin-left: 8vw;
   opacity: 0;
   transform: translateY(40px);
   -webkit-transform: translateY(40px);
@@ -2916,7 +2916,7 @@ a.hide::after {
   overflow: hidden; }
 
 .scroll_for_more_container {
-  padding-left: 18vw;
+  padding-left: 16vw;
   position: absolute;
   bottom: -2%;
   opacity: 0; }

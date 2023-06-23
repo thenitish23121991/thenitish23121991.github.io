@@ -156,7 +156,7 @@
 
 .para {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 44px;
   width: 100vw- 20vw;
   padding-left: 20vw; }
 
@@ -347,7 +347,7 @@
   color: white; }
 
 div.para + div.para {
-  padding-top: 12px; }
+  padding-top: 24px; }
 
 .hero_image_container {
   width: 100%; }

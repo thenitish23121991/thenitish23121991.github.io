@@ -125,10 +125,19 @@ Crosschecks is an application that attempts to curb the car theft crimes in New 
 
 <div class="para_body">
 
-The gated colonies in Delhi have a long history of vehicle thefts. Most of the thefts take place at night. To tackle this problem, the founders of Crosschecks came up with an idea of verifying the identity of the driver of every vehicle that checks out of a colony at night(mostly during 11:00 PM-5:00 AM bracket). In case the driver of the vehicle is not verified with the OTP, the owner of the vehicle is contacted in an attempt to verify the driver.
+The gated colonies in Delhi have a long history of vehicle thefts. Most of the thefts take place at night, mostly during the 2 AM - 5 AM window. To tackle this problem, we wanted to verify the identity of every vehicle that left a particular colony at night and only allow him/her to leave once their identity was confirmed. At a time when the OTP confirmation pattern was already well used and well understood in India, verifying the identity of the driver with an OTP seemed like an obvious solution to this problem. 
 
 
 <div>
+
+<br/>
+
+<div class="para_body">
+
+We decided to create a mechanism to verify the identity of the driver of every vehicle that checks out of a colony at night(mostly during 11:00 PM-5:00 AM bracket) with an OTP which would be sent to all the owners listed on the app for that particular vehicle. In case the driver of the vehicle is not verified with the OTP, the owner of the vehicle is contacted in an attempt to verify the driver. If the security guard at the colony gate is unable to verify the identity of the driver through all the methods, either a new OTP is resent or the police are alerted about that vehicle.
+
+</div>
+
 
 <br/>
 
@@ -158,7 +167,7 @@ The gated colonies in Delhi have a long history of vehicle thefts. Most of the t
 
 <div class="para_body">
 
-When we were building the Crosschecks app, car safety apps hand't taken off in India yet, however the OTP usage patterns in India were something to learn from. The pattern of receiving and entering/matching the OTP was already very familiar with all stratas of society in India.
+When we were building the Crosschecks app, car safety apps hand't taken off in India yet, however the OTP usage patterns in India were something to learn from. The pattern of receiving and entering/matching the OTP was already very familiar with all stratas of society in India. We were confident that the security guards would be able to use this method to confirm the identity of the driver of the vehicle with ease.
 
 <p>
 Due to slow mobile networks, an OTP might be received on a delay. One of the concerns were that an OTP message might get lost easily due to high number of spam messages received on certain networks.
@@ -201,14 +210,15 @@ We started off by designing the app for guards, since it was most central to ach
 
 
 
+
 <div class="para">
 
-<div class="para_title_1">Our Target Users</div>
+<div class="para_title_1">The Target Users</div>
 <div class="para_title_2">Understanding our users</div>
 
 <div class="para_body">
 
-Our users for the guards app were security guards who man the society gate during the night. After intensive interviews, conducting research and creating user personas, we understood how they use their phones, what kind of devices they use, we found out following key insights that helped us design an easy to use and efficient app for them:
+We interacted with the security guards to get to know the kind of devices they use, how they use their devices and how their shift usually works, especially at night. We found out following key insights that helped us design an easy to use and efficient app for them:
 
 
 
@@ -251,7 +261,17 @@ They were already quite familiar with the pattern of receiving an OTP(One time p
 
 
 
-<div class="para">
+
+
+
+
+
+
+
+
+
+
+<div class="para dark_background">
 
 <div class="para_title_1">Sketching out some options</div>
 <div class="para_title_2">Some initial sketching</div>
@@ -265,7 +285,7 @@ Some sketches we developed early in the process for each of the applications. Th
 
 <div>
 
-This is a very real possibility since the there is sometimes a delay in receiving an OTP on devices in India due to a poor network. We tried to solve this problem by adding a way for the guard to create multiple OTPs at the same time.
+This is a very real possibility since the there is sometimes a delay in receiving an OTP on devices in India due to a poor network. We tried to solve this problem by adding a way for the guard to create multiple OTPs at the same time. The guards can easily switch back and from different cars that might get collected at the gate at a particular time.
 
 </div>
 
@@ -282,7 +302,33 @@ This is a very real possibility since the there is sometimes a delay in receivin
 
 
 
-<div class="images_container">
+<div class="images_container dark_mockups_container">
+
+
+
+<div>
+<img src="assets/images/screens/crosschecks/v2/OTP Entered.png" />
+<img src="assets/images/screens/crosschecks/v2/Multiple OTPs.png" />
+<img src="assets/images/screens/crosschecks/v2/Driver Confirmed.png" />
+</div>
+
+
+
+
+<div class="images_text">
+Crosschecks Guards app
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="images_container dark_mockups_container">
 
 <div>
 <img src="assets/images/screens/crosschecks/Sketch1.jpg" />
@@ -303,7 +349,7 @@ Some Initial Sketching
 
 
 
-<div class="para">
+<div class="para dark_background">
 
 <div class="para_title_1">User Flow</div>
 <div class="para_title_2">Creating user flow</div>
@@ -328,7 +374,7 @@ Some Initial Sketching
 
 
 
-<div class="images_container image_auto_width user_flow">
+<div class="images_container image_auto_width user_flow dark_mockups_container">
 
 <img src="assets/images/screens/crosschecks/v2/User Flow.png" />
 
