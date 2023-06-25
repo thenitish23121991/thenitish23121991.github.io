@@ -29,6 +29,22 @@ html,body{
 
 
 
+
+@font-face{
+	src:url('../fonts/Inter-Regular.otf');
+	font-family:'InterRegular';
+}
+
+@font-face{
+	src:url('../fonts/Inter-Medium.otf');
+	font-family:'InterMedium';
+}
+
+@font-face{
+	src:url('../fonts/Inter-SemiBold.otf');
+	font-family:'InterSemiBold';
+}
+
  
 $huge_title: 47.76px;
 
@@ -1849,7 +1865,7 @@ opacity:0;
 
 
 .top_text{	
-	padding-left:16vw;
+	padding-left:15vw;
 	padding-top:24vh;
 	width:62vw;
 
@@ -1857,8 +1873,8 @@ opacity:0;
 
 .top_text_1{
 
-	font-size:31.25px;
-	font-family:$type_regular;
+	font-size:33px;
+	font-family:$type_medium;
 	line-height:64px;
 	margin-top:2vh;
 
@@ -3090,7 +3106,7 @@ opacity:0;
 
 
 .scroll_for_more_container{
-	padding-left:16vw;
+	padding-left:15vw;
 	position:absolute;
 	bottom:-2%;
 

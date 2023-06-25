@@ -154,6 +154,9 @@
 #wells_activities_container .para_title_1 {
   color: linear-gradient(to right, #facd30, #dd1d21 240%); }
 
+#crosschecks_case_container .dark_background .para_title_1 {
+  color: #437BF3; }
+
 .para {
   padding-top: 32px;
   padding-bottom: 44px;

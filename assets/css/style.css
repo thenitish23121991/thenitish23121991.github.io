@@ -16,6 +16,15 @@ html, body {
 @font-face {
   src: url("../fonts/TTNorms-Bold.otf");
   font-family: 'TTNormsBold'; }
+@font-face {
+  src: url("../fonts/Inter-Regular.otf");
+  font-family: 'InterRegular'; }
+@font-face {
+  src: url("../fonts/Inter-Medium.otf");
+  font-family: 'InterMedium'; }
+@font-face {
+  src: url("../fonts/Inter-SemiBold.otf");
+  font-family: 'InterSemiBold'; }
 .container.home_initial {
   height: 100%;
   width: 100%;
@@ -1204,13 +1213,13 @@ a.amituslab::after {
   background: #16161E; }
 
 .top_text {
-  padding-left: 16vw;
+  padding-left: 15vw;
   padding-top: 24vh;
   width: 62vw; }
 
 .top_text_1 {
-  font-size: 31.25px;
-  font-family: "TTNormsRegular";
+  font-size: 33px;
+  font-family: "TTNormsMedium";
   line-height: 64px;
   margin-top: 2vh;
   color: #fff; }
@@ -2916,7 +2925,7 @@ a.hide::after {
   overflow: hidden; }
 
 .scroll_for_more_container {
-  padding-left: 16vw;
+  padding-left: 15vw;
   position: absolute;
   bottom: -2%;
   opacity: 0; }
