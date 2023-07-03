@@ -1811,6 +1811,18 @@ window.location.href = work_url+'.html';
 
 
 
+$('.scroll_for_more_container').click(function(){
+
+
+
+var works_container_top = $("#selected_works_container").offset();
+works_container_top_val = works_container_top.top;
+
+
+$(window).scrollTop(works_container_top_val);
+
+
+});
 
 
 
