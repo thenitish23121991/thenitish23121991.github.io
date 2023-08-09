@@ -42,7 +42,7 @@ html,body{
 
 @font-face{
 	src:url('../fonts/Inter-SemiBold.otf');
-	font-family:'InterSemiBold';
+	font-family:'InterBold';
 }
 
  
@@ -70,8 +70,9 @@ $text_dark_light: rgba(0,0,0,.64);
 $text_white: rgba(255,255,255,1);
 $text_white_light: rgba(255,255,255,.7);
  
-$type_regular: 'TTNormsRegular';
-$type_medium: 'TTNormsMedium';
+$type_regular: 'InterRegular';
+$type_medium: 'InterMedium';
+$type_bold: 'InterBold';
 $serif_regular: 'FreightTextBook';
 
 
@@ -1864,26 +1865,40 @@ opacity:0;
 }
 
 
+.home_mockups_container{
+	position:absolute;
+	top:0px;
+	margin-top:15vh;
+	right:-36%;
+	z-index:5;
+}
+
+
 .top_text{	
-	padding-left:15vw;
-	padding-top:24vh;
-	width:64vw;
+	padding-left:9vw;
+	padding-top:21vh;
+	width:86vw;
 
 }
 
 .top_text_1{
 
-	font-size:33.8px;
-	font-family:$type_medium;
+	font-size:38px;
+	font-family:$type_bold;
 	line-height:68px;
-	margin-top:2vh;
+	margin-top:4vh;
 
 	color:#fff;
+
+
+
+
+
 }
 
 .anim_container{
-	height:48px;
-	line-height:56px;
+	height:64px;
+	line-height:72px;
 	overflow:hidden;
 
 }
@@ -1902,6 +1917,8 @@ opacity:0;
 	-moz-transform:translateY(140px);
 	-ms-transform:translateY(140px);
 	-o-transform:translateY(140px);
+
+	
 
 
 transition:all .75s $transition_4 0s;
@@ -1942,6 +1959,39 @@ transition-delay:.44s;
 }
 
 
+.top_text_1 .anim_container{
+	height:auto;
+	width:72vw;
+}
+
+
+.top_text_1 .anim_text_word{
+
+
+height:auto;
+
+   transition:all 1.5s $transition_4 0s;
+   -webkit-transition:all 1.5s $transition_4 0s;
+   -moz-transition:all 1.5s $transition_4 0s;
+   -ms-transition:all 1.5s $transition_4 0s;
+   -o-transition:all 1.5s $transition_4 0s;
+
+	    -webkit-background-clip: text;
+	background-clip: text;
+	background-image: url('../images/home_text_background.png');
+	color: transparent;
+
+}
+
+
+.top_text_1 .anim_inner_container{
+	
+	height:auto;
+}
+
+
+
+
 .top_text .anim_container{
 	margin-top:-32px;
 } 
@@ -1949,11 +1999,15 @@ transition-delay:.44s;
 
 
 .top_text_2{
-	font-family:$type_regular;
+	font-family:$type_medium;
 	font-size:25px;
 	line-height:48px;
-color:#bbbbbb;
-margin-top:8px;
+color:#ffffff;
+margin-top:16px;
+}
+
+.top_text_2 .anim_container:nth-child(2){
+padding-top:8px;
 }
 
 .copy_vertical{
@@ -3112,9 +3166,9 @@ opacity:0;
 
 
 .scroll_for_more_container{
-	padding-left:15vw;
-	position:absolute;
-	bottom:-2%;
+	padding-left:9vw;
+	position:absolute; 
+	bottom:-4%;
 
 	opacity:0;
 	cursor:pointer;
