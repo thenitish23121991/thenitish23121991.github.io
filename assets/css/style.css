@@ -1555,7 +1555,9 @@ a.amituslab::after {
   font-family: "InterBold";
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: url("../images/home_text_background.png"); }
+  background-image: url("../images/home_text_background.png");
+  background-position: 0px 80px;
+  -webkit-background-position: 0px 80px; }
 
 #footer_text_2 {
   font-size: 25px;
