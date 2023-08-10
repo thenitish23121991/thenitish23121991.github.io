@@ -688,9 +688,13 @@ height:488px;
   left: 0px; }
 
 .footer_text_1 {
-  font-family: "InterRegular";
-  font-size: 31px;
-  line-height: 48px; }
+  font-family: "InterBold";
+  font-size: 38px;
+  line-height: 68px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url("../images/home_text_background.png");
+  color: transparent; }
 
 .footer_text_2, .footer_text_3 {
   font-family: "InterRegular";
@@ -1547,7 +1551,11 @@ a.amituslab::after {
   text-align: center; }
 
 #footer_text_1 {
-  font-size: 39.06px; }
+  font-size: 38px;
+  font-family: "InterBold";
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url("../images/home_text_background.png"); }
 
 #footer_text_2 {
   font-size: 25px;
@@ -1597,7 +1605,7 @@ a.amituslab::after {
   margin-left: -10%; }
 
 #footer.dark_background #footer_text_1 {
-  color: white; }
+  color: transparent; }
 
 #footer.dark_background #footer_text_2 {
   color: white; }

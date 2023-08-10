@@ -1134,9 +1134,15 @@ background:#f9f9f9;
 }
 
 .footer_text_1{
-	font-family: $type_regular;
-	font-size:31px;
-	line-height:48px;
+	font-family: $type_bold;
+	font-size:38px;
+	line-height:68px; 
+
+
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: url('../images/home_text_background.png');
+	color: transparent;
 }
 
 .footer_text_2, .footer_text_3{
@@ -2331,7 +2337,13 @@ width:100%;
 }
 
 #footer_text_1{
-	font-size:39.06px;
+	font-size:38px;
+	font-family:$type_bold;
+
+    -webkit-background-clip: text;
+	background-clip: text;
+	background-image: url('../images/home_text_background.png');
+
 }
 
 #footer_text_2{
@@ -2397,7 +2409,8 @@ margin-left:-10%;
 
 
 #footer.dark_background #footer_text_1{
-	color:$text_white;
+//	color:$text_white;
+	color: transparent;
 } 
 
 #footer.dark_background #footer_text_2{
