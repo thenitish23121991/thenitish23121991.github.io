@@ -2714,10 +2714,16 @@ opacity:0;
 
 
 .about_large_title{
-	font-size:$huge_title;
-	font-family:$type_regular;
+	font-size:38px;
+	font-family:$type_bold;
 	line-height:64px;
-	margin-top:8vh;
+	margin-top:4vh;
+
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: url('../images/about_text_background.png');
+	color: transparent;
+
 }
 
 .go_up{

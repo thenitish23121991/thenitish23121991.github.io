@@ -1836,10 +1836,14 @@ a.amituslab::after {
   -o-transform: translateX(150px); }
 
 .about_large_title {
-  font-size: 47.76px;
-  font-family: "InterRegular";
+  font-size: 38px;
+  font-family: "InterBold";
   line-height: 64px;
-  margin-top: 8vh; }
+  margin-top: 4vh;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url("../images/about_text_background.png");
+  color: transparent; }
 
 .go_up {
   transform: translateY(-100%);
