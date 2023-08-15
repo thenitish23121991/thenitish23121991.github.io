@@ -1220,11 +1220,11 @@ a.amituslab::after {
   position: absolute;
   top: 0px;
   margin-top: 15vh;
-  right: -30%;
+  right: -23.4%;
   z-index: 5; }
 
 .top_text {
-  padding-left: 9vw;
+  padding-left: 7.5vw;
   padding-top: 21vh;
   width: 86vw; }
 
@@ -1399,7 +1399,7 @@ a.amituslab::after {
 
 .header_logo {
   float: left;
-  margin-left: 8vw;
+  margin-left: 7vw;
   opacity: 0;
   transform: translateY(40px);
   -webkit-transform: translateY(40px);
@@ -1445,7 +1445,7 @@ a.amituslab::after {
   bottom: -6%;
   height: 64px;
   width: 100%;
-  padding-left: 18vw;
+  padding-left: 7.5vw;
   z-index: 200; }
 
 .scroll_for_more_text {
