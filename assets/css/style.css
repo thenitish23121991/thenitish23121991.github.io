@@ -1287,10 +1287,9 @@ a.amituslab::after {
   -moz-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   -ms-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   -o-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: url("../images/home_text_background.png");
-  color: transparent; }
+  background: linear-gradient(to bottom right, #88F2F2 0%, #47E7E7 30%, #0B6496 43%, #88F2F2 55%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
 
 .top_text_1 .anim_inner_container {
   height: auto; }
@@ -1326,6 +1325,7 @@ a.amituslab::after {
   right: -44%;
   height: 96px;
   width: 100%;
+  display: none;
   opacity: 0;
   transition: all 0.4s cubic-bezier(0.31, 1.02, 0.84, 0.99);
   -webkit-transition: all 0.4s cubic-bezier(0.31, 1.02, 0.84, 0.99);
@@ -2968,7 +2968,7 @@ a.hide::after {
   overflow: hidden; }
 
 .scroll_for_more_container {
-  padding-left: 9vw;
+  padding-left: 7.5vw;
   position: absolute;
   bottom: -4%;
   opacity: 0;

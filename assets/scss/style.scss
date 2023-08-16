@@ -1982,11 +1982,9 @@ height:auto;
    -ms-transition:all 1.5s $transition_4 0s;
    -o-transition:all 1.5s $transition_4 0s;
 
-	    -webkit-background-clip: text;
-	background-clip: text;
-	background-image: url('../images/home_text_background.png');
-	color: transparent;
-
+ background: linear-gradient(to bottom right, #88F2F2 0%, #47E7E7 30%, #0B6496 43%, #88F2F2 55%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
 }
 
 
@@ -2038,6 +2036,7 @@ padding-top:8px;
 	right:-44%;
 	height:96px;
 	width:100%;
+	display:none;
 
 	opacity:0;
 
@@ -3187,7 +3186,7 @@ opacity:0;
 
 
 .scroll_for_more_container{
-	padding-left:9vw;
+	padding-left:7.5vw;
 	position:absolute; 
 	bottom:-4%;
 
