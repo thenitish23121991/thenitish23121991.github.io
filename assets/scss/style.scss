@@ -164,6 +164,10 @@ $shell_gradient: linear-gradient(to right, #facd30, #dd1d21 240%);
 
 $crosschecks_gradient_blue: linear-gradient(to right bottom, #BDC4FF, #606FF3);
 
+
+$theme_gradient: linear-gradient(to bottom right, #88F2F2 0%, #47E7E7 30%, #0B6496 43%, #88F2F2 55%);
+
+
 *{
 
 }
@@ -1019,7 +1023,7 @@ color:rgba(0,0,0,.45);
 }
 
 .work_desc_title{
-	font-family: $type_regular;
+	font-family: $type_medium;
 	font-size:25px;
 	line-height:48px;
 	margin-top:8px;
@@ -1982,7 +1986,7 @@ height:auto;
    -ms-transition:all 1.5s $transition_4 0s;
    -o-transition:all 1.5s $transition_4 0s;
 
- background: linear-gradient(to bottom right, #88F2F2 0%, #47E7E7 30%, #0B6496 43%, #88F2F2 55%);
+ background: $theme_gradient;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
 }
